@@ -5,60 +5,53 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/custom_table.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
+<style>
+	dl {
+		background: rgba(255, 255, 255, 0.5) !important;
+		border-bottom: 1px solid black;
+		padding: 5px;
+	}
+	dt {
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	dt:before {
+		white-space: pre-wrap;
+		content: "■ "
+	}
+	dd {
+		margin-left: 10px;
+		margin-bottom: 5px;
+	}
+	dd::before {
+		white-space: pre-wrap;
+		content: "\02022\0020"
+	}
+</style>
 </head>
 <body>
 <!-- ヘッダー -->
 <div id="header">
-	<div class="inner">
-  
-  	<!-- ロゴ -->
-		<div class="logo">
-			<h1>
-				<a href="index.html">SWGoH ChipTips<br>
-				<span>－ Let's enjoy another Galaxy. －</span></a>
-			</h1>
-		</div>
-		<!-- / ロゴ -->
-    
-    <!-- X+Discord Server -->
-		<div class="info">
-			<!--<img src="images/jj8_icon_mini.png" width="42" height="42" alt="JJ-8 アイコン画像">-->
-    	<p class="twitter">X(Twitter): @Jaye_SWGoH</p>
-			<p>Discord Server: <a href="https://discord.gg/2WdWzJFJ68" style="color:white;text-decoration:underline">JJ-8</a></p>
-    </div>
-		<!-- / X+Discord Server -->
-
-		<!-- トップナビゲーション -->
-		<ul id="topnav">
-			<li><a href="index.html">トップページ<br><span>Top</span></a></li>
-			<li><a href="overview.html">SWGoHの概要<br><span>Overview</span></a></li>
-			<li><a href="subpage.html">サービス概要<br><span>Service</span></a></li>
-			<li><a href="subpage.html">弊社の取り組み<br><span>Approach</span></a></li>
-			<li><a href="subpage.html">会社情報<br><span>Company</span></a></li>
-			<li><a href="subpage.html">お問い合わせ<br><span>Contact</span></a></li>
-		</ul>
-		<!-- トップナビゲーション -->
-  
-  </div>
-  
+	<?php include "parts/header.html" ?>
 </div>
 <!-- / ヘッダー -->
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_1.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_official_news.png" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH ChipTips</h2>
-			<h3>スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。
-				ゲームに役立つDiscord Bot <strong>&quot;JJ-8&quot;</strong> も開発しています。</h3>
+			<h2>SWGoH 公式フォーラム和訳</h2>
+			<h3>
+				公式フォーラムのニュースを日本語訳してお伝えしています。</h3>
 		</div>
 	</div>
 </div>
@@ -70,72 +63,34 @@
 	<section id="main">
 
 		<section class="content">
-			<h3 class="heading">SWGoHの概要</h3>
-			<article>
-				<!--<img src="images/swgoh_loading.webp" width="320" height="240" alt="SWGoH 起動画面" class="alignright frame">-->
-				<img src="images/swgoh_loading.webp" width="320" height="180" alt="SWGoH 起動画面" class="alignright frame">
-				<p>スター・ウォーズ／銀河の英雄（SWGoH）は、スター・ウォーズの壮大な銀河系を舞台にしたロール・プレイング・ゲームです。<br>
-					<a href="https://www.ea.com/ja-jp/ea-studios/capital-games" target="_blank">Capital Games</a>によって開発、
-					<a href="https://www.ea.com/ja-jp" target="_blank">Electronic Arts</a>よりリリースされており、
-					各種スマートフォンおよびPCで楽しむことができます。</p>
+			<h3 class="heading">アップデート情報 2024年8月28日</h3>
+			<article class="official-forum">
 				<p>
-					映画やアニメシリーズでおなじみのキャラクターはもちろんのこと、
-					レジェンズ (非正史) のキャラクターも数多く登場します。
-					<br>
-					プレイヤーはバラエティに富んだユニットを集め、育成し、戦略的なバトルに挑みます。
-				</p>
-				<p>
-					SWGoHはゲームという枠を超え、
-					スター・ウォーズを愛する人々のコミュニケーション・プラットフォームとして機能するとも言えます。
-				</p>
-			</article>
-		</section>
-
-		<section class="content">
-			<h3 class="heading">SWGoHの特徴</h3>
-			<article>
-				<img src="images/luke_victory.webp" width="320" height="200" alt="" class="alignleft frame">
-				<h4>■多彩なキャラクター:</h4>
-				<p>ルーク・スカイウォーカー、ダース・ベイダー、ヨーダなど、
-					スター・ウォーズの象徴的なキャラクターたちが勢揃い。
-					各キャラクターには独自のスキルやアビリティ、所属する勢力があり、戦略的なチーム編成が求められます。
+					👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-828/4960557" target="_blank">こちら</a>
 				</p>
 
-				<h4>■エピックなバトル:</h4>
-				<p>ターン制バトルシステムを採用し、プレイヤーは戦略を駆使して敵を倒します。
-					PvE（プレイヤー対環境）やPvP（プレイヤー対プレイヤー）など、多様なバトルモードが用意されています。
-				</p>
+				<dl>
+					<dt>ニュース</dt>
+					<dd>エズラ・ブリッジャー（流浪）の<a class="explicitly" href="/2024/08/next-conquest-reward-ezra-bridger-exile.html" target="_blank">スキル公開</a></dd>
+					<dd><a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/datacron-set-17/4960330" target="_blank">データクロン セット17</a></dd>
+					<dd>ナイト・トルーパーのかけらがダークサイド8-Cハードで入手可能になりました。エンボと入れ替わります。エンボはカンティーナバトルショップで入手できます。</dd>
+					<dd>デス・トルーパー（ペリディア）がクロミウムガチャとアイテムショップで入手可能になりました。</dd>
+				</dl>
 
-				<h4>■ギルドでの協力プレイ:</h4>
-				<p>ギルドに参加して他のプレイヤーと協力しながらゲームを楽しむことができます。<br>
-					強力なレイドボスに挑戦したり、ギルドイベントで勝利を目指し、仲間がいるからこその特別な喜びと達成感を感じられます。
-				</p>
-
-				<h4>■豊富なコンテンツ:</h4>
-				<p>レイド、テリトリーバトル、テリトリーウォーズ、グランドアリーナなど、
-					定期的に更新されるイベントや高難易度のチャレンジがアナタを待っています！
-				</p>
-			</article>
-		</section>
-    
-		<section class="content">
-			<h3 class="heading">SWGoHの魅力</h3>
-			<article>
-				<img src="images/kenobi_altimate.webp" width="320" height="200" alt="ケノービのアルティメットスキル発動" class="alignright frame">
-				<h4>■スター・ウォーズの世界観:</h4>
-				<p>
-					映画やアニメシリーズのストーリーやキャラクターを極めて高い精度で再現し、スター・ウォーズの世界に没入できます。<br>
-					スター・ウォーズのファンにとってはたまらない体験を得られます。
-				</p>
-				<h4>■高い戦略性:</h4>
-				<p>
-					キャラクターの組み合わせやスキルの使い方次第でバトルの展開が大きく変わるため、
-					戦略を考える楽しさが継続し、飽きのこない深みがあります。
-				</p>
-				<h4>■幅広いコミュニティ:</h4>
-				<p>
-					所属するギルドメンバーだけでなく、世界中のプレイヤーと交流し、情報を共有しながらゲームを楽しむことができます。
-				</p>
+				<dl>
+					<dt>修正</dt>
+					<dd>ダース・レヴァンがリーダーの場合に、サヴァージが自分自身に暗闇を付与してしまう問題を修正しました。</dd>
+					<dd>ナブーレイドで、B1が余分なスタックを獲得できてしまうバグを修正しました。</dd>
+					<dd>エンフィス・ネストが侍女（おとり）とモフ・ギデオン（ダークトルーパー）の挑発を解除できる問題を修正しました。</dd>
+					<dd>オビ＝ワン（パダワン）のユニークスキル「気高き自制心」のテキストを明確にし、マスター・クワイ＝ガンが自分のターン中にスキルを使用したときのみアシストすることを明記しました。
+						これはキャラクターの既存の機能に合わせたテキストの更新です。</dd>
+					<dd>キャプテン・イノックのリーダースキルで、有効性上昇にパーセンテージ記号が欠けていたため追加しました。
+						これはテキストの修正であり、メカニックは変更されていません。</dd>
+					<dd>デイリーミッション「配達待ち」実績がすべての出荷購入を追跡していない問題を修正しました。</dd>
+					<dd>タコダナの銀河チャレンジでデスマークが正しく適用されない問題を修正しました。</dd>
+					<dd>グランドアリーナで、オミクロン済のキャプテン・レックスが他のフェニックスの味方といくつかのステータス上昇を共有していなかった問題を修正しました。
+						優秀な彼には非常に珍しいことでしたが、彼とよく話し合い、今後は共有することを約束してくれました。</dd>
+				</dl>
 			</article>
 		</section>
 

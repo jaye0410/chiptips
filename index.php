@@ -8,7 +8,7 @@
 <title>SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
@@ -17,38 +17,7 @@
 <body>
 <!-- ヘッダー -->
 <div id="header">
-	<div class="inner">
-
-		<!-- ロゴ -->
-		<div class="logo">
-			<h1>
-				<a href="index.html">SWGoH ChipTips<br>
-				<span>－ Let's enjoy another Galaxy. －</span></a>
-			</h1>
-		</div>
-		<!-- / ロゴ -->
-    
-    <!-- X+Discord Server -->
-		<div class="info">
-			<!--<img src="images/jj8_icon_mini.png" width="42" height="42" alt="JJ-8 アイコン画像">-->
-    	<p class="twitter">X(Twitter): @Jaye_SWGoH</p>
-			<p>Discord Server: <a href="https://discord.gg/2WdWzJFJ68" style="color:white;text-decoration:underline">JJ-8</a></p>
-    </div>
-		<!-- / X+Discord Server -->
-
-		<!-- トップナビゲーション -->
-		<ul id="topnav">
-			<li><a href="index.html">トップページ<br><span>Top</span></a></li>
-			<li><a href="overview.html">SWGoHの概要<br><span>Overview</span></a></li>
-			<li><a href="subpage.html">サービス概要<br><span>Service</span></a></li>
-			<li><a href="subpage.html">当サイトの取り組み<br><span>Approach</span></a></li>
-			<li><a href="subpage.html">サイト情報<br><span>Company</span></a></li>
-			<li><a href="subpage.html">お問い合わせ<br><span>Contact</span></a></li>
-		</ul>
-		<!-- トップナビゲーション -->
-  
-  </div>
-  
+	<?php include "parts/header.html" ?>
 </div>
 <!-- / ヘッダー -->
 
@@ -84,7 +53,7 @@
 				SWGoHはゲームという枠を超え、
 				スター・ウォーズを愛する人々のコミュニケーション・プラットフォームとして機能するとも言えます。
 			</p>
-			<p class="readmore"><a href="overview.html">&raquo; 詳細を確認する</a></p>
+			<p class="readmore"><a href="overview.php">&raquo; 詳細を確認する</a></p>
 		</article>
 		
 		<article class="grid">
@@ -153,7 +122,7 @@
 			<article class="grid">
       	<!-- ロゴ -->
 				<p class="logo">
-					<a href="index.html">SWGoH ChipTips<br />
+					<a href="/chiptips/">SWGoH ChipTips<br />
 						<span>－ Let's enjoy another Galaxy. －</span></a>
 				</p>
 				<!-- / ロゴ -->
