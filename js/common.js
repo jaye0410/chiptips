@@ -4,7 +4,7 @@ const PAGES = [
 ];
 
 function changeActivePage(page) {
-  const li = document.querySelector(`ul#topnav a[href="${page}"]`).parentElement;
+  const li = document.querySelector(`ul#topnav a[href="/chiptips/${page}"]`).parentElement;
 	//console.log(li);
 	li.classList.toggle("active");
 }

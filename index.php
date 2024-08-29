@@ -152,6 +152,7 @@
 <script src="js/common.js"></script>
 <script>
 	const page = window.location.pathname.split("/").pop();
+	if (page == "index.php") { page = "" }
 	changeActivePage(page);
 </script>
 </body>

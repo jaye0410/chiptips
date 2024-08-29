@@ -41,17 +41,17 @@
 <body>
 <!-- ヘッダー -->
 <div id="header">
-	<?php include "parts/header.html" ?>
+<?php include "parts/header.html" ?>
 </div>
 <!-- / ヘッダー -->
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_official_news.png" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_official_news.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
 			<h2>SWGoH 公式フォーラム和訳</h2>
 			<h3>
-				公式フォーラムのニュースを日本語訳してお伝えしています。</h3>
+				最新ニュースを日本語訳してお伝えしています。</h3>
 		</div>
 	</div>
 </div>

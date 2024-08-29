@@ -17,7 +17,7 @@
 <body>
 <!-- ヘッダー -->
 <div id="header">
-	<?php include "parts/header.html" ?>
+<?php include "parts/header.html" ?>
 </div>
 <!-- / ヘッダー -->
 <!-- メイン画像 -->
