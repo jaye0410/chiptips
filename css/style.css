@@ -220,7 +220,7 @@ ul#topnav li.active a,ul#topnav a:hover{
 
 .grid ul{ margin:5px 10px; }
 
-.grid li{
+.grid li, .swgoh{
 	padding:5px 0;
 	list-style:inside;
 	border-bottom:1px dotted #fff;
@@ -272,6 +272,10 @@ h3.heading,#sub .grid h3{
 	background:#000;
 }
 #sub .grid h3{ margin-right:10px; }
+
+.aligncenter{
+	text-align: center;
+}
 
 .alignleft{
 	float:left;
