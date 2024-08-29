@@ -60,7 +60,7 @@
 			<h3>基本情報</h3>
 			<ul>
 				<li><a href="basic_info.php">基本情報トップ</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
+				<li><a href="basic_info.php#holotable">ホロテーブル</a></li>
 				<li><a href="subpage.html">オフィスの移転に関して</a></li>
 				<li><a href="subpage.html">最新商品のご紹介</a></li>
 				<li><a href="subpage.html">新規サービスを開始しました</a></li>

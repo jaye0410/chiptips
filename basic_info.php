@@ -15,6 +15,12 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
+	.basic-info ol {
+		list-style-type: decimal;
+		padding-left: 30px;
+		margin-bottom: 10px;
+	}
+
 	dl {
 		background: rgba(255, 255, 255, 0.5) !important;
 		border-bottom: 1px solid black;
@@ -65,25 +71,78 @@
 
 		<section class="content">
 			<h3 class="heading">ゲーム画面</h3>
-			<article class="official-forum">
+			<article class="basic-info">
 				<p>SWGoHは、「ホロテーブル」と呼ばれる仮想の銀河で進行していきます。</p>
 				<div class="aligncenter">
-					<img src="images/holotable.png" width="90%" alt="ホロテーブル" class="frame">
+					<img src="images/holotable.webp" width="90%" alt="ホロテーブル" class="frame">
 				</div>
 
 				<p>この画面だけを見ると、コンテンツが少ないと感じられるかもしれませんが、左右にスワイプ（スライド）させることができます。</p>
 				<p>次の画像はホロテーブルの左サイドです。</p>
 				<div class="aligncenter">
-					<img src="images/holotable_left.png" width="90%" alt="ホロテーブル左サイド" class="frame">
+					<img src="images/holotable_left.webp" width="90%" alt="ホロテーブル左サイド" class="frame">
 				</div>
 
 				<p>続いて次の画像がホロテーブルの右サイドです。</p>
 				<div class="aligncenter">
-					<img src="images/holotable_right.png" width="90%" alt="ホロテーブル右サイド" class="frame">
+					<img src="images/holotable_right.webp" width="90%" alt="ホロテーブル右サイド" class="frame">
 				</div>
 			</article>
 		</section>
 
+		<section class="content" id="holotable">
+			<h3 class="heading">ホロテーブルのコンテンツ</h3>
+			<article class="basic-info">
+				<p>ご覧のとおり、SWGoHのホロテーブルには数多くのコンテンツがあります。</p>
+				<p>このセクションではそれぞれのコンテンツを紹介し、利用可能になるレベルおよび条件を記載しています。</p>
+				<p>なお、画面に見えている各コンテンツの中には、さらにコンテンツが内包されているものもあります。</p>
+
+				<hr>
+				<h4 style="font-weight: bold;">【ホロテーブル中央のコンテンツ】</h4>
+				<p>次の6種類はゲーム開始直後から利用可能なコンテンツです。</p>
+				<ol>
+					<li>ライトサイドバトル<br>
+						ゲーム開始直後でアンロック</li>
+					<li>ショップ<br>
+						プレイヤーレベル7でアンロック</li>
+					<li>カンティーナバトル<br>
+						プレイヤーレベル8でアンロック</li>
+					<li>ダークサイドバトル<br>
+						プレイヤーレベル12でアンロック</li>
+					<li>アリーナ<br>
+						プレイヤーレベル28でアンロック</li>
+					<li>ガチャ</li>
+				</ol>
+
+				<hr>
+				<h4 style="font-weight: bold;">【ホロテーブル左サイドのコンテンツ】</h4>
+				<ol>
+					<li>曜日クエスト<br>
+						プレイヤーレベル15でアンロック</li>
+					<li>ギルド<br>
+						プレイヤーレベル22でアンロック</li>
+					<li>モッドバトル<br>
+						プレイヤーレベル50でアンロック</li>
+					<li>チャンピオンシップ<br>
+						プレイヤーレベル85でアンロック</li>
+				</ol>
+
+				<hr>
+				<h4 style="font-weight: bold;">【ホロテーブル右サイドのコンテンツ】</h4>
+				<ol>
+					<li>銀河バトル<br>
+						プレイヤーレベル40でアンロック</li>
+					<li>シップ<br>
+						プレイヤーレベル60でアンロック</li>
+					<li>イベント<br>
+						種類が多岐にわたり条件もそれぞれ異なる</li>
+					<li>かけらショップ<br>
+						1キャラクターの星が7到達でアンロック</li>
+					<li>スカベンジャー<br>
+						1キャラクターの装備レベル13到達でアンロック</li>
+				</ol>
+			</article>
+		</section>
     
 	</section>
 	<!-- / コンテンツ -->
