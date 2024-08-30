@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - 基本情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
 <title>SWGoH ChipTips - 基本情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
@@ -19,6 +19,11 @@
 		list-style-type: decimal;
 		padding-left: 30px;
 		margin-bottom: 10px;
+	}
+	.basic-info ol ul {
+		display: block;
+		list-style-type: disc;
+		margin-left: 20px;
 	}
 
 	dl {
@@ -99,8 +104,9 @@
 
 				<hr>
 				<h4 style="font-weight: bold;">【ホロテーブル中央のコンテンツ】</h4>
-				<p>次の6種類はゲーム開始直後から利用可能なコンテンツです。</p>
 				<ol>
+					<li>ガチャ<br>
+						ゲーム開始直後でアンロック</li>
 					<li>ライトサイドバトル<br>
 						ゲーム開始直後でアンロック</li>
 					<li>ショップ<br>
@@ -111,7 +117,6 @@
 						プレイヤーレベル12でアンロック</li>
 					<li>アリーナ<br>
 						プレイヤーレベル28でアンロック</li>
-					<li>ガチャ</li>
 				</ol>
 
 				<hr>
@@ -140,6 +145,39 @@
 						1キャラクターの星が7到達でアンロック</li>
 					<li>スカベンジャー<br>
 						1キャラクターの装備レベル13到達でアンロック</li>
+						<li>銀河バトル<br>
+						プレイヤーレベル40でアンロック</li>
+					<li>シップ<br>
+						プレイヤーレベル60でアンロック</li>
+					<li>イベント<br>
+						種類が多岐にわたり条件もそれぞれ異なる</li>
+					<li>かけらショップ<br>
+						1キャラクターの星が7到達でアンロック</li>
+					<li>スカベンジャー<br>
+						1キャラクターの装備レベル13到達でアンロック</li>
+				</ol>
+
+				<hr>
+				<h4 style="font-weight: bold;">【表示位置固定のコンテンツ】</h4>
+				<p>ホロテーブルをスワイプしても常に同じ位置に表示されるメニューがあります。</p>
+				<div class="aligncenter">
+					<img src="images/holotable_position_fixed_menu.webp" width="90%" alt="ホロテーブル右サイド" class="frame">
+				</div>
+				<h4 style="font-weight: bold;">【ホロテーブル右サイドのコンテンツ】</h4>
+				<ol>
+					<li>設定アイコンとプレイヤー情報</li>
+					<li>各種ゲーム内通貨</li>
+					<li>上から順に次のとおり<br>
+						<ul>
+							<li>コレクション - 所持ユニット詳細確認</li>
+							<li>旅のガイド - ゲーム進行の指針確認</li>
+							<li>同盟 - 同盟プレイヤー情報</li>
+							<li>受信箱 - アイテム受信/ログイン報酬/ニュース/フォーラム</li>
+						</ul>
+					</li>
+					<li>定期/不定期に開催されるイベント</li>
+					<li>ギルドアイコンとギルド内チャット</li>
+					<li>各種ミッション/クエスト/実績へのアクセスアイコン</li>
 				</ol>
 			</article>
 		</section>

@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - お問い合わせ | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - プライバシーポリシー | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips - お問い合わせ | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - プライバシーポリシー | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -14,63 +14,6 @@
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
-<style>
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-/*body { background:rgb(30,30,40); }*/
-form {
-	background:rgb(30,30,40);
-	padding: 5px;
-	max-width:420px;
-	margin:50px auto;
-}
-
-.feedback-input {
-  color:white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 16px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid #2b5f2a;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-.feedback-input:focus { border:2px solid #CC4949; }
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#2b5f2a;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:22px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-/* [type="submit"]:hover { background:#CC4949; } */
-[type="submit"]:hover {
-	/* background:#CC4949; */
-	text-shadow: 0 0 10px #fff,0 0 15px #fff;
-}
-</style>
 </head>
 <body>
 <!-- ヘッダー -->
@@ -81,9 +24,10 @@ textarea {
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_contact.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_privacy_policy.png" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>ChipTips お問い合わせフォーム</h2>
+			<h2>ChipTips</h2>
+			<h3>プライバシーポリシー・著作権および肖像権・リンク・免責事項</h3>
 		</div>
 	</div>
 </div>

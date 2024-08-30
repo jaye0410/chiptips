@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - 征服 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips -　征服 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - 征服 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -25,6 +25,9 @@
 }
 .targetDiv p, .targetDiv img{
 	margin: 5px;
+}
+.targetDiv img {
+	vertical-align: text-bottom;
 }
 .targetDiv div {
   margin-bottom: 5px;
@@ -56,7 +59,7 @@ ul.swgoh-tab-nav li {
 	cursor: pointer;
 }
 #global-tab {
-	font-size: 1em;
+	font-size: 12px;
 	font-weight: bold;
 	color: black;
 	background: #98c457;
@@ -66,10 +69,10 @@ ul.swgoh-tab-nav li {
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width:480px){
   ul.swgoh-tab-nav li {
-    width: 46px;
+    width: 45px;
   }
 	#global-tab {
-		width:50px;
+		width:48px;
 	}
 }
 </style>
@@ -96,9 +99,13 @@ ul.swgoh-tab-nav li {
 <div id="wrapper">
     
 <!-- コンテンツ -->
-	<section id="main">
+	<section id="conquest"><!-- aside入れる際は id="main"に -->
 
 		<section class="content conquest">
+			<p>最新開催の征服より、グローバルおよび各セクターの偉業を掲載します。</p>
+			<p>各偉業には可能な限り攻略のヒントやオススメ編成候補を表示し、
+				偉業にバフ・デバフが指定されている偉業では付与可能なユニットを確認できる仕組みにしています。</p>
+		<hr>
 
 			<nav class="swgoh-tab-nav">
 				<ul class="swgoh-tab-nav">
@@ -113,7 +120,7 @@ ul.swgoh-tab-nav li {
 			
 			<div id="global-feats" class="targetDiv">
 				<h3 class="heading">困難な勝利</h3>
-				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
+				<div><img style="vertical-align:text-bottom;" src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
 				<p>黄金のチャレンジパスで敵を250体倒す</p>
 
 				<h3 class="heading">自分で決断することを学べ</h3>
@@ -386,74 +393,9 @@ ul.swgoh-tab-nav li {
 				}
 			</script>			
 		</section>
-
-		<!--
-		<section class="content" id="gallery">
-			<h3 class="heading">写真ギャラリー</h3>
-				<article class="gridWrapper">
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery1.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery2.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery3.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery4.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery5.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery6.jpg" width="210" height="210" alt=""></a></figure>
-				</article>
-		</section>
-		-->
     
 	</section>
 	<!-- / コンテンツ -->
-
-	<aside id="sub">
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-        
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-    
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-	</aside>
 
 </div>
 <!-- / WRAPPER -->

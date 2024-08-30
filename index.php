@@ -135,8 +135,8 @@
 					<li><a href="subpage.html">飲食店事業</a></li>
 					<li><a href="subpage.html">ごあいさつ</a></li>
 					<li><a href="subpage.html">サービス概要</a></li>
-					<li><a href="subpage.html">会社情報</a></li>
-					<li><a href="subpage.html">お問い合わせ</a></li>
+					<li><a href="contact.php">お問い合わせ</a></li>
+					<li><a href="policy.php">プライバシーポリシー</a></li>
 					<li><a href="subpage.html">サイトマップ</a></li>
 				</ul>
       	<p>Copyright(c) 2024 SWGoH ChipTips All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p>
