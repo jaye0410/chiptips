@@ -130,7 +130,6 @@
       
       <article class="grid col3">
       	<ul>
-					<li><a href="subpage.html">eco・環境事業</a></li>
 					<li><a href="subpage.html">コンピュータ</a></li>
 					<li><a href="subpage.html">飲食店事業</a></li>
 					<li><a href="subpage.html">ごあいさつ</a></li>

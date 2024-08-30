@@ -42,7 +42,7 @@ form {
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #00ff00; }
 
 textarea {
   height: 150px;
@@ -50,7 +50,7 @@ textarea {
   resize:vertical;
 }
 
-[type="submit"] {
+button[type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
   background:#2b5f2a;
@@ -66,9 +66,16 @@ textarea {
   font-weight:700;
 }
 /* [type="submit"]:hover { background:#CC4949; } */
-[type="submit"]:hover {
+button[type="submit"]:hover {
 	/* background:#CC4949; */
 	text-shadow: 0 0 10px #fff,0 0 15px #fff;
+}
+#error-message, #insert-error {
+	color: #ff7f50;
+}
+#insert-success {
+	font-size: 20px;
+	color: #00ff7f;
 }
 </style>
 </head>
@@ -95,13 +102,21 @@ textarea {
 	<section>
 
 			<h3 class="heading" style="text-align:center">お問い合わせフォーム</h3>
+			<!-- <div style="text-align: center;">
+				<p id="insert-error"></p>
+				<p id="insert-success"></p>
+			</div> -->
 
-			<form action="/swgoh/api/contact.php" method="post" name="contact_form">
-				<input name="name" type="text" class="feedback-input" placeholder="Name" />
-				<p style="color:#f7f7f7">※ 返信が必要な場合はメールアドレスを入力ください。</p>  
-				<input name="email" type="text" class="feedback-input" placeholder="Email" />
-				<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-				<input type="submit" value="SUBMIT"/>
+			<form action="/swgoh/api/contact.php" method="post" id="contact-form" name="contact-form">
+				<p id="insert-error"></p>
+				<p id="insert-success"></p>
+				<input id="username" name="username" type="text" class="feedback-input" placeholder="Name" />
+				<p style="color:#f7f7f7">※ 返信ご希望の場合はメールアドレスまたは同盟コードを入力ください。</p>  
+				<input id="email" name="email" type="text" class="feedback-input" placeholder="Email or Ally code" />
+				<p id="error-message"></p>
+				<textarea id="inquiry" name="inquiry" class="feedback-input" placeholder="Message"></textarea>
+				<!-- <input type="submit" value="SUBMIT"/> -->
+				<button id="submit" type="submit">SUBMIT</button>
 			</form>
     
 	</section>
@@ -151,6 +166,58 @@ textarea {
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	document.querySelector("#contact-form").addEventListener("submit", function(e) {
+		resetMessages();
+		e.preventDefault();
+
+		const username = document.querySelector("#username").value;
+		const email = document.querySelector("#email").value;
+		const inquiry = document.querySelector("#inquiry").value;
+
+		if (inquiry == "") {
+			document.querySelector("#error-message").textContent = "問い合わせ内容が空欄です。";
+			return;
+		}
+		const formData = new FormData();
+		formData.append("username", username); 
+		formData.append("email", email);
+		formData.append("inquiry", inquiry);
+
+		fetchContact(formData);
+	});
+
+	function fetchContact(formData) {
+		fetch("api/contact.php", {
+			method: "POST",
+			body: formData,
+		})
+		.then(response =>  response.text())
+		.then(result => {
+			const data = JSON.stringify(result);
+			if (data.hasError) {
+				document.querySelector("#insert-error").textContent = "問い合わせ処理でエラーが発生しました。";
+				return;
+			}
+			document.querySelector("#insert-success").textContent = "お問い合わせありがとうございます。";
+			resetForm();
+		})
+		.catch(error => {
+			console.error("Error: ", error);
+		});
+	}
+
+	function resetMessages() {
+		document.querySelector("#error-message").textContent = "";
+		document.querySelector("#insert-error").textContent = "";
+		document.querySelector("#insert-success").textContent = "";
+	}
+
+	function resetForm() {
+		document.querySelector("#username").value = "";
+		document.querySelector("#email").value = "";
+		document.querySelector("#inquiry").value = "";
+	}
 </script>
 </body>
 </html>
