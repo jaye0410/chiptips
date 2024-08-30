@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . "/../vendor/autoload.php";
+require_once __DIR__. "/db_connector.php";
 
 /* 本番環境 */
 //$dsn = 'mysql:host=mysql212.phy.lolipop.lan;dbname=********-test;charset=utf8';
@@ -19,15 +19,15 @@ $email = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
 $inquiry = htmlspecialchars($inquiry, ENT_QUOTES, 'UTF-8');
 
 try {
-  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../config");
-  $dotenv->load();
+  // $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../config");
+  // $dotenv->load();
 
-  $dsn = $_ENV["DSN_DEV"];
-  $user = $_ENV["DB_USER_DEV"];
-  $password = $_ENV["DB_PASS_DEV"];
+  // $dsn = $_ENV["DSN_DEV"];
+  // $user = $_ENV["DB_USER_DEV"];
+  // $password = $_ENV["DB_PASS_DEV"];
 
-  // PDOインスタンス作成
-  $db = new PDO($dsn, $user, $password);
+  // // PDOインスタンス作成
+  // $db = new PDO($dsn, $user, $password);
   $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
   // プリペアドステートメント作成
   $stmt = $db->prepare("
