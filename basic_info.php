@@ -15,15 +15,32 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
+	.content h4 {
+		font-size: 16px !important;
+		font-weight: bold;
+	}
 	.basic-info ol {
 		list-style-type: decimal;
-		padding-left: 30px;
+		margin-left: 35px;
+		margin-top: 10px;
 		margin-bottom: 10px;
+	}
+	.basic-info ul {
+		/* list-style-type: disc; */
+		margin-left: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.basic-info ul li {
+		margin-bottom: 3px;
 	}
 	.basic-info ol ul {
 		display: block;
 		list-style-type: disc;
 		margin-left: 20px;
+	}
+	ul img {
+		vertical-align: text-bottom;
 	}
 
 	dl {
@@ -103,7 +120,7 @@
 				<p>なお、画面に見えている各コンテンツの中には、さらにコンテンツが内包されているものもあります。</p>
 
 				<hr>
-				<h4 style="font-weight: bold;">【ホロテーブル中央のコンテンツ】</h4>
+				<h4>【ホロテーブル中央のコンテンツ】</h4>
 				<ol>
 					<li>ガチャ<br>
 						ゲーム開始直後でアンロック</li>
@@ -120,7 +137,7 @@
 				</ol>
 
 				<hr>
-				<h4 style="font-weight: bold;">【ホロテーブル左サイドのコンテンツ】</h4>
+				<h4">【ホロテーブル左サイドのコンテンツ】</h4>
 				<ol>
 					<li>曜日クエスト<br>
 						プレイヤーレベル15でアンロック</li>
@@ -133,7 +150,7 @@
 				</ol>
 
 				<hr>
-				<h4 style="font-weight: bold;">【ホロテーブル右サイドのコンテンツ】</h4>
+				<h4">【ホロテーブル右サイドのコンテンツ】</h4>
 				<ol>
 					<li>銀河バトル<br>
 						プレイヤーレベル40でアンロック</li>
@@ -158,12 +175,12 @@
 				</ol>
 
 				<hr>
-				<h4 style="font-weight: bold;">【表示位置固定のコンテンツ】</h4>
+				<h4>【表示位置固定のコンテンツ】</h4>
 				<p>ホロテーブルをスワイプしても常に同じ位置に表示されるメニューがあります。</p>
 				<div class="aligncenter">
 					<img src="images/holotable_position_fixed_menu.webp" width="90%" alt="ホロテーブル右サイド" class="frame">
 				</div>
-				<h4 style="font-weight: bold;">【ホロテーブル右サイドのコンテンツ】</h4>
+				
 				<ol>
 					<li>設定アイコンとプレイヤー情報</li>
 					<li>各種ゲーム内通貨</li>
@@ -179,6 +196,57 @@
 					<li>ギルドアイコンとギルド内チャット</li>
 					<li>各種ミッション/クエスト/実績へのアクセスアイコン</li>
 				</ol>
+			</article>
+		</section>
+
+		<section class="content" id="resources">
+			<h3 class="heading">ゲーム内リソース</h3>
+			<article class="basic-info">
+				<p>SWGoHでは、コンテンツやショップによって使用できるリソース（資材）が異なります。</p>
+				<p>SWGoHのリソースは次の4種類に分けられます。</p>
+				<ol>
+					<li>エネルギー</li>
+					<li>通貨</li>
+					<li>チケット</li>
+					<li>キーカード</li>
+				</ol>
+				<p>この項では、ゲーム開始直後から使用する 1. エネルギーと 2. 通貨 について記述します。</p>
+				<!-- <p>どの通貨がどこで使用できるのか、そしてどのコンテンツで入手できるのかを一覧化します。</p> -->
+				<h4>【エネルギー】</h4>
+				<p>エネルギーは時間経過で回復していきます。<br>
+					カンティーナエネルギーのみ12分で1ポイント回復、その他のエネルギーは6分で1ポイント回復します。
+				</p>
+				<p>また、1日に3回、既定の時刻にボーナスエネルギーが配布されます。<br>
+					既定の時刻は、12時、18時、21時が初期設定されていますが、変更可能です。</p>
+				<p>既定の時刻から2時間を経過するとエネルギーは消失してしまうので、取り逃さないよう注意が必要です。
+				</p>
+				<ul>
+					<li><img src="images/basic_energy.png" width="25" alt="基本エネルギー">エネルギー -
+					ライトサイドおよびダークサイドバトルのコンテンツで使用する</li>
+					<li><img src="images/cantina_energy.png" width="25" alt="カンティーナエネルギー">カンティーナエネルギー -
+					カンティーナバトルのコンテンツで使用する</li>
+					<li><img src="images/ship_energy.png" width="25" alt="シップエネルギー">シップエネルギー -
+					艦隊バトルのコンテンツで使用する</li>
+					<li><img src="images/mod_energy.png" width="25" alt="モッドエネルギー">モッドエネルギー -
+					モッドバトルおよびモッドチャレンジのコンテンツで使用する</li>
+				</ul>
+
+				<h4>【通貨】</h4>
+				<p>
+					SWGoHの通貨の種類は大変多く、入手方法、使用できるコンテンツともに多岐にわたります。
+				</p>
+				<ul>
+					<li><img src="images/crystal.png" width="25" alt="クリスタル">クリスタル -
+					最も汎用性が高く、貴重な通貨。多くのアイテムショップで使用でき、各種エネルギーの更新にも使える。</li>
+					<li><img src="images/credits.png" width="25" alt="クレジット">クレジット -
+					主にキャラクターのレベル、レア度（星）、スキル、モッドのアップグレードに使用する。
+					各アイテムショップの一部アイテムを購入するためにも使用できる。</li>
+					<li><img src="images/ship_credits.png" width="25" alt="シップクレジット">シップクレジット -
+					主にシップのレベル、レア度（星）、スキルアップグレードに使用する。モッドを購入するためにも使用できる。</li>
+					<li><img src="images/mod_energy.png" width="25" alt="モッドエネルギー">モッドエネルギー -
+					モッドバトルおよびモッドチャレンジのコンテンツで使用する</li>
+				</ul>
+				
 			</article>
 		</section>
     

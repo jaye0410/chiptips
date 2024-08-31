@@ -61,7 +61,7 @@
 			<ul>
 				<li><a href="basic_info.php">基本情報トップ</a></li>
 				<li><a href="basic_info.php#holotable">ホロテーブル</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
+				<li><a href="basic_info.php#resources">ゲーム内リソース</a></li>
 				<li><a href="subpage.html">最新商品のご紹介</a></li>
 				<li><a href="subpage.html">新規サービスを開始しました</a></li>
 				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>

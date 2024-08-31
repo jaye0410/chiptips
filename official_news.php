@@ -15,9 +15,33 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
+	section.content {
+		margin-bottom: 40px;
+	}
+	h3.heading {
+		margin-bottom: 0 !important;
+	}
+	h3.heading p.readmore {
+		cursor: pointer;
+		text-decoration: underline;
+		font-size: 14px;
+	}
+	.official-forum {
+		margin-top: 0;
+		width: 100%;
+		background-color: #f7f7f7;
+		padding-top: 10px;
+	}
+	.official-forum div {
+		padding: 15px;
+	}
+	article.closed {
+		display: none;
+	}
 	dl {
-		background: rgba(255, 255, 255, 0.5) !important;
-		border-bottom: 1px solid black;
+		/* background: rgba(255, 255, 255, 0.5) !important; */
+		background-color: #f7f7f7;
+		/*border-bottom: 1px solid black;*/
 		padding: 5px;
 	}
 	dt {
@@ -29,6 +53,7 @@
 		content: "■ "
 	}
 	dd {
+		padding: 5px;
 		margin-left: 10px;
 		margin-bottom: 5px;
 	}
@@ -60,15 +85,15 @@
 <div id="wrapper">
     
 <!-- コンテンツ -->
-	<section id="main">
+	<section>
+	<!-- <section id="main"> -->
 
 		<section class="content">
-			<h3 class="heading">アップデート情報 2024年8月28日</h3>
+			<h3 class="heading">
+				アップデート情報 2024年8月28日
+				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
+			</h3>
 			<article class="official-forum">
-				<p>
-					👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-828/4960557" target="_blank">こちら</a>
-				</p>
-
 				<dl>
 					<dt>ニュース</dt>
 					<dd>エズラ・ブリッジャー（流浪）の<a class="explicitly" href="/2024/08/next-conquest-reward-ezra-bridger-exile.html" target="_blank">スキル公開</a></dd>
@@ -76,7 +101,7 @@
 					<dd>ナイト・トルーパーのかけらがダークサイド8-Cハードで入手可能になりました。エンボと入れ替わります。エンボはカンティーナバトルショップで入手できます。</dd>
 					<dd>デス・トルーパー（ペリディア）がクロミウムガチャとアイテムショップで入手可能になりました。</dd>
 				</dl>
-
+				<hr>
 				<dl>
 					<dt>修正</dt>
 					<dd>ダース・レヴァンがリーダーの場合に、サヴァージが自分自身に暗闇を付与してしまう問題を修正しました。</dd>
@@ -91,77 +116,47 @@
 					<dd>グランドアリーナで、オミクロン済のキャプテン・レックスが他のフェニックスの味方といくつかのステータス上昇を共有していなかった問題を修正しました。
 						優秀な彼には非常に珍しいことでしたが、彼とよく話し合い、今後は共有することを約束してくれました。</dd>
 				</dl>
+				<div>
+					<p>
+						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-828/4960557" target="_blank">こちら</a>
+					</p>
+				</div>
 			</article>
 		</section>
 
-		<!--
-		<section class="content" id="gallery">
-			<h3 class="heading">写真ギャラリー</h3>
-				<article class="gridWrapper">
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery1.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery2.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery3.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery4.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery5.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery6.jpg" width="210" height="210" alt=""></a></figure>
-				</article>
+		<section class="content">
+			<h3 class="heading">
+				アップデート情報 2024年8月14日
+				<p class="readmore">&raquo; 詳細を確認する</p>
+			</h3>
+			<article class="official-forum closed">
+				<dl>
+					<dt>ニュース</dt>
+					<dd>キャプテン・イノックの<a class="explicitly" href="https://www.ea.com/ja-jp/games/starwars/galaxy-of-heroes/news/kit-reveal-captain-enoch" target="_blank">スキル公開</a></dd>
+					<dd>レイド「ナブーの戦い」で、Tier 0および1の敵の体力回復を減少させました。チームは引き続き監視し、必要に応じて調整を行います。</dd>
+					<dd>キャプテン・ドロガンが急成長ユニットに追加されました。</dd>
+					<dd>スカウト・トルーパーが急成長ユニットに追加されました。</dd>
+					<dd>モーガン・エルズベスがショップとガチャに追加されました。</dd>
+				</dl>
+				<hr>
+				<dl>
+					<dt>修正</dt>
+					<dd>[DATACRON] ヴィサス・マーが最後に倒された時に単独で復活するようになりました。</dd>
+					<dd>[DATACRON] バリス・オフィーのデータクロンの説明の誤字を修正しました。</dd>
+					<dd>[CONQUEST] キャラクターが特定の征服環境にクリップインする問題を修正しました。<br>
+					⇒「クリップイン」とは、キャラクターが他のものに重なって表示される現象を指します。</dd>
+					<dd>レイドが最大スコアに達するか、敗北する前に早期終了するバグを修正しました。</dd>
+				</dl>
+				<div>
+					<p>
+						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-8142024/4955659" target="_blank">こちら</a>
+					</p>
+				</div>
+			</article>
 		</section>
-		-->
     
 	</section>
 	<!-- / コンテンツ -->
-
-	<aside id="sub">
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-        
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-    
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-	</aside>
-
 </div>
 <!-- / WRAPPER -->
 
@@ -206,6 +201,17 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	const readmoreList = document.querySelectorAll("p.readmore");
+
+	readmoreList.forEach((readmore) => {
+		readmore.addEventListener("click", (e) => {
+			console.log(e.target.closest("section"));
+			e.target.closest("section")
+				.querySelector("article.official-forum")
+				.classList.remove("closed");
+		});
+	});
 </script>
 </body>
 </html>
