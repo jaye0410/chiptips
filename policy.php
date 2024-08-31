@@ -18,6 +18,9 @@
 	.privacy-policy {
 		margin-bottom: 10px;
 	}
+	.privacy-policy p {
+		margin-bottom: 5px;
+	}
 </style>
 </head>
 <body>
@@ -41,8 +44,8 @@
 <div id="wrapper">
     
 <!-- コンテンツ -->
-	<section>
-		<h3 class="heading" style="text-align:center">個人情報の利用目的</h3>
+	<section class="privacy-policy">
+		<h3 class="heading">個人情報の利用目的</h3>
 
 		<p>当サイトでは、お問い合わせや記事へのコメントの際、名前やメールアドレス等の個人情報を入力いただく場合がございます。<br>
 		名前は実名（本名）である必要はなく、入力も任意です。<br>
@@ -50,8 +53,8 @@
 		<p>取得した個人情報は、お問い合わせに対する回答をEメールで返信する場合のみに利用させていただくものであり、これらの目的以外では利用いたしません。</p>
 	</section>
 
-	<section>
-		<h3 class="heading" style="text-align:center">著作権・肖像権について</h3>
+	<section class="privacy-policy">
+		<h3 class="heading">著作権・肖像権について</h3>
 
 		<p>当サイトは著作権や肖像権の侵害を目的としたものではありません。</p>
   	<p>著作権や肖像権に関して問題がございましたら、<a href="/chiptips/contact.php" target="_blank">お問い合わせ</a>フォームにてご連絡ください。<br />
@@ -62,9 +65,9 @@
 	<section class="privacy-policy">
 		<h3 class="heading">リンクについて</h3>
 
-		<p>当サイトは基本的にリンクフリーです。 (むしろ歓迎いたします。)</p>
-		<p>また、リンク依頼のご連絡を頂いた場合には、サイト内容を確認の上で検討させて頂きます。</p>
-		<p>ただし、インラインフレームの使用や画像の直リンクはご遠慮頂きますよう何卒お願い申し上げます。</p>
+		<p>当サイトは基本的にリンクフリーです。 (むしろ歓迎いたします。)<br>
+		また、リンク依頼のご連絡を頂いた場合には、サイト内容を確認の上で検討させて頂きます。</p>
+		<p>ただし、インラインフレームでの使用や画像の直リンクはご遠慮頂きますよう何卒お願い申し上げます。</p>
 	</section>
 
 	<section class="privacy-policy">

@@ -154,6 +154,37 @@
 				</div>
 			</article>
 		</section>
+
+		<section class="content">
+			<h3 class="heading">
+				アップデート情報 2024年7月31日
+				<p class="readmore">&raquo; 詳細を確認する</p>
+			</h3>
+			<article class="official-forum closed">
+				<dl>
+					<dt>ニュース</dt>
+					<dd>デス・トルーパー（ペリディア）の<a href="https://www.ea.com/ja-jp/games/starwars/galaxy-of-heroes/news/kit-reveal-death-trooper-peridea" target="_blank">スキル公開</a></dd>
+					<dd><a href="https://www.ea.com/ja-jp/games/starwars/galaxy-of-heroes/news/august-calendar-preview-2024" target="_blank">8月のカレンダー</a></dd>
+					<dd>新たな勢力タグ「ナブーの戦い」が追加されました。</dd>
+				</dl>
+				<hr>
+				<dl>
+					<dt>修正</dt>
+					<dd>ゲーム全体で「アソーカ・タノ」の表記を「アソーカ・タノ（お調子者）」に更新しました。</dd>
+					<dd>iOS、Android、PCでゲームがクラッシュする可能性があるバックエンドの問題を修正しました。</dd>
+					<dd>[DATACRON] レベル6の機能で、味方タンクが100%のプロテクションを回復し、50%の最大プロテクションを複数回得る問題を修正しました。</dd>
+					<dd>[DATACRON] 攻撃機能でトゥルーダメージが1しか与えていない問題を修正しました。</dd>
+					<dd>[DATACRON] 「衰退」の説明に抵抗できないことが記載されていない問題を修正しました。</dd>
+					<dd>[DATACRON] ナイトトルーパーが「衰退」のスタックごとに回復と攻撃力を2回得る問題を修正しました。</dd>
+				</dl>
+
+				<div>
+					<p>
+						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-8142024/4955659" target="_blank">こちら</a>
+					</p>
+				</div>
+			</article>
+		</section>
     
 	</section>
 	<!-- / コンテンツ -->

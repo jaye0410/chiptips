@@ -23,6 +23,7 @@ form {
 	padding: 5px;
 	max-width:420px;
 	margin:50px auto;
+	margin-top: 0px;
 }
 
 .feedback-input {
@@ -110,10 +111,11 @@ button[type="submit"]:hover {
 			<form action="/swgoh/api/contact.php" method="post" id="contact-form" name="contact-form">
 				<p id="insert-error"></p>
 				<p id="insert-success"></p>
+				<p style="color:#f7f7f7">※任意</p>
 				<input id="username" name="username" type="text" class="feedback-input" placeholder="Name" />
-				<p style="color:#f7f7f7">※ 返信ご希望の場合はメールアドレスまたは同盟コードを入力ください。</p>  
+				<p style="color:#f7f7f7">※返信が必要な場合メールアドレスor同盟コード</p>  
 				<input id="email" name="email" type="text" class="feedback-input" placeholder="Email or Ally code" />
-				<p id="error-message"></p>
+				<p id="error-message">※必須</p>
 				<textarea id="inquiry" name="inquiry" class="feedback-input" placeholder="Message"></textarea>
 				<!-- <input type="submit" value="SUBMIT"/> -->
 				<button id="submit" type="submit">SUBMIT</button>
@@ -208,7 +210,7 @@ button[type="submit"]:hover {
 	}
 
 	function resetMessages() {
-		document.querySelector("#error-message").textContent = "";
+		document.querySelector("#error-message").textContent = "※必須";
 		document.querySelector("#insert-error").textContent = "";
 		document.querySelector("#insert-success").textContent = "";
 	}

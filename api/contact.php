@@ -10,7 +10,7 @@ $email = isset($_POST["email"]) ? $_POST["email"] : "";
 $inquiry = isset($_POST["inquiry"]) ? $_POST["inquiry"] : "";
 $hasError = false;
 
-if ($inquiry == ""){
+if ($inquiry == "") {
   $hasError = true; 
 }
 
