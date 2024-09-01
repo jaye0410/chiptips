@@ -41,11 +41,7 @@
 		<img src="images/sub_image_discord_bot.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
 			<h2>SWGoH Discord Bot</h2>
-			<h3>
-				<strong style="font-weight: bold";>J</strong>ayeが開発した
-				<strong style="font-weight: bold";>J</strong>apaneseで使える
-				<strong style="font-weight: bold";>B</strong>ot。<br>
-				その頭文字をとった「JJ-8」です。</h3>
+			<h3></h3>
 		</div>
 	</div>
 </div>
@@ -55,6 +51,35 @@
     
 <!-- コンテンツ -->
 	<section id="main">
+		<section class="content">
+			<h3 class="heading">オリジナルDiscord Bot</h3>
+			<article>
+
+				<h4>■ Botの名前</h4>
+				<p>
+				<strong style="font-weight: bold";>J</strong>ayeが開発した
+				<strong style="font-weight: bold";>J</strong>apaneseで使える
+				<strong style="font-weight: bold";>B</strong>ot。<br>
+				その頭文字をとった「JJ-8」です。（Botの「B」を「8」に見立てています。）
+				</p>
+
+				<h4>■ JJ-8のシステム構成</h4>
+				<table class="my-custom">
+					<tr>
+						<th style="width:100px;">開発OS</th><td>WSL Ubuntu</td>
+					</tr>
+					<tr>
+						<th>IDE/ツール</th><td>VS Code, MongoDBCompass</td>
+					</tr>
+					<tr>
+						<th>使用言語</th><td>Python</td>
+					</tr>
+					<tr>
+						<th>データベース</th><td>MongoDB</td>
+					</tr>
+				</table>
+			</article>
+		</section>
 
 		<section class="content">
 			<h3 class="heading">JJ-8の導入とサポート</h3>
@@ -68,7 +93,7 @@
 
 				<h4>■ JJ-8のサポート</h4>
 				<p>使い方や最新情報を提供する
-					<a href="" target="_blank" class="explicitly">JJ-8のDiscordサーバー</a>
+					<a href="https://discord.gg/2WdWzJFJ68" target="_blank" class="explicitly">JJ-8のDiscordサーバー</a>
 					もご用意しています。</p>
 				<p>使い方の質問やバグ報告だけでなく、プログラミングに興味のある方、ギルドの垣根を超えた交流の場として等々。</p>
 				<p>お待ちしておりますので、ぜひご参加ください。</p>

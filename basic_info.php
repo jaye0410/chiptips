@@ -39,6 +39,11 @@
 		list-style-type: disc;
 		margin-left: 20px;
 	}
+	section#resources ul {
+		background-color: #222222;
+		padding: 12px 5px;
+		color: #f7f7f7;
+	}
 	ul img {
 		vertical-align: text-bottom;
 	}
@@ -90,6 +95,16 @@
     
 <!-- コンテンツ -->
 	<section id="main">
+
+		<section class="content">
+			<h3 class="heading">基本情報について</h3>
+			<article class="basic-info">
+				<p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
+				<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
+				<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>
+				<p>今こそ共に、広大な銀河へ飛び出しましょう！</p>
+			</article>
+		</section>
 
 		<section class="content">
 			<h3 class="heading">ゲーム画面</h3>
@@ -200,9 +215,9 @@
 		</section>
 
 		<section class="content" id="resources">
-			<h3 class="heading">ゲーム内リソース</h3>
+			<h3 class="heading">ゲーム内リソース（資材）</h3>
 			<article class="basic-info">
-				<p>SWGoHでは、コンテンツやショップによって使用できるリソース（資材）が異なります。</p>
+				<p>SWGoHでは、コンテンツやショップによって使用できるリソースが異なります。</p>
 				<p>SWGoHのリソースは次の4種類に分けられます。</p>
 				<ol>
 					<li>エネルギー</li>
@@ -211,7 +226,7 @@
 					<li>キーカード</li>
 				</ol>
 				<p>この項では、ゲーム開始直後から使用する 1. エネルギーと 2. 通貨 について記述します。</p>
-				<!-- <p>どの通貨がどこで使用できるのか、そしてどのコンテンツで入手できるのかを一覧化します。</p> -->
+				
 				<h4>【エネルギー】</h4>
 				<p>エネルギーは時間経過で回復していきます。<br>
 					カンティーナエネルギーのみ12分で1ポイント回復、その他のエネルギーは6分で1ポイント回復します。
@@ -243,9 +258,53 @@
 					各アイテムショップの一部アイテムを購入するためにも使用できる。</li>
 					<li><img src="images/ship_credits.png" width="25" alt="シップクレジット">シップクレジット -
 					主にシップのレベル、レア度（星）、スキルアップグレードに使用する。モッドを購入するためにも使用できる。</li>
-					<li><img src="images/mod_energy.png" width="25" alt="モッドエネルギー">モッドエネルギー -
-					モッドバトルおよびモッドチャレンジのコンテンツで使用する</li>
+					<li><img src="images/ally_points.png" width="25" alt="同盟ポイント">同盟ポイント -
+					ウィークリーショップやブロンジウムガチャで使用する。ゲームを進行していくと、データクロンショップで一部アイテムも購入できる。</li>
+					<li><img src="images/cantina_tokens.png" width="25" alt="カンティーナトークン">カンティーナトークン -
+					カンティーナバトルショップで使用する。
+					<li><img src="images/galactic_war_tokens.png" width="25" alt="銀河戦争トークン">銀河戦争トークン -
+					銀河戦争ショップで使用する。
+					<li><img src="images/arena_tokens.png" width="25" alt="アリーナトークン">アリーナトークン -
+					アリーナバトルショップで使用する。
+					<li><img src="images/fleet_arena_tokens.png" width="25" alt="艦隊アリーナトークン">艦隊アリーナトークン -
+					艦隊アリーナショップで使用する。
+					<li><img src="images/guild_tokens.png" width="25" alt="ギルドトークン">ギルドトークン -
+					ギルドミッションショップで上位のモッド資材などに使用する。
+					<li style="margin-top:10px;">&nbsp;▶&nbsp;各種レイドトークン
+						<ul style="margin-top: 0px;">
+							<li><img src="images/mk_I_raid_tokens.png" width="25" alt="MkIレイドトークン">MkIレイドトークン -
+							ギルドミッションショップでクレジット、シップクレジット、貴重な装備などの購入に使用する。</li>
+							<li><img src="images/mk_II_raid_tokens.png" width="25" alt="MkIIレイドトークン">MkIIレイドトークン -
+							ギルドミッションショップでレリック資材やレアな装備などの購入に使用する。</li>
+							<li><img src="images/mk_III_raid_tokens.png" width="25" alt="MkIIIレイドトークン">MkIIIレイドトークン -
+							ギルドミッションショップで上位のレリック資材やゼータなどの購入に使用する。</li>
+						</ul>
+					</li>
+					<li style="margin-top:10px;">&nbsp;▶&nbsp;各種ギルドイベントトークン
+						<ul style="margin-top: 0px;">
+							<li><img src="images/mk_I_guild_event_tokens.png" width="25" alt="MkIギルドイベントトークン">MkIギルドイベントトークン -
+							ギルドイベントショップでユニットのかけら、貴重な装備などの購入に使用する。</li>
+							<li><img src="images/mk_II_guild_event_tokens.png" width="25" alt="MkIIレイドトークン">MkIIレイドトークン -
+							ギルドイベントショップでレアな装備などの購入に使用する。</li>
+							<li><img src="images/mk_III_raid_tokens.png" width="25" alt="MkIIIレイドトークン">MkIIIレイドトークン -
+							ギルドイベントショップでレアなユニットのかけら、極めて貴重な装備、一部のレリック資材やモッド資材スライスなどの購入に使用する。</li>
+						</ul>
+					</li>
+					<li><img src="images/championship_tokens.png" width="25" alt="チャンピオンシップトークン">チャンピオンシップトークン -
+					グランドアリーナショップで使用する。
+					<li><img src="images/shard_store_tokens.png" width="25" alt="かけらショップトークン">かけらショップトークン -
+					かけらショップ使用する。ゲームを進行していくと、データクロンショップで一部アイテムも購入できる。
+					<li><img src="images/conquest_credits.png" width="25" alt="征服クレジット">征服クレジット -
+					征服ショップで使用する他、征服の開催中にコンテンツ内に現れるスカベンジャー商人からアイテムを購入できる。
 				</ul>
+
+				<h4>【チケットとキーカード】</h4>
+				<p>
+					チケットはレイド用、銀河の伝説キャラクターの解除用、一部コンテンツのスキップ用の3種類があります。
+				</p>
+				<p>
+					キーカードは銀河チャレンジ用と征服用の2種類です。
+				</p>
 				
 			</article>
 		</section>

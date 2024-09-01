@@ -58,14 +58,19 @@
 		
 		<article class="grid">
 			<h3>基本情報</h3>
-			<ul>
+			<p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
+			<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
+			<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>
+			<p>今こそ共に、広大な銀河へ飛び出しましょう！</p>
+			<p class="readmore"><a href="basic_info.php">&raquo; 詳細を確認する</a></p>
+			<!-- <ul>
 				<li><a href="basic_info.php">基本情報トップ</a></li>
 				<li><a href="basic_info.php#holotable">ホロテーブル</a></li>
 				<li><a href="basic_info.php#resources">ゲーム内リソース</a></li>
 				<li><a href="subpage.html">最新商品のご紹介</a></li>
 				<li><a href="subpage.html">新規サービスを開始しました</a></li>
 				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
+			</ul> -->
 		</article>
 		
 		<article class="grid">

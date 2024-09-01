@@ -15,4 +15,5 @@ table.my-custom tr th {
 table.my-custom tr td {
   padding: 5px;
   border: 1px solid black;
+  color: black !important;
 }

@@ -196,7 +196,7 @@ button[type="submit"]:hover {
 		})
 		.then(response =>  response.text())
 		.then(result => {
-			const data = JSON.stringify(result);
+			const data = JSON.parse(result);
 			if (data.hasError) {
 				document.querySelector("#insert-error").textContent = "問い合わせ処理でエラーが発生しました。";
 				return;

@@ -1,0 +1,61 @@
+/*
+デフォルトBG: #98c457
+モスグリーン: #2b5f2a
+*/
+.targetDiv {
+	border: 1px solid black;
+  color: white;
+	background-color: #2b5f2a;
+}
+.targetDiv p, .targetDiv img{
+	margin: 5px;
+}
+.targetDiv img {
+	vertical-align: text-bottom;
+}
+.targetDiv div {
+  margin-bottom: 5px;
+}
+.targetDiv a {
+  color: #fffacd;
+  text-decoration: underline;
+}
+.targetDiv ol {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+nav.swgoh-tab-nav, ul.swgoh-tab-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+ul.swgoh-tab-nav li {
+	font-size: 12px;
+	width: 64px;
+	height: 38px;
+	text-align: center;
+	line-height: 1.5;
+	color: white;
+	border: 1px solid black;
+	border-radius: 0 7px;
+	background: #2b5f2a;
+	padding: 5px;
+	cursor: pointer;
+}
+#global-tab {
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	background: #98c457;
+	line-height: 2.5;
+}
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+  ul.swgoh-tab-nav li {
+    width: 45px;
+  }
+	#global-tab {
+		width:48px;
+	}
+}

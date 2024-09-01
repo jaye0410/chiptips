@@ -105,7 +105,7 @@ ul.swgoh-tab-nav li {
 			<p>最新開催の征服より、グローバルおよび各セクターの偉業を掲載します。</p>
 			<p>各偉業には可能な限り攻略のヒントやオススメ編成候補を表示し、
 				偉業にバフ・デバフが指定されている偉業では付与可能なユニットを確認できる仕組みにしています。</p>
-		<hr>
+			<hr>
 
 			<nav class="swgoh-tab-nav">
 				<ul class="swgoh-tab-nav">
@@ -117,7 +117,7 @@ ul.swgoh-tab-nav li {
 					<li id="sec5-tab">Sector<br>5</li>
 				</ul>
 			</nav>
-			
+				
 			<div id="global-feats" class="targetDiv">
 				<h3 class="heading">困難な勝利</h3>
 				<div><img style="vertical-align:text-bottom;" src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
@@ -161,7 +161,7 @@ ul.swgoh-tab-nav li {
 				<p>ドゥークー伯爵、プリンセス・ニーサ、レイア姫、アミダラ女王、ロイヤル・ガードをチームに入れて3回勝利する<br>
 					※「生存している」ことは条件になっていない！</p>
 			</div>
-			
+				
 			<div id="sec1-feats" class="targetDiv" style="display: none;">
 				<h3 class="heading">回避行動</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
@@ -198,7 +198,7 @@ ul.swgoh-tab-nav li {
 					<li>帝国軍のユニットを使用せず勝利する</li>
 				</ol><br>
 			</div>
-			
+				
 			<div id="sec2-feats" class="targetDiv" style="display: none;">
 				<h3 class="heading">反乱軍アサルト</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
@@ -235,7 +235,7 @@ ul.swgoh-tab-nav li {
 					<li>偉業2</li>
 				</ol><br>
 			</div>
-			
+				
 			<div id="sec3-feats" class="targetDiv" style="display: none;">
 				<h3 class="heading">セクター3</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
@@ -272,7 +272,7 @@ ul.swgoh-tab-nav li {
 					<li>偉業2</li>
 				</ol><br>
 			</div>
-			
+				
 			<div id="sec4-feats" class="targetDiv" style="display: none;">
 				<h3 class="heading">セクター4</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
@@ -309,7 +309,7 @@ ul.swgoh-tab-nav li {
 					<li>偉業2</li>
 				</ol><br>
 			</div>
-			
+				
 			<div id="sec5-feats" class="targetDiv" style="display: none;">
 				<h3 class="heading">セクター5</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
@@ -346,7 +346,7 @@ ul.swgoh-tab-nav li {
 					<li>偉業2</li>
 				</ol><br>
 			</div>
-				
+					
 			<script>
 				const divsObj = {
 					"global-tab": "global-feats",
