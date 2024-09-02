@@ -34,7 +34,7 @@ ul.swgoh-tab-nav li {
 	width: 64px;
 	height: 38px;
 	text-align: center;
-	line-height: 1.5;
+	line-height: 2.5;
 	color: white;
 	border: 1px solid black;
 	border-radius: 0 7px;
@@ -42,20 +42,22 @@ ul.swgoh-tab-nav li {
 	padding: 5px;
 	cursor: pointer;
 }
-#global-tab {
+
+.swgoh-tab-nav li:first-child {
 	font-size: 12px;
 	font-weight: bold;
 	color: black;
 	background: #98c457;
-	line-height: 2.5;
+	/* line-height: 2.5; */
 }
+
 
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width:480px){
   ul.swgoh-tab-nav li {
     width: 45px;
   }
-	#global-tab {
+	.swgoh-tab-nav li:first-child {
 		width:48px;
 	}
 }

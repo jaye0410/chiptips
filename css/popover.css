@@ -1,12 +1,68 @@
 [popover] {
   position: fixed;
   inset: 0;
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content; */
+  width: 50%;
+  max-height: 350px;
+  /* height: fit-content; */
   margin: auto;
   border: solid;
-  padding: 0.25em;
-  overflow: auto;
+  /* overflow: auto; */
+  overflow-y: scroll;
   color: CanvasText;
-  background-color: Canvas;
+  /* background-color: Canvas; */
+  background-color: #333;
+}
+[popover] h2 {
+  width: calc(100% - 15px);
+  background-color: #333;
+  color: #f7f7f7;
+  font-size: 16px;
+  padding: 5px;
+  float: left;
+}
+[popover] h2 button {
+  float: right;
+}
+[popover] table {
+  width: calc(100% - 15px);
+  background-color: #f7f7f7;
+}
+[popover] table tr th{
+  background: #2b5f2a;
+  color: white;
+  padding: 5px;
+  border: 1px solid #f7f7f7;
+}
+[popover] table tr th:nth-child(2){
+  width: 50px;
+}
+[popover] table tr td{
+  padding: 5px;
+  border: 1px dotted #333;
+}
+[popover] table tr:last-child td{
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+/* モニター幅960px以下 */
+@media only screen and (max-width:960px){
+  [popover] {
+    width: 80%;
+  }
+}
+
+/* スマートフォン 横(ポートレート) */
+@media only screen and (max-width:640px){
+  [popover] {
+    width: 90%;
+  }
+}
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+  [popover] {
+    width: 100%;
+  }
 }

@@ -6,6 +6,8 @@ $jsonstr = "";
 // 全件取得
 $sql = "SELECT * FROM mst_status_effect";
 try {
+  $db = getDB();
+  // $db = connectDB();
   $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
   $stmt = $db->prepare($sql);
   $stmt->execute();
@@ -29,6 +31,3 @@ try {
 } catch (Exception $e) {
   echo ($e->getMessage());
 }
-// finally {
-//   echo "jsonstr: " . $jsonstr;
-// }

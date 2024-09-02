@@ -9,73 +9,12 @@
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/custom_tab.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/popover.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
-<style>
-/*
-デフォルトBG: #98c457
-モスグリーン: #2b5f2a
-*/
-.targetDiv {
-	border: 1px solid black;
-  color: white;
-	background-color: #2b5f2a;
-}
-.targetDiv p, .targetDiv img{
-	margin: 5px;
-}
-.targetDiv img {
-	vertical-align: text-bottom;
-}
-.targetDiv div {
-  margin-bottom: 5px;
-}
-.targetDiv a {
-  color: #fffacd;
-  text-decoration: underline;
-}
-.targetDiv ol {
-  list-style-type: decimal;
-  padding-left: 30px;
-}
-
-nav.swgoh-tab-nav, ul.swgoh-tab-nav {
-	display: flex;
-	flex-wrap: wrap;
-}
-ul.swgoh-tab-nav li {
-	font-size: 12px;
-	width: 64px;
-	height: 38px;
-	text-align: center;
-	line-height: 1.5;
-	color: white;
-	border: 1px solid black;
-	border-radius: 0 7px;
-	background: #2b5f2a;
-	padding: 5px;
-	cursor: pointer;
-}
-#global-tab {
-	font-size: 12px;
-	font-weight: bold;
-	color: black;
-	background: #98c457;
-	line-height: 2.5;
-}
-
-/* スマートフォン 縦(ポートレート) */
-@media only screen and (max-width:480px){
-  ul.swgoh-tab-nav li {
-    width: 45px;
-  }
-	#global-tab {
-		width:48px;
-	}
-}
-</style>
 </head>
 <body>
 <!-- ヘッダー -->
@@ -110,11 +49,11 @@ ul.swgoh-tab-nav li {
 			<nav class="swgoh-tab-nav">
 				<ul class="swgoh-tab-nav">
 					<li id="global-tab">Global</li>
-					<li id="sec1-tab">Sector<br>1</li>
-					<li id="sec2-tab">Sector<br>2</li>
-					<li id="sec3-tab">Sector<br>3</li>
-					<li id="sec4-tab">Sector<br>4</li>
-					<li id="sec5-tab">Sector<br>5</li>
+					<li id="sec1-tab">Sec. 1</li>
+					<li id="sec2-tab">Sec. 2</li>
+					<li id="sec3-tab">Sec. 3</li>
+					<li id="sec4-tab">Sec. 4</li>
+					<li id="sec5-tab">Sec. 5</li>
 				</ul>
 			</nav>
 				
@@ -167,9 +106,7 @@ ul.swgoh-tab-nav li {
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
 				<p>「回避力上昇」の効果を50回発生させる</p>
 				<p>
-					<a href="/2024/05/units-that-can-apply-evasion-up-effect-list.html" target="_blank">
-						回避力上昇を付与できるユニットを確認
-					</a>
+					<button type="button" class="status-detail-button" name="回避力上昇">付与できるユニットを確認</button>
 				</p>
 
 				<h3 class="heading">今や我々がレジスタンスだ</h3>
@@ -208,9 +145,7 @@ ul.swgoh-tab-nav li {
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
 				<p>「有効性低下」効果を50回発生させる</p>
 				<p>
-					<a href="/2024/05/units-that-can-apply-potency-down-effect-list.html" target="_blank">
-						有効性低下を付与できるユニットを確認
-					</a>
+					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
 				</p>
 
 				<h3 class="heading">無尽蔵の軍隊</h3>
@@ -245,9 +180,7 @@ ul.swgoh-tab-nav li {
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p>「有効性低下」効果を50回発生させる</p>
 				<p>
-					<a href="/2024/05/units-that-can-apply-potency-down-effect-list.html" target="_blank">
-						有効性低下を付与できるユニットを確認
-					</a>
+					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
 				</p>
 
 				<h3 class="heading">セクター3</h3>
@@ -282,9 +215,7 @@ ul.swgoh-tab-nav li {
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p>「有効性低下」効果を50回発生させる</p>
 				<p>
-					<a href="/2024/05/units-that-can-apply-potency-down-effect-list.html" target="_blank">
-						有効性低下を付与できるユニットを確認
-					</a>
+					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
 				</p>
 
 				<h3 class="heading">セクター4</h3>
@@ -319,9 +250,7 @@ ul.swgoh-tab-nav li {
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
 				<p>「有効性低下」効果を50回発生させる</p>
 				<p>
-					<a href="/2024/05/units-that-can-apply-potency-down-effect-list.html" target="_blank">
-						有効性低下を付与できるユニットを確認
-					</a>
+					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
 				</p>
 
 				<h3 class="heading">セクター5</h3>
@@ -407,9 +336,17 @@ ul.swgoh-tab-nav li {
 <!-- / フッター -->
 
 <script src="js/common.js"></script>
+<script src="js/modalManager.js"></script>
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	const modalButtons = document.querySelectorAll(".status-detail-button");
+	modalButtons.forEach(function(button) {
+		button.addEventListener("click", function(e) {
+			modalManager.setupModal(button.getAttribute("name"));
+		});
+	});
 </script>
 </body>
 </html>

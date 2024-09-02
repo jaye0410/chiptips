@@ -41,10 +41,10 @@
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_discord_bot.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_status_effects.png" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH Status Effects</h2>
-			<h3>バフ（強化効果）、デバフ（弱体効果）の一覧です。</h3>
+			<h2>SWGoH ステータス一覧</h2>
+			<h3>バフ（強化効果）、デバフ（弱体効果）の一覧</h3>
 		</div>
 	</div>
 </div>
@@ -177,11 +177,12 @@
 <!-- / フッター -->
 
 <script src="js/common.js"></script>
+<script src="js/modalManager.js"></script>
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
   
-  const STATUS_TYPES = ["BUFF", "DEBUFF", "OTHERS"];
+  const STATUS_TYPES = ["DEBUFF", "BUFF", "OTHERS"];
 
   fetch("api/status_effects.php", {
     method: "GET",
@@ -190,7 +191,7 @@
   .then(response =>  response.text())
   .then(result => {
     const data = JSON.parse(result);
-    const STATUS_EFFECTS = {"BUFF": [], "DEBUFF": [], "OTHERS": []};
+    const STATUS_EFFECTS = {"DEBUFF": [], "BUFF": [], "OTHERS": []};
     for (i in data) {
       const type = data[i]["type"];
       STATUS_EFFECTS[STATUS_TYPES[type]].push(data[i]);
