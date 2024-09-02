@@ -368,38 +368,7 @@
 
 <!-- フッター -->
 <div id="footer">
-	<div class="inner">
-    
-		<!-- 3カラム -->
-    <section class="gridWrapper">
-      
-			<article class="grid">
-      	<!-- ロゴ -->
-				<p class="logo">
-					<a href="index.html">SWGoH ChipTips<br />
-						<span>－ Let's enjoy another Galaxy. －</span></a>
-				</p>
-				<!-- / ロゴ -->
-			</article>
-      
-      <article class="grid col3">
-      	<ul>
-					<li><a href="subpage.html">eco・環境事業</a></li>
-					<li><a href="subpage.html">コンピュータ</a></li>
-					<li><a href="subpage.html">飲食店事業</a></li>
-					<li><a href="subpage.html">ごあいさつ</a></li>
-					<li><a href="subpage.html">サービス概要</a></li>
-					<li><a href="subpage.html">会社情報</a></li>
-					<li><a href="subpage.html">お問い合わせ</a></li>
-					<li><a href="subpage.html">サイトマップ</a></li>
-				</ul>
-      	<p>Copyright(c) 2024 SWGoH ChipTips All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p>
-      </article>
-		
-    </section>
-		<!-- / 3カラム -->
-      
-	</div>
+	<?php include "parts/footer.html" ?>
 </div>
 <!-- / フッター -->
 

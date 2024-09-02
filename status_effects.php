@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/custom_tab.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/custom_table.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/popover.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
@@ -22,7 +23,13 @@
   table.my-custom td {
     background-color: #f7f7f7;
   }
-  
+  #popover::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  .status-detail-button {
+    margin-right: 5px;
+  }
 </style>
 </head>
 <body>
@@ -86,12 +93,12 @@
           </thead>
 					<tbody>
           <tr>
-						<td class="status-name">衰退</td>
+						<!-- <td class="status-name">衰退</td>
 						<td class="status-effect">
             ヘルススティール -100%。<br>
             敵のターンメーターを減少させるたび、このユニットは追加の固定ダメージを受ける（回避不可、このダメージでは戦闘不能にならない）。<br>
             このユニットのHPが最大まで回復すると、衰退のスタックを全て解除する。
-            </td>
+            </td> -->
 					</tr>
           </tbody>
 				</table>
@@ -106,24 +113,29 @@
           </thead>
 					<tbody>
           <tr>
-						<td class="status-name">ダークトルーパー部隊</td>
+						<!-- <td class="status-name">ダークトルーパー部隊</td>
 						<td class="status-effect">
             ダーク・トルーパーは、ベースの最大HPと最大プロテクションの25%分に相当するダーク・トルーパー部隊（以降：部隊）のスタックを4つ持つ。<br>
             最大HPと最大プロテクションの変化を無効化し、部隊のスタックが1つ以上ある限り戦闘不能または破壊されることはない。<br>
             部隊のスタック数が2つ以上ある場合に戦闘不能になった場合、代わりに自身の弱体効果を全て解除し、部隊のスタック数を1減少させ、HPとプロテクションを100%回復させる。<br>
             その時点の部隊のスタック1つにつき防御力が25%上昇する。<br>
             ダーク・トルーパーはクリティカルヒットを受けないが、復活することができない。
-            </td>
+            </td> -->
 					</tr>
           </tbody>
 				</table>
       </div>
 
+      <!-- <div id="popover" popover="manual">
+        <button id="close-modal">X</button>
+        <p>HTMLのみでモーダルが表示されました</p>
+      </div> -->
+
 		</section>
     
 	</section>
 	<!-- / コンテンツ -->
-
+  
 </div>
 <!-- / WRAPPER -->
 
@@ -209,10 +221,27 @@
 
   function createTableRow(statusEffects) {
     const tr = document.createElement("tr");
+
     const tdStatusName = document.createElement("td");
+    const span = document.createElement("span");
+    span.textContent = statusEffects["statusname"];
+    
+    if (statusEffects["type"] != 2) { // Type 2: その他
+      const modalButton = document.createElement("button");
+      modalButton.setAttribute("type", "button");
+      modalButton.setAttribute("class", "status-detail-button");
+      modalButton.textContent = "詳細";
+      modalButton.addEventListener("click", function(e) {
+        modalManager.setupModal(statusEffects["statusname"]);
+      });
+      tdStatusName.appendChild(modalButton);
+    }
+    
+    tdStatusName.appendChild(span);
+
     const tdDescription = document.createElement("td");
-    tdStatusName.textContent = statusEffects["statusname"];
     tdDescription.textContent = statusEffects["description"];
+
     tr.appendChild(tdStatusName);
     tr.appendChild(tdDescription);
 
@@ -257,7 +286,6 @@
           div.style.display = "none";
         }
       });
-      
     }
   }
 </script>
