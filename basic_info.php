@@ -312,57 +312,6 @@
 	</section>
 	<!-- / コンテンツ -->
 
-	<aside id="sub">
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-        
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-    
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-	</aside>
-
 </div>
 <!-- / WRAPPER -->
 

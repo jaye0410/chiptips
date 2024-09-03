@@ -24,9 +24,26 @@
 [popover] h2 button {
   float: right;
 }
+[popover] button.wide {
+  width: calc(100% - 15px);
+  height: 30px;
+  background-color: #ff7f50;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  margin-top:-4px;
+  margin-bottom: 5px;
+}
+[popover] button.wide:hover {
+	text-shadow: 0 0 10px #fff,0 0 15px #fff;
+}
+
 [popover] table {
   width: calc(100% - 15px);
   background-color: #f7f7f7;
+  margin-bottom: 10px;
 }
 [popover] table tr th{
   background: #2b5f2a;

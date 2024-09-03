@@ -66,16 +66,15 @@
 		</article>
 		
 		<article class="grid">
-			<h3>ホームページサンプル</h3>
+			<h3>取り扱うコンテンツ</h3>
 			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
+				<li><a href="conquest.php">征服</a></li>
+				<li><a href="subpage.html">銀河チャレンジ</a></li>
+				<li><a href="subpage.html">テリトリー・バトル</a></li>
+				<li><a href="subpage.html">レイド</a></li>
+				<li><a href="subpage.html">ユニット解除イベント</a></li>
 			</ul>
-		</article> 
+		</article>
 		
 	</section>
 
@@ -103,8 +102,6 @@
 		</article>
 	</section>
 	<!-- / 4カラム -->
-      
-	
 
 </div>
 <!-- / WRAPPER -->

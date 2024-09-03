@@ -4,7 +4,8 @@ require_once __DIR__. "/db_connector.php";
 $jsonstr = "";
 
 // 全件取得
-$sql = "SELECT * FROM mst_status_effect";
+$sql = "SELECT * FROM mst_status_effect ORDER BY CAST(name_kana AS CHAR)";
+
 try {
   $db = getDB();
   // $db = connectDB();
@@ -16,7 +17,7 @@ try {
 
   while(true) {
     $row = $stmt -> fetch(PDO::FETCH_ASSOC);
-    if($row == false){
+    if($row == false) {
         break;
     }
     array_push($statusList, array(

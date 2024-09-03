@@ -1,6 +1,7 @@
 const modalManager = {
 
-  setupModal: function(statusName) {
+  setupModal: function(statusName, includeShip = true) {
+    // console.log(`status_name=${statusName}`);
     const modal = document.createElement("div");
     modal.popover = "manual";
     modal.id = "popover";
@@ -9,7 +10,7 @@ const modalManager = {
     h2.textContent = statusName;
     modal.appendChild(h2);
   
-    // 閉じるボタン
+    // 閉じるボタン（上部）
     const closeButton = document.createElement("button");
     closeButton.setAttribute("type", "button");
     closeButton.textContent = "X";
@@ -20,7 +21,8 @@ const modalManager = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        "statusName": statusName
+        "statusName": statusName,
+        "includeShip": includeShip
       })
     })
     .then(response =>  response.text())
@@ -55,6 +57,14 @@ const modalManager = {
       }
       table.appendChild(tbody);
       modal.appendChild(table);
+
+      // 閉じるボタン（下部）
+      const closeButton2 = document.createElement("button");
+      closeButton2.setAttribute("type", "button");
+      closeButton2.setAttribute("class", "wide");
+      closeButton2.textContent = "Close";
+      closeButton2.addEventListener("click", () => this.removeModal(modal));
+      modal.appendChild(closeButton2);
 
       document.querySelector("#wrapper").appendChild(modal);
       // showPopoverメソッドで表示する

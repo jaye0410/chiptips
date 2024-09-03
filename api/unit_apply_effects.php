@@ -3,18 +3,26 @@ require_once __DIR__. "/db_connector.php";
 
 $params = json_decode(file_get_contents('php://input'), true);
 $statusName = $params["statusName"];
+$includeShip = $params["includeShip"];
+$where = "status_name = '" . $statusName . "'";
 
-getUnitsApplyEffect($statusName);
+if (!$includeShip) {
+  $where = $where . " AND category = 'c'";
+}
 
-function getUnitsApplyEffect($statusName) {
-  $sql = "SELECT * FROM mst_unit_apply_effects WHERE status_name = :statusName";
+getUnitsApplyEffect($statusName, $includeShip, $where);
+
+function getUnitsApplyEffect($statusName, $includeShip, $where) {
+  $sql = "SELECT * FROM mst_unit_apply_effects";
+  $sql .= " WHERE " . $where;
+  $sql .= " ORDER BY status_type, unit_name_kana";
 
   try {
     $db = getDB();
     // $db = connectDB();
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     $stmt = $db->prepare($sql);
-    $stmt->execute([':statusName' => $statusName]);
+    $stmt->execute([':statusName' => $statusName, ':includeShip' => $includeShip]);
 
     $unitList = array();
 

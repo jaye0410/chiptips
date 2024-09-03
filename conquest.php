@@ -344,7 +344,7 @@
 	const modalButtons = document.querySelectorAll(".status-detail-button");
 	modalButtons.forEach(function(button) {
 		button.addEventListener("click", function(e) {
-			modalManager.setupModal(button.getAttribute("name"));
+			modalManager.setupModal(button.getAttribute("name"), false);
 		});
 	});
 </script>
