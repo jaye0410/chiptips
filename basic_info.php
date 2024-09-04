@@ -98,7 +98,7 @@
 
 		<section class="content">
 			<h3 class="heading">基本情報について</h3>
-			<article class="basic-info">
+			<article class="basic-info lede">
 				<p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
 				<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
 				<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>

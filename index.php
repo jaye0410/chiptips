@@ -55,25 +55,25 @@
 			</p>
 			<p class="readmore"><a href="overview.php">&raquo; 詳細を確認する</a></p>
 		</article>
-		
+
 		<article class="grid">
-			<h3>基本情報</h3>
-			<p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
-			<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
-			<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>
-			<p>今こそ共に、広大な銀河へ飛び出しましょう！</p>
-			<p class="readmore"><a href="basic_info.php">&raquo; 詳細を確認する</a></p>
+			<h3>最新ニュース</h3>
+			<div id="official-news-lede">
+
+			</div>
+			<p class="readmore"><a href="official_news.php">&raquo; 詳細を確認する</a></p>
 		</article>
 		
 		<article class="grid">
-			<h3>取り扱うコンテンツ</h3>
-			<ul>
-				<li><a href="conquest.php">征服</a></li>
-				<li><a href="subpage.html">銀河チャレンジ</a></li>
-				<li><a href="subpage.html">テリトリー・バトル</a></li>
-				<li><a href="subpage.html">レイド</a></li>
-				<li><a href="subpage.html">ユニット解除イベント</a></li>
-			</ul>
+			<h3>基本情報</h3>
+			<div id="basic-info-lede">
+
+			</div>
+			<!-- <p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
+			<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
+			<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>
+			<p>今こそ共に、広大な銀河へ飛び出しましょう！</p> -->
+			<p class="readmore"><a href="basic_info.php">&raquo; 詳細を確認する</a></p>
 		</article>
 		
 	</section>
@@ -81,8 +81,8 @@
 	<!-- 4カラム -->
   <section class="gridWrapper">
 		<article class="grid colDark">
-			<h3>SWGoHのお役立ち情報を提供するサイトです。</h3>	
-			<p>SWGoH ChipTips。スターウォーズ銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</p>
+			<h3>旅のガイド</h3>
+			<p>旅のガイドで取得できるユニット情報、クリアした解除イベントの動画を掲載しています。</p>
 			<p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p>
 		</article>
 		<article class="grid colLight">
@@ -117,6 +117,25 @@
 	const page = window.location.pathname.split("/").pop();
 	if (page == "index.php") { page = "" }
 	changeActivePage(page);
+
+	loadLede("official_news.php", "#official-news-lede");
+	loadLede("basic_info.php", "#basic-info-lede");
+
+	function loadLede(url, targetId) {
+		fetch(url, {
+			method: "GET",
+			// headers: { "Content-Type": "application/json" }
+		})
+		.then(response =>  response.text())
+		.then(result => {
+			const dom = new DOMParser().parseFromString(result, "text/html");
+			const lede = dom.querySelector("article.lede");
+			document.querySelector(targetId).appendChild(lede);
+		})
+		.catch(error => {
+			console.error("Error: ", error);
+		});
+	}
 </script>
 </body>
 </html>

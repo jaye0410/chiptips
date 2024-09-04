@@ -173,7 +173,7 @@
 			<article>
 				<dl>
 					<dt>v 1.0.1 (2024/08/25)</dt>
-					<dd><strong style="color:yellow";>NEW!</strong>&nbsp; 新機能を追加しました。(2024/08/25)</dd>
+					<dd>新機能を追加しました。(2024/08/25)</dd>
 					<dd>g-unitコマンド: 全ギルドメンバーの指定ユニットの育成状況を表示（自身の同盟コード登録が必要）</dd>
 					<dd>registerコマンド: 自身の同盟コードを登録</dd>
 					<dd>unregisterコマンド: 同盟コードの登録を解除</dd>

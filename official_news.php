@@ -38,6 +38,11 @@
 	article.closed {
 		display: none;
 	}
+	.lede ul {
+		list-style-type: disc;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
 	dl {
 		/* background: rgba(255, 255, 255, 0.5) !important; */
 		background-color: #f7f7f7;
@@ -74,9 +79,9 @@
 	<div class="inner">
 		<img src="images/sub_image_official_news.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH 公式フォーラム</h2>
+			<h2>SWGoH お知らせ</h2>
 			<h3>
-				最新ニュースを和訳してお伝えしています。</h3>
+				公式フォーラムの和訳、および当サイトからの最新ニュース</h3>
 		</div>
 	</div>
 </div>
@@ -87,6 +92,22 @@
 <!-- コンテンツ -->
 	<section>
 	<!-- <section id="main"> -->
+		<section class="content">
+			<h3 class="heading">
+				最新ニュース
+			</h3>
+			<br>
+			<article class="lede">
+				<p>このページで扱う項目は次のとおりです。</p>
+				<ul>
+					<li>SWGoH公式フォーラムの和訳</li>
+					<li>当サイトの更新情報</li>
+					<li>その他のお知らせ</li>
+				</ul>
+				<p>現在の最新ニュースは、公式フォーラムからのゲームアップデート情報です。</p>
+				<p id="forTop">ぜひ ↓ のリンクから詳細を確認してみてください。</p>
+			</article>
+		</section>
 
 		<section class="content">
 			<h3 class="heading">
@@ -183,6 +204,8 @@
 				.classList.remove("closed");
 		});
 	});
+
+	document.querySelector("#forTop").style.display = 'none';
 </script>
 </body>
 </html>
