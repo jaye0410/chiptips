@@ -205,6 +205,7 @@ ul#topnav li.active a,ul#topnav a:hover{
 .colDark h3,.colLight h3{
 	margin:10px 10px 5px;
 	padding:3px;
+	padding-left: 8px;
 	font-size:14px;
 	color:#fff;
 	background:#000;

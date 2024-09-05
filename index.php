@@ -69,10 +69,6 @@
 			<div id="basic-info-lede">
 
 			</div>
-			<!-- <p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
-			<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
-			<p>基本的な用語や知識を得ておくことは、SWGoHをより楽しむための手助けとなること間違いありません。</p>
-			<p>今こそ共に、広大な銀河へ飛び出しましょう！</p> -->
 			<p class="readmore"><a href="basic_info.php">&raquo; 詳細を確認する</a></p>
 		</article>
 		
@@ -81,24 +77,28 @@
 	<!-- 4カラム -->
   <section class="gridWrapper">
 		<article class="grid colDark">
-			<h3>旅のガイド</h3>
-			<p>旅のガイドで取得できるユニット情報、クリアした解除イベントの動画を掲載しています。</p>
-			<p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p>
+			<h3>ユニット解除イベント</h3>
+			<p>Coming soon!<br>
+			各種イベントで取得できるユニット情報、クリア動画などを掲載するページです。</p>
+			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
 		<article class="grid colLight">
-			<h3>SWGoHのお役立ち情報を提供するサイトです。</h3>
-			<p>SWGoH ChipTips。スターウォーズ銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</p>
-			<p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p>
+			<h3>テリトリー・バトル</h3>
+			<p>Coming soon!<br>
+			テリトリーバトルの各フェーズでのバトル動画を紹介するページです。</p>
+			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
 		<article class="grid colDark">
-      <h3>SWGoHのお役立ち情報を提供するサイトです。</h3>
-			<p>SWGoH ChipTips。スターウォーズ銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</p>
-			<p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p>
+      <h3>レイド - ナブーの戦い</h3>
+			<p>Coming soon!<br>
+			レイド「ナブーの戦い」で使用する編成、スコアを紹介するページです。</p>
+			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
     <article class="grid colLight">
-			<h3>SWGoHのお役立ち情報を提供するサイトです。</h3>
-			<p>SWGoH ChipTips。スターウォーズ銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</p>
-			<p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p>
+			<h3>スターウォーズ</h3>
+			<p>Coming soon!<br>
+			SWGoH以外のスターウォーズ関連情報を掲載するページです。</p>
+			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
 	</section>
 	<!-- / 4カラム -->

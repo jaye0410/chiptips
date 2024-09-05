@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - 銀河チャレンジ | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -16,7 +16,7 @@
 <![endif]-->
 <style>
 	section.content {
-		/* margin-bottom: 40px; */
+		margin-bottom: 40px;
 	}
 	h3.heading {
 		margin-bottom: 0 !important;
@@ -26,7 +26,7 @@
 		text-decoration: underline;
 		font-size: 14px;
 	}
-	.official-forum {
+	/* .official-forum {
 		margin-top: 0;
 		width: 100%;
 		background-color: #f7f7f7;
@@ -34,18 +34,18 @@
 	}
 	.official-forum div {
 		padding: 15px;
-	}
+	} */
 	article.closed {
 		display: none;
 	}
-	.lede ul {
+	/* .lede ul {
 		list-style-type: disc;
 		margin-left: 30px;
 		margin-bottom: 10px;
-	}
+	} */
 	dl {
-		/* background: rgba(255, 255, 255, 0.5) !important; */
-		background-color: #f7f7f7;
+		background: rgba(255, 255, 255, 0.5) !important;
+		/* background-color: #f7f7f7; */
 		/*border-bottom: 1px solid black;*/
 		padding: 5px;
 	}
@@ -77,11 +77,11 @@
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_official_news.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_gc.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH ニュース</h2>
+			<h2>銀河チャレンジ攻略</h2>
 			<h3>
-				公式フォーラムの和訳および当サイトの更新情報</h3>
+				SWGoH Galactic Challenge</h3>
 		</div>
 	</div>
 </div>
@@ -92,51 +92,68 @@
 <!-- コンテンツ -->
 	<section>
 	<!-- <section id="main"> -->
+		
 		<section class="content">
 			<h3 class="heading">
-				最新ニュース
-			</h3>
-			<br>
-			<article class="lede">
-				<p>このページで扱う項目は次のとおりです。</p>
-				<ul>
-					<li>SWGoH公式フォーラムの和訳</li>
-					<li>当サイトの更新情報</li>
-					<li>その他のお知らせ</li>
-				</ul>
-				<p>現在の最新ニュースは、公式フォーラムからのゲームアップデート情報です。</p>
-				<p id="forTop">ぜひ ↓ のリンクから詳細を確認してみてください。</p>
-			</article>
-		</section>
-
-		<section class="content">
-			<h3 class="heading">
-				アップデート情報 2024年9月4日
+				GC 412 <span class="planet">ネヴァロ</span>：
+				<span class="enemy">ならず者</span><br>
+				<span class="bonus-alignment">レジスタンス</span>のボーナス
 				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
 			</h3>
-			<article class="official-forum">
+			<article class="gc">
 				<dl>
-					<dt>ニュース</dt>
-					<dd>グレート・マザーの<a href="https://forums.ea.com/blog/swgoh-game-info-hub-en/kit-reveal---great-mothers/4957524" target="_blank">スキル公開および専用データクロンについて</a></dd>
-					<dd><a href="https://forums.ea.com/blog/swgoh-game-info-hub-en/star-wars-galaxy-of-heroes-community-update/4957530" target="_blank">スターウォーズ銀河の英雄 コミュニティー・アップデート。</a></dd>
-					<dd>コミュニティー・マイルストーン・イベントの報酬が無料ガチャとして利用可能です。</dd>
+					<dt>偉業</dt>
+					<dd>フルチーム：レジスタンス<br>
+					レジスタンスのフルチームでバトルをクリアする
+					</dd>
+					<dd>爪痕を残す<br>
+					攻撃力上昇を20回得てバトルをクリアする
+					</dd>
+					<dd>無防備<br>
+					チームにタンクを使用せずにバトルに勝利する
+					</dd>
 				</dl>
+				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 				<hr>
 				<dl>
-					<dt>修正</dt>
-					<dd>敵チームのソウ・ゲレラのスキル「起爆とラップ設置」は、説明の通りにユニットを戦闘不能にしないよう修正しました。</dd>
-					<dd>ボ＝カターン（マンダロア）の「増援が到着」の説明が修正され、アシストの増加がレベル7ではなくレベル8で発生することが明記されました。</dd>
-					<dd>ダース・ベイダーが「無慈悲な暴力」を使用した際に、ラダス提督に「めまい」効果が発生しないよう修正しました。</dd>
+					<dt>クリア編成</dt>
+					<dd></dd>
 				</dl>
-				<div>
-					<p>
-						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-94/4957527" target="_blank">こちら</a>
-					</p>
-				</div>
 			</article>
 		</section>
 
-		<?php include "history_news/news_2024.html" ?>
+		<section class="content">
+			<h3 class="heading">
+				次回の銀河チャレンジ【予告】
+			</h3>
+			<article class="gc">
+				<dl>
+					<dt>GC 413 <span class="planet">イラム</span>：
+					<span class="enemy">レジスタンス</span><br>
+					<span class="bonus-alignment">ファースト・オーダー</span>のボーナス
+					</dt>
+					<dd>敵情報<br>
+					<ul>
+						<li>フィン</li>
+						<li>ゾリ・ブリス</li>
+						<li>レジスタンスの英雄フィン</li>
+						<li>レジスタンスの英雄ポー</li>
+						<li>ポー・ダメロン</li>
+					</ul>
+					</dd>
+					<dd>偉業<br>
+					<ul>
+						<li>ステルスを10回得てバトルをクリアする</li>
+						<li>チームにタンクを使用せずにバトルに勝利する</li>
+						<li>ファースト・オーダーのフルチームでバトルをクリアする</li>
+					</ul>
+					</dd>
+				</dl>
+				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+			</article>
+		</section>
+
+		<!-- <?php //include "history_gc/gc_2024.html" ?> -->
     
 	</section>
 	<!-- / コンテンツ -->
@@ -160,12 +177,10 @@
 		readmore.addEventListener("click", (e) => {
 			console.log(e.target.closest("section"));
 			e.target.closest("section")
-				.querySelector("article.official-forum")
+				.querySelector("article.gc")
 				.classList.remove("closed");
 		});
 	});
-
-	document.querySelector("#forTop").style.display = 'none';
 </script>
 </body>
 </html>
