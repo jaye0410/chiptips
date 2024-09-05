@@ -15,9 +15,9 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
-	section.content {
-		/* margin-bottom: 40px; */
-	}
+	/* section.content {
+		margin-bottom: 40px;
+	} */
 	h3.heading {
 		margin-bottom: 0 !important;
 	}
