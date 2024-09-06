@@ -3,12 +3,12 @@ require_once __DIR__. "/db_connector.php";
 
 $statusName = $_GET["statusName"];
 $includeShip = $_GET["includeShip"];
-// $where = "status_name = '" . $statusName . "' AND category = 'c'";
-$where = "status_name = ':statusName' AND category = 'c'";
+$where = "status_name = '" . $statusName . "'";
+// $where = "status_name = ':statusName' AND category = 'c'";
 
-// if (!$includeShip) {
-//   $where = $where . " AND category = 'c'";
-// }
+if (!$includeShip) {
+  $where = $where . " AND category = 'c'";
+}
 
 getUnitsApplyEffect($statusName, $where);
 
@@ -22,8 +22,8 @@ function getUnitsApplyEffect($statusName, $where) {
     // $db = connectDB();
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     $stmt = $db->prepare($sql);
-    $stmt->execute([':statusName' => $statusName]);
-    // $stmt->execute();
+    // $stmt->execute([':statusName' => $statusName]);
+    $stmt->execute();
 
     $unitList = array();
 
