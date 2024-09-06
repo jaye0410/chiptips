@@ -17,13 +17,18 @@ const modalManager = {
     closeButton.addEventListener("click", () => this.removeModal(modal));
     h2.appendChild(closeButton);
 
-    fetch("api/unit_apply_effects.php", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        "statusName": statusName,
-        "includeShip": includeShip
-      })
+    const params = {
+      "statusName": statusName,
+      "includeShip": includeShip,
+    };
+    const query = new URLSearchParams(params);
+    fetch("api/unit_apply_effects.php?" + query, {
+      method: "GET",
+      // headers: { "Content-Type": "application/json" },
+      // body: JSON.stringify({
+      //   "statusName": statusName,
+      //   "includeShip": includeShip
+      // })
     })
     .then(response =>  response.text())
     .then(result => {

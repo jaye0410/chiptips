@@ -1,18 +1,18 @@
 <?php
 require_once __DIR__. "/db_connector.php";
 
-$params = json_decode(file_get_contents('php://input'), true);
-$statusName = $params["statusName"];
-$includeShip = $params["includeShip"];
-$where = "status_name = '" . $statusName . "'";
+$statusName = $_GET["statusName"];
+$includeShip = $_GET["includeShip"];
+// $where = "status_name = '" . $statusName . "' AND category = 'c'";
+$where = "status_name = ':statusName' AND category = 'c'";
 
-if (!$includeShip) {
-  $where = $where . " AND category = 'c'";
-}
+// if (!$includeShip) {
+//   $where = $where . " AND category = 'c'";
+// }
 
-getUnitsApplyEffect($statusName, $includeShip, $where);
+getUnitsApplyEffect($statusName, $where);
 
-function getUnitsApplyEffect($statusName, $includeShip, $where) {
+function getUnitsApplyEffect($statusName, $where) {
   $sql = "SELECT * FROM mst_unit_apply_effects";
   $sql .= " WHERE " . $where;
   $sql .= " ORDER BY status_type, unit_name_kana";
@@ -22,7 +22,8 @@ function getUnitsApplyEffect($statusName, $includeShip, $where) {
     // $db = connectDB();
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     $stmt = $db->prepare($sql);
-    $stmt->execute([':statusName' => $statusName, ':includeShip' => $includeShip]);
+    $stmt->execute([':statusName' => $statusName]);
+    // $stmt->execute();
 
     $unitList = array();
 
