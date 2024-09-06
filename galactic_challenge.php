@@ -72,6 +72,7 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
+<p id="last-modified"></p>
     
 <!-- コンテンツ -->
 	<section>
@@ -79,33 +80,36 @@
 		
 		<section class="content">
 			<h3 class="heading">
-				GC 410 <span class="planet">ネヴァロ</span>：
-				<span class="enemy">ならず者</span><br>
-				<span class="bonus-alignment">レジスタンス</span>のボーナス
+				GC 410 <span class="planet">ジオノーシス</span>：
+				<span class="enemy">分離主義者</span><br>
+				<span class="bonus-alignment">ジャワ</span>のボーナス
 				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
 			</h3>
 			<article class="gc">
 				<dl>
 					<dt>偉業</dt>
-					<dd>フルチーム：レジスタンス<br>
-					レジスタンスのフルチームでバトルをクリアする
+					<dd>フルチーム：ジャワ<br>
+					ジャワのフルチームでバトルをクリアする
 					</dd>
-					<dd>爪痕を残す<br>
-					攻撃力上昇を20回得てバトルをクリアする
+					<dd>しびれる戦術<br>
+					30回スタンさせてバトルをクリアする
 					</dd>
-					<dd>無防備<br>
-					チームにタンクを使用せずにバトルに勝利する
+					<dd>サーマル・デトネーターを持ってるぞ！<br>
+					サーマル・デトネーターを40回発生させてバトルをクリアする
 					</dd>
 				</dl>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 				<hr>
 				<dl>
 					<dt>クリア編成</dt>
-					<dd>フルチーム：レジスタンス<br>
-					GLレイL、JTR、BB-8、R2-D2、ホルド
+					<dd>フルチーム：ジャワ<br>
+					これから挑戦しますので、しばしお待ちください。
 					</dd>
-					<dd>爪痕を残す / 無防備<br>
-					JMK、アソーカ（コマンダー）、シャアク・ティー、パドメ、マスター・クワイ=ガン
+					<dd>しびれる戦術<br>
+					これから挑戦しますので、しばしお待ちください。
+					</dd>
+					<dd>サーマル・デトネーターを持ってるぞ！<br>
+					これから挑戦しますので、しばしお待ちください。
 					</dd>
 				</dl>
 			</article>
@@ -252,6 +256,10 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	const lm = getLastModified();
+	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
+	document.querySelector("#last-modified").textContent = str;
 
 	const readmoreList = document.querySelectorAll("p.readmore");
 

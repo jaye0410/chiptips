@@ -51,6 +51,7 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
+<p id="last-modified" style="margin-bottom:5px;"></p>
     
 <!-- コンテンツ -->
 	<section id="status-effects">
@@ -133,6 +134,10 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+  const lm = getLastModified();
+	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
+	document.querySelector("#last-modified").textContent = str;
   
   const STATUS_TYPES = ["DEBUFF", "BUFF", "OTHERS"];
 

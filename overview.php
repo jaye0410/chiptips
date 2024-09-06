@@ -34,6 +34,7 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
+<p id="last-modified"></p>
     
 <!-- コンテンツ -->
 	<section id="main">
@@ -189,6 +190,10 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	const lm = getLastModified();
+	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
+	document.querySelector("#last-modified").textContent = str;
 </script>
 </body>
 </html>

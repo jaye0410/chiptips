@@ -48,9 +48,11 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
+<p id="last-modified"></p>
     
 <!-- コンテンツ -->
-	<section id="main">
+	<section>
+	<!-- <section id="main"> -->
 		<section class="content">
 			<h3 class="heading">オリジナルDiscord Bot</h3>
 			<article>
@@ -205,7 +207,7 @@
 	</section>
 	<!-- / コンテンツ -->
 
-	<aside id="sub">
+	<!-- <aside id="sub">
     <section class="grid">
 			<h3>ホームページサンプル</h3>
 			<ul>
@@ -254,7 +256,7 @@
 			</ul>
     </section>
     
-	</aside>
+	</aside> -->
 
 </div>
 <!-- / WRAPPER -->
@@ -269,6 +271,10 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+
+	const lm = getLastModified();
+	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
+	document.querySelector("#last-modified").textContent = str;
 </script>
 </body>
 </html>

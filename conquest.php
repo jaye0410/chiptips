@@ -36,6 +36,7 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
+<p id="last-modified" style="margin-bottom:5px;"></p>
     
 <!-- コンテンツ -->
 	<section id="conquest"><!-- aside入れる際は id="main"に -->
@@ -266,53 +267,7 @@
 					<li>ルーセン・レイエルを生存させた状態で勝利する</li>
 					<li>グンガンのフルチームで勝利する</li>
 				</ol><br>
-			</div>
-					
-			<script>
-				const divsObj = {
-					"global-tab": "global-feats",
-					"sec1-tab": "sec1-feats",
-					"sec2-tab": "sec2-feats",
-					"sec3-tab": "sec3-feats",
-					"sec4-tab": "sec4-feats",
-					"sec5-tab": "sec5-feats",
-				}
-				const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
-				tabs.forEach(function(tab) {
-					tab.addEventListener("click", function() {
-						toggleDisplay(tab.id);
-					})
-				});
-				
-				function toggleDisplay(tabId) {
-					const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
-					tabs.forEach(function(tab) {
-						if (tab.id == tabId) {
-							document.querySelector("#" + tab.id).style.fontWeight = "bolder";
-							document.querySelector("#" + tab.id).style.backgroundColor = "#98c457";
-							document.querySelector("#" + tab.id).style.color = "black";
-						} else {
-							document.querySelector("#" + tab.id).style.fontWeight = "normal";
-							document.querySelector("#" + tab.id).style.backgroundColor = "#2b5f2a";
-							document.querySelector("#" + tab.id).style.color = "white";
-						}
-					});
-					
-					const divs = document.querySelectorAll(".targetDiv");
-					for (let key in divsObj) {
-						const divId = divsObj[tabId];
-						
-						divs.forEach(function(div) {
-							if (div.id == divId) {
-								div.style.display = "block";
-							} else {
-								div.style.display = "none";
-							}
-						});
-						
-					}
-				}
-			</script>			
+			</div>			
 		</section>
     
 	</section>
@@ -333,12 +288,61 @@
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
 
+	const lm = getLastModified();
+	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
+	document.querySelector("#last-modified").textContent = str;
+
 	const modalButtons = document.querySelectorAll(".status-detail-button");
 	modalButtons.forEach(function(button) {
 		button.addEventListener("click", function(e) {
 			modalManager.setupModal(button.textContent, false);
 		});
 	});
+</script>
+<script>
+	const divsObj = {
+		"global-tab": "global-feats",
+		"sec1-tab": "sec1-feats",
+		"sec2-tab": "sec2-feats",
+		"sec3-tab": "sec3-feats",
+		"sec4-tab": "sec4-feats",
+		"sec5-tab": "sec5-feats",
+	}
+	const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
+	tabs.forEach(function(tab) {
+		tab.addEventListener("click", function() {
+			toggleDisplay(tab.id);
+		})
+	});
+	
+	function toggleDisplay(tabId) {
+		const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
+		tabs.forEach(function(tab) {
+			if (tab.id == tabId) {
+				document.querySelector("#" + tab.id).style.fontWeight = "bolder";
+				document.querySelector("#" + tab.id).style.backgroundColor = "#98c457";
+				document.querySelector("#" + tab.id).style.color = "black";
+			} else {
+				document.querySelector("#" + tab.id).style.fontWeight = "normal";
+				document.querySelector("#" + tab.id).style.backgroundColor = "#2b5f2a";
+				document.querySelector("#" + tab.id).style.color = "white";
+			}
+		});
+		
+		const divs = document.querySelectorAll(".targetDiv");
+		for (let key in divsObj) {
+			const divId = divsObj[tabId];
+			
+			divs.forEach(function(div) {
+				if (div.id == divId) {
+					div.style.display = "block";
+				} else {
+					div.style.display = "none";
+				}
+			});
+			
+		}
+	}
 </script>
 </body>
 </html>
