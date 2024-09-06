@@ -35,7 +35,6 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
-	<p id="last-modified"></p>
 
 	<section class="gridWrapper" id="sub">
 		<article class="grid col2">
@@ -118,10 +117,6 @@
 	const page = window.location.pathname.split("/").pop();
 	if (page == "index.php") { page = "" }
 	changeActivePage(page);
-	
-	const lm = getLastModified();
-	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
-	document.querySelector("#last-modified").textContent = str;
 
 	loadLede("official_news.php", "#official-news-lede");
 	loadLede("basic_info.php", "#basic-info-lede");

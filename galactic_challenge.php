@@ -72,7 +72,6 @@
 <!-- / メイン画像 -->
 
 <div id="wrapper">
-<p id="last-modified"></p>
     
 <!-- コンテンツ -->
 	<section>
@@ -256,10 +255,6 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
-
-	const lm = getLastModified();
-	const str = `Last Update: ${lm["year"]}/${lm["month"]}/${lm["date"]} (${lm["day"]})`;
-	document.querySelector("#last-modified").textContent = str;
 
 	const readmoreList = document.querySelectorAll("p.readmore");
 
