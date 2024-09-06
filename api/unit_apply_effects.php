@@ -2,7 +2,7 @@
 require_once __DIR__. "/db_connector.php";
 
 $statusName = $_GET["statusName"];
-$includeShip = $_GET["includeShip"];
+$includeShip = filter_var($_GET["includeShip"], FILTER_VALIDATE_BOOLEAN);
 $where = "status_name = '" . $statusName . "'";
 // $where = "status_name = ':statusName' AND category = 'c'";
 
