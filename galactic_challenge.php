@@ -26,27 +26,11 @@
 		text-decoration: underline;
 		font-size: 14px;
 	}
-	/* .official-forum {
-		margin-top: 0;
-		width: 100%;
-		background-color: #f7f7f7;
-		padding-top: 10px;
-	}
-	.official-forum div {
-		padding: 15px;
-	} */
 	article.closed {
 		display: none;
 	}
-	/* .lede ul {
-		list-style-type: disc;
-		margin-left: 30px;
-		margin-bottom: 10px;
-	} */
 	dl {
 		background: rgba(255, 255, 255, 0.5) !important;
-		/* background-color: #f7f7f7; */
-		/*border-bottom: 1px solid black;*/
 		padding: 5px;
 	}
 	dt {
@@ -95,7 +79,7 @@
 		
 		<section class="content">
 			<h3 class="heading">
-				GC 412 <span class="planet">ネヴァロ</span>：
+				GC 410 <span class="planet">ネヴァロ</span>：
 				<span class="enemy">ならず者</span><br>
 				<span class="bonus-alignment">レジスタンス</span>のボーナス
 				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
@@ -117,8 +101,75 @@
 				<hr>
 				<dl>
 					<dt>クリア編成</dt>
-					<dd></dd>
+					<dd>フルチーム：レジスタンス<br>
+					GLレイL、JTR、BB-8、R2-D2、ホルド
+					</dd>
+					<dd>爪痕を残す / 無防備<br>
+					JMK、アソーカ（コマンダー）、シャアク・ティー、パドメ、マスター・クワイ=ガン
+					</dd>
 				</dl>
+			</article>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+				次回の銀河チャレンジ【予告】
+			</h3>
+			<article class="gc">
+				<dl>
+					<dt>GC 411 <span class="planet">キャッシーク</span>：
+					<span class="enemy">クローン</span><br>
+					<span class="bonus-alignment">帝国軍トルーパー</span>のボーナス
+					</dt>
+					<dd>敵情報<br>
+					<ul>
+						<li>ARCトルーパー</li>
+						<li>キャプテン・レックス</li>
+						<li>CT-21-0408 エコー</li>
+						<li>CT-7567 レックス</li>
+						<li>CT-5555 ファイブス</li>
+					</ul>
+					</dd>
+					<dd>偉業<br>
+					<ul>
+						<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
+						<li>危険予測：フルチームではない編成でバトルをクリアする</li>
+						<li>フルチーム：帝国軍トルーパーのフルチームでバトルをクリアする</li>
+					</ul>
+					</dd>
+				</dl>
+				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+			</article>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+				次回の銀河チャレンジ【予告】
+			</h3>
+			<article class="gc">
+				<dl>
+					<dt>GC 412 <span class="planet">カミーノ</span>：
+					<span class="enemy">銀河共和国</span><br>
+					<span class="bonus-alignment">反乱軍ファイター</span>のボーナス
+					</dt>
+					<dd>敵情報<br>
+					<ul>
+						<li>パドメ・アミダラ</li>
+						<li>ケノービ将軍</li>
+						<li>R2-D2</li>
+						<li>ジェダイ・ナイト・アナキン</li>
+						<li>アソーカ・タノ（お調子者）</li>
+					</ul>
+					</dd>
+					<dd>偉業<br>
+					<ul>
+						<li>Lingering Death：時間経過ダメージを30回発生させてバトルをクリアする</li>
+						<li>Hindered Movement：ターンメーターを400%減少させてバトルに勝利する</li>
+						<li>フルチーム：反乱軍ファイターのフルチームでバトルをクリアする</li>
+					</ul>
+					</dd>
+				</dl>
+				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
 
@@ -143,9 +194,40 @@
 					</dd>
 					<dd>偉業<br>
 					<ul>
-						<li>ステルスを10回得てバトルをクリアする</li>
-						<li>チームにタンクを使用せずにバトルに勝利する</li>
-						<li>ファースト・オーダーのフルチームでバトルをクリアする</li>
+						<li>Shadowy Dealings：ステルスを10回得てバトルをクリアする</li>
+						<li>無防備：チームにタンクを使用せずにバトルに勝利する</li>
+						<li>フルチーム：ファースト・オーダーのフルチームでバトルをクリアする</li>
+					</ul>
+					</dd>
+				</dl>
+				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+			</article>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+				次回の銀河チャレンジ【予告】
+			</h3>
+			<article class="gc">
+				<dl>
+					<dt>GC 414 <span class="planet">ダソミア</span>：
+					<span class="enemy">ドロイド</span><br>
+					<span class="bonus-alignment">シス</span>のボーナス
+					</dt>
+					<dd>敵情報<br>
+					<ul>
+						<li>グリーヴァス将軍</li>
+						<li>IG-100マグナガード</li>
+						<li>B2スーパー・バトル・ドロイド</li>
+						<li>STAP</li>
+						<li>B1バトル・ドロイド</li>
+					</ul>
+					</dd>
+					<dd>偉業<br>
+					<ul>
+						<li>シンプルトリック：特殊スキルの使用3回以内でバトルに勝利する</li>
+						<li>バランス戦略：チームにライトサイド、ダークサイドユニットを1体ずつ入れ、いずれも生存した状態でバトルに勝利する</li>
+						<li>フルチーム：シスのフルチームでバトルをクリアする</li>
 					</ul>
 					</dd>
 				</dl>

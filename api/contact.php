@@ -28,6 +28,7 @@ try {
 
   // // PDOインスタンス作成
   // $db = new PDO($dsn, $user, $password);
+  $db = getDB();
   $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
   // プリペアドステートメント作成
   $stmt = $db->prepare("

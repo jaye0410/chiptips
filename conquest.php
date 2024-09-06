@@ -62,217 +62,209 @@
 				<div><img style="vertical-align:text-bottom;" src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
 				<p>黄金のチャレンジパスで敵を250体倒す</p>
 
-				<h3 class="heading">自分で決断することを学べ</h3>
+				<h3 class="heading">連続ブロー</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>キャプテン・レックスが生存した状態で15回勝利する</p>
+				<p><button type="button" class="status-detail-button">よろめき</button>
+				の効果を100回発生させる</p>
 
-				<h3 class="heading">続く道</h3>
+				<h3 class="heading">ダソミアの魔女</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>ジェダイ・ナイト・カルで敵を35体倒す</p>
+				<p>ナイト・シスターのフルチームでバトルに20回以上勝利する</p>
 
-				<h3 class="heading">上には上</h3>
+				<h3 class="heading">真の帝国</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>マスターQGJ（クワイ＝ガン・ジン）とオビ＝ワン（パダワン）が生存した状態で15回勝利する</p>
+				<p>インペリアル・レムナントのフルチームでバトルに20回勝利する</p>
+
+				<h3 class="heading">本能に従え</h3>
+				<div><img src="images/keycard.png" alt="征服キーカード"><span>x1</span>
+				<img src="images/data_disk.png" alt="征服データディスク"><span>展開式冷却システム</span></div>
+				<p>マスター・クワイ＝ガンが生存した状態で15回勝利する</p>
 
 				<h3 class="heading">こりゃダメだ！</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x1</span>
-				<img src="images/data_disk.png" alt="征服データディスク"><span>準備万端</span></div>
+				<img src="images/data_disk.png" alt="征服データディスク"><span>圧倒的パワー</span></div>
 				<p>チームに4体以上のグンガンを入れて15回勝利する</p>
 				<p>※「生存している」ことは条件になっていないので、SEEにグンガン4体入れてクリアしました。</p>
 
-				<h3 class="heading">成功にまぐれなどない</h3>
+				<h3 class="heading">無限のパワー</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>チームに4体以上のグンガンを入れて15回勝利する</p>
-				<p>準備万端IのDDは「こりゃダメだ！」の偉業クリアか征服パス購入で入手可能</p>
+				<p>「圧倒的パワー」のデータディスク効果で「圧倒的パワー」を20回得る</p>
+				<p>圧倒的パワーのDDは「こりゃダメだ！」の偉業クリアか征服パス購入で入手可能</p>
 
-				<h3 class="heading">後に続け</h3>
+				<h3 class="heading">制御することを学ばねば</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>「ブーミング・ボイス」のデータディスク効果で60回アシストを発生させる</p>
-				<p>ブーミング・ボイスのDDは「全てわかっている」の偉業クリアか征服パス購入で入手可能</p>
-
-				<h3 class="heading">全てわかっている</h3>
-				<div><img src="images/keycard.png" alt="征服キーカード"><span>x1</span>
-				<img src="images/data_disk.png" alt="征服データディスク"><span>ブーミングボイス</span></div>
-				<p>モフ・ギデオン（ダーク・トルーパー）で敵を35体倒す</p>
-
-				<h3 class="heading">王族の到着</h3>
-				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15</span></div>
-				<p>ドゥークー伯爵、プリンセス・ニーサ、レイア姫、アミダラ女王、ロイヤル・ガードをチームに入れて3回勝利する<br>
-					※「生存している」ことは条件になっていない！</p>
+				<p>「展開式冷却システム」を使ってバトルをクリアする</p>
+				<p>展開式冷却システムのDDは「本能に従え」の偉業クリアか征服パス購入で入手可能</p>
 			</div>
 				
 			<div id="sec1-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">回避行動</h3>
+				<h3 class="heading">消極的アプローチ</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>「回避力上昇」の効果を50回発生させる</p>
-				<p>
-					<button type="button" class="status-detail-button" name="回避力上昇">付与できるユニットを確認</button>
-				</p>
+				<p><button type="button" class="status-detail-button">抵抗力低下</button>
+				の効果を50回発生させる</p>
 
-				<h3 class="heading">今や我々がレジスタンスだ</h3>
+				<h3 class="heading">無尽蔵の軍隊</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>レジスタンスのフルチームでバトルに10回勝利する</p>
+				<p><button type="button" class="status-detail-button">減衰</button>
+				を50回得る</p>
 
-				<h3 class="heading">一緒の方が強い</h3>
+				<h3 class="heading">闇魔術</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>ライトサイドのマンダロリアンで敵を35体倒す</p>
+				<p>モーガン・エルズベスが生存した状態で15回勝利する</p>
 
-				<h3 class="heading">可愛いのは見た目だけ</h3>
+				<h3 class="heading">これでも食らえ！</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>イウォークで敵を35体倒す</p>
+				<p>グンガンで敵を35体倒す</p>
 
-				<h3 class="heading">ミニボス：シア・ジュンダ</h3>
+				<h3 class="heading">ミニボス：ジャワ</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x7<br></span></div>
 				<ol>
-					<li>スカウト・トルーパーで敵を1体倒す</li>
+					<li>ジオノージアンのフルチームでバトルに勝利する</li>
 					<li>ライトサイドのみのチームで勝利する</li>
 				</ol><br>
 
-				<h3 class="heading">ラスボス：ダース・ベイダー</h3>
+				<h3 class="heading">ラスボス：ダース・マルガス</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x9<br></span></div>
 				<ol>
-					<li>スローン大提督を生存させた状態で勝利する</li>
-					<li>帝国軍のユニットを使用せず勝利する</li>
+					<li>グンガン・ブーマディアを生存させた状態で勝利する</li>
+					<li>アミダラ女王で敵を1体倒す</li>
 				</ol><br>
 			</div>
 				
 			<div id="sec2-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">反乱軍アサルト</h3>
+				<h3 class="heading">不意打ち</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>反乱軍ファイターで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">ボーナスターン</button>
+				を50回得る</p>
 
-				<h3 class="heading">無力化攻撃</h3>
+				<h3 class="heading">カロダンの監督官</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>「有効性低下」効果を50回発生させる</p>
-				<p>
-					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
-				</p>
+				<p>モーガン・エルズベスで敵を35体倒す</p>
 
-				<h3 class="heading">無尽蔵の軍隊</h3>
+				<h3 class="heading">警戒中</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>帝国軍トルーパーで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">警戒</button>
+				を20回得る</p>
 
-				<h3 class="heading">全てナイトシスター</h3>
+				<h3 class="heading">ハイパーラプチャー</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x5<br></span></div>
-				<p>ナイトシスターのフルチームでバトルに10回勝利する</p>
+				<p><button type="button" class="status-detail-button">破損</button>
+				を50回発生させる</p>
 
-				<h3 class="heading">ミニボス：セクター2</h3>
+				<h3 class="heading">ミニボス：ハックス将軍</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x7<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>デス・トルーパー（ペリディア）を生存させた状態で勝利する</li>
+					<li>二人のクワイ=ガンをチームに入れて勝利する</li>
 				</ol><br>
 
-				<h3 class="heading">ラスボス：セクター2</h3>
+				<h3 class="heading">ラスボス：アイデン・ヴェルシオ</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x9<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>キャプテン・ターパルスで敵を1体倒す</li>
+					<li>ダークサイドのみのチームで勝利する</li>
 				</ol><br>
 			</div>
 				
 			<div id="sec3-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">セクター3</h3>
+				<h3 class="heading">回避行動</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>反乱軍ファイターで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">回避力上昇</button>
+				を50回得る</p>
 
-				<h3 class="heading">セクター3</h3>
+				<h3 class="heading">闇の魔術</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>「有効性低下」効果を50回発生させる</p>
-				<p>
-					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
-				</p>
+				<p>ナイトシスター・アコライトを生存させてバトルに15回勝利する</p>
 
-				<h3 class="heading">セクター3</h3>
+				<h3 class="heading">ブルードの戦い</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>帝国軍トルーパーで敵を35体倒す</p>
+				<p>ジオノージアンのフルチームでバトルに15回勝利する</p>
 
-				<h3 class="heading">セクター3</h3>
+				<h3 class="heading">シールド用意</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>ナイトシスターのフルチームでバトルに10回勝利する</p>
+				<p><button type="button" class="status-detail-button">仕返し</button>
+				を15回得る</p>
 
-				<h3 class="heading">ミニボス：セクター3</h3>
+				<h3 class="heading">ミニボス：ラダス提督</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x7<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>モーガン・エルズベスを生存させた状態で勝利する</li>
+					<li>キャプテン・イノックをチームに入れて勝利する</li>
 				</ol><br>
 
-				<h3 class="heading">ラスボス：セクター3</h3>
+				<h3 class="heading">ラスボス：キャプテン・イノック</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x11<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>アミダラ女王を生存させた状態で勝利する</li>
+					<li>サポートユニットを使用せず勝利する</li>
 				</ol><br>
 			</div>
 				
 			<div id="sec4-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">セクター4</h3>
+				<h3 class="heading">抵抗力上昇</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>反乱軍ファイターで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">抵抗力上昇</button>
+				を50回得る</p>
 
-				<h3 class="heading">セクター4</h3>
+				<h3 class="heading">カレラン・ベク</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>「有効性低下」効果を50回発生させる</p>
-				<p>
-					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
-				</p>
+				<p>チームにカレラン・ベクを入れて15回勝利する</p>
 
-				<h3 class="heading">セクター4</h3>
+				<h3 class="heading">衰退</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>帝国軍トルーパーで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">衰退</button>
+				を50回発生させる</p>
 
-				<h3 class="heading">セクター4</h3>
+				<h3 class="heading">ナイトシスター</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
-				<p>ナイトシスターのフルチームでバトルに10回勝利する</p>
+				<p>ナイトシスターのユニットで敵を30体倒す</p>
 
-				<h3 class="heading">ミニボス：セクター4</h3>
+				<h3 class="heading">ミニボス：タスケン</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x9<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>ジャー・ジャー・ビンクスを生存させた状態で勝利する</li>
+					<li>銀河共和国のフルチームで勝利する</li>
 				</ol><br>
 
-				<h3 class="heading">ラスボス：セクター4</h3>
+				<h3 class="heading">ラスボス：ダッシュ・レンダー</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x11<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>モフ・ギデオン（ダーク・トルーパー）を生存させた状態で勝利する</li>
+					<li>帝国軍を使用せず勝利する</li>
 				</ol><br>
 			</div>
 				
 			<div id="sec5-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">セクター5</h3>
+				<h3 class="heading">精度上昇</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
-				<p>反乱軍ファイターで敵を35体倒す</p>
+				<p><button type="button" class="status-detail-button">精度上昇</button>
+				を50回得る</p>
 
-				<h3 class="heading">セクター5</h3>
+				<h3 class="heading">感染</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
-				<p>「有効性低下」効果を50回発生させる</p>
-				<p>
-					<button type="button" class="status-detail-button" name="有効性低下">付与できるユニットを確認</button>
-				</p>
+				<p><button type="button" class="status-detail-button">感染</button>
+				を100回発生させる</p>
 
-				<h3 class="heading">セクター5</h3>
+				<h3 class="heading">デス・トルーパー（ペリディア）</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
-				<p>帝国軍トルーパーで敵を35体倒す</p>
+				<p>デス・トルーパー（ペリディア）で敵を25体倒す</p>
 
-				<h3 class="heading">セクター5</h3>
+				<h3 class="heading">ジオスパイ</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
-				<p>ナイトシスターのフルチームでバトルに10回勝利する</p>
+				<p>ジオノージアン・スパイが生存した状態で15回勝利する</p>
 
-				<h3 class="heading">ミニボス：セクター5</h3>
+				<h3 class="heading">ミニボス：スカイウォーカー将軍</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x9<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>オビ＝ワン（パダワン）で敵を1体倒す</li>
+					<li>銀河共和国を使用せず勝利する</li>
 				</ol><br>
 
-				<h3 class="heading">ラスボス：セクター5</h3>
+				<h3 class="heading">ラスボス：ジェダイ・ナイトレヴァン</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x12<br></span></div>
 				<ol>
-					<li>偉業1</li>
-					<li>偉業2</li>
+					<li>ルーセン・レイエルを生存させた状態で勝利する</li>
+					<li>グンガンのフルチームで勝利する</li>
 				</ol><br>
 			</div>
 					
@@ -344,7 +336,7 @@
 	const modalButtons = document.querySelectorAll(".status-detail-button");
 	modalButtons.forEach(function(button) {
 		button.addEventListener("click", function(e) {
-			modalManager.setupModal(button.getAttribute("name"), false);
+			modalManager.setupModal(button.textContent, false);
 		});
 	});
 </script>

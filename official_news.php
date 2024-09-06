@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - ニュース・更新情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -15,9 +15,6 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
-	/* section.content {
-		margin-bottom: 40px;
-	} */
 	h3.heading {
 		margin-bottom: 0 !important;
 	}
@@ -81,7 +78,7 @@
     <div class="slogan">
 			<h2>SWGoH ニュース</h2>
 			<h3>
-				公式フォーラムの和訳および当サイトの更新情報</h3>
+				公式フォーラムのニュース和訳および当サイトの更新情報</h3>
 		</div>
 	</div>
 </div>
