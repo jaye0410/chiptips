@@ -19,7 +19,7 @@ function getDb() {
   global $db;
   if ($db == null) {
     $db = new PDO($dsn, $user, $password);
-    // $db = new PDO("mysql:host=mysql308.phy.lolipop.lan:3306;dbname=LAA1619514-swgoh;charset=utf8", "LAA1619514", "tmlvhlwn26");
+    // 本番環境用はGitに上げない
   }
   
   return $db;
