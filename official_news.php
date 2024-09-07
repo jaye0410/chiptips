@@ -101,7 +101,8 @@
 <!-- コンテンツ -->
 	<section>
 	<!-- <section id="main"> -->
-		<section class="content">
+		<!-- トップページの冒頭用セクションはページ内で非表示にする -->
+		<section class="content" style="height:0px">
 			<h3 class="heading">
 				最新ニュース
 			</h3>
