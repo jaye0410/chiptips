@@ -24,6 +24,11 @@
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
+<style>
+	.status-detail-button {
+		font-size: 14px;
+	}
+</style>
 </head>
 <body>
 <!-- ヘッダー -->
