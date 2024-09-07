@@ -41,10 +41,13 @@
 	.official-forum div {
 		padding: 15px;
 	}
+	.official-forum p {
+		padding-left: 10px;
+	}
 	article.closed {
 		display: none;
 	}
-	.lede ul {
+	.lede ul, .official-forum ul {
 		list-style-type: disc;
 		margin-left: 30px;
 		margin-bottom: 10px;
@@ -110,33 +113,37 @@
 					<li>当サイトの更新情報</li>
 					<li>その他のお知らせ</li>
 				</ul>
-				<p>現在の最新ニュースは、公式フォーラムからのゲームアップデート情報です。</p>
+				<p>現在の最新ニュースは、公式フォーラムからの問題調査情報です。</p>
 				<p id="forTop">ぜひ ↓ のリンクから詳細を確認してみてください。</p>
 			</article>
 		</section>
 
 		<section class="content">
 			<h3 class="heading">
-				アップデート情報 2024年9月4日
+				調査中：オートバトルボタンの問題について 2024年9月4日
 				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
 			</h3>
 			<article class="official-forum">
-				<dl>
-					<dt>ニュース</dt>
-					<dd>グレート・マザーの<a href="https://forums.ea.com/blog/swgoh-game-info-hub-en/kit-reveal---great-mothers/4957524" target="_blank">スキル公開および専用データクロンについて</a></dd>
-					<dd><a href="https://forums.ea.com/blog/swgoh-game-info-hub-en/star-wars-galaxy-of-heroes-community-update/4957530" target="_blank">スターウォーズ銀河の英雄 コミュニティー・アップデート。</a></dd>
-					<dd>コミュニティー・マイルストーン・イベントの報酬が無料ガチャとして利用可能です。</dd>
-				</dl>
-				<hr>
+				<p>バトルUIで「オートバトル選択」ボタンが重なる問題の解決策を調査中です。</p>
+				<p>プレイヤーは現在、以下の方法でこの問題を回避できます。</p>
+				
+				<ul>
+					<li>モバイルデバイスの場合：<br>
+					オプション（歯車アイコン）→ オートバトル → 使用したいカスタマイズ設定を選択。</li>
+					<li>PCの場合：<br>
+					上記の方法に加え、 ホットキーを使用して「選択」オプションを使用 - 全てのアビリティには「C」、基本アビリティのみには「V」</li>
+				</ul>
+				<p>この問題は次回のアップデートで解決される予定です。</p>
+				<!-- <hr>
 				<dl>
 					<dt>修正</dt>
 					<dd>敵チームのソウ・ゲレラのスキル「起爆とラップ設置」は、説明の通りにユニットを戦闘不能にしないよう修正しました。</dd>
 					<dd>ボ＝カターン（マンダロア）の「増援が到着」の説明が修正され、アシストの増加がレベル7ではなくレベル8で発生することが明記されました。</dd>
 					<dd>ダース・ベイダーが「無慈悲な暴力」を使用した際に、ラダス提督に「めまい」効果が発生しないよう修正しました。</dd>
-				</dl>
+				</dl> -->
 				<div>
 					<p>
-						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-94/4957527" target="_blank">こちら</a>
+						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/investigating-auto-battle-button-issue/4960935" target="_blank">こちら</a>
 					</p>
 				</div>
 			</article>
