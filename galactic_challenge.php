@@ -21,14 +21,6 @@
 	h3.heading {
 		margin-bottom: 0 !important;
 	}
-	h3.heading p.readmore {
-		cursor: pointer;
-		text-decoration: underline;
-		font-size: 14px;
-	}
-	article.closed {
-		display: none;
-	}
 	dl {
 		background: rgba(255, 255, 255, 0.5) !important;
 		padding: 5px;
