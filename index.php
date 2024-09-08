@@ -85,23 +85,25 @@
 
 	<!-- 4カラム -->
   <section class="gridWrapper">
+	<article class="grid colLight">
+			<h3>テリトリー・バトル</h3>
+			<p>テリトリーバトル「帝国の台頭」各フェーズでのバトル動画を紹介するページです。</p>
+			<p>獲得ポイントの高いシップ戦、通貨やレアユニットのかけらがもらえるミッションを優先しています。</p>
+			<p class="readmore"><a href="territory_battle.php">&raquo; 詳細を確認する</a></p>
+		</article>
+
 		<article class="grid colDark">
 			<h3>ユニット解除イベント</h3>
 			<p>Coming soon!<br>
 			各種イベントで取得できるユニット情報、クリア動画などを掲載するページです。</p>
 			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
-		<article class="grid colLight">
-			<h3>テリトリー・バトル</h3>
-			<p>Coming soon!<br>
-			テリトリーバトルの各フェーズでのバトル動画を紹介するページです。</p>
-			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
-		</article>
+		
 		<article class="grid colDark">
       <h3>レイド - ナブーの戦い</h3>
 			<p>Coming soon!<br>
 			レイド「ナブーの戦い」で使用する編成、スコアを紹介するページです。</p>
-			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
+			<!-- <p class="readmore"><a href="territory_battle.php">&raquo; 詳細を確認する</a></p> -->
 		</article>
     <article class="grid colLight">
 			<h3>スターウォーズ</h3>

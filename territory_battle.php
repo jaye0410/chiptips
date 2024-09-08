@@ -20,10 +20,14 @@
 	display: flex;
 }
 .targetDiv ul {
-		list-style-type: disc;
-		margin-left: 30px;
-		margin-bottom: 10px;
-	}
+	list-style-type: disc;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.targetDiv strong {
+	font-weight: bold;
+	color: #ff7f50;
+}
 .youtube iframe{
   /* position: absolute;
   top: 0;
@@ -91,11 +95,11 @@
 
 			<div id="p1-div" class="targetDiv">
 				<h3 class="heading">フェーズ 1</h3>
-				<h4><img src="images/dark_icon.png" width="22px" alt=""><p>ダークサイド（ムスタファー）</p></h4>
+				<h4><img src="images/dark_icon.png" width="22px" alt=""><p>ダーク：ムスタファー</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="5l1cl1djn_8" src="https://www.youtube.com/embed/5l1cl1djn_8"></iframe>
 				</div>
-				<p>エグゼキュートリクス (ターキンR3、ゼータなし) 旗艦の帝国軍艦隊で（間一髪）クリアしている動画です。</p>
+				<p>エグゼキュートリクス (ターキン:R3、ゼータなし) 旗艦の帝国軍艦隊で（間一髪）クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
 						TIEアドバンスト(ベイダー:R7)、サイス (大尋問官、フィフスともにR7)、TIEファイター (TIEパイロット:R5)
@@ -110,11 +114,11 @@
 
 			<div id="p2-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 2</h3>
-				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（フェルーシア）</p></h4>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：フェルーシア</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="l8aP1iqr-ik" src="https://www.youtube.com/embed/l8aP1iqr-ik"></iframe>
 				</div>
-				<p>マレヴォランス (グリーヴァス将軍R7) 旗艦で、この回はかなり苦戦していますが、クリアしている動画です。</p>
+				<p>マレヴォランス (グリーヴァス将軍:R7) 旗艦で、この回はかなり苦戦していますが、クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
 					サンファクのスターファイター (サンファク:R2)、ジオスパイのスターファイター (スパイ:R5)、ジオ兵士のスターファイター (ジオ兵士:G12)
@@ -128,11 +132,11 @@
 
 			<div id="p3-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 3</h3>
-				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（タトゥイーン）</p></h4>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
 				</div>
-				<p>エグゼクター (ピエットR8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
+				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
 				<ul>
 					<li>先発：<br>
 					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、ザナドゥ・ブラッド (C.ベイン:R5)
@@ -142,23 +146,63 @@
 						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
 					</li>
 				</ul>
+
+				<hr>
+
+				<h4><img src="images/mix_icon.png" width="22px" height="22px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jCkTlILk1Vc" src="https://www.youtube.com/embed/jCkTlILk1Vc"></iframe>
+				</div>
+				<p>
+					サード・シスターのかけらを取得できるスペシャルミッション。<br>
+					編成はサード・シスター抜きの尋問官チームです。
+				</p>
+				<p>■ このミッションの参加条件は次のとおりです。</p>
+				<ul>
+					<li>メンバーは全員が尋問官で、大尋問官が必須</li>
+					<li>全員のレリックレベルが7以上であること</li>
+				</ul>
+
+				<p>■ 続いて、戦術の大枠は次の通りです。</p>
+				<ol>
+					<li>7thの特殊「ID9電気ショックプロッド」でネビットのターンメーターを下げつつ粛正を付与</li>
+					<li>粛正が6溜まるまでは全体攻撃は控えめに</li>
+					<li>大尋問官の特殊スキル「死ぬがいい」で全体に抵抗力上昇を付与</li>
+					<li>スカベンジャーを優先で倒せれば尚良し</li>
+					<li>時間経過ダメージが8以上付与されたら大尋問官の「怯えるのも当然だ」で回復</li>
+				</ol>
+
+				<p>■ 最後に、モッド・ビルディングのポイントです。</p>
+				<ul>
+					<li><strong>HPを増やさず</strong>、とにかく<strong>プロテクションを盛る</strong><br>
+						※ HPを増やさない方が良い理由は、ジャワが付与してくる爆弾ダメージがHP割合だからです。
+					</li>
+					<li><strong>行動順序が非常に重要</strong>で、以下の順に動けるようスピードを調整する<br>
+						7th → 5th → 8th → 大尋問官 → 8th
+					</li>
+					<li><strong>スピードを280～330の範囲で調整</strong>する（※ナインス以外）<br>
+						※ この条件でモッドを調整以降、私の勝率は100%です。
+					</li>
+				</ul>
 			</div>
 
 			<div id="p4-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 4</h3>
-				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（ケッセル）</p></h4>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：ケッセル</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
 				</div>
 				<p>
-				エグゼクター (ピエットR8) 旗艦でクリアしている動画です。
+				エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。
 				強制的にゴーストが先発に設定されます。<br>
-        特殊スキルを使うと混乱を付与されてしまうので、通常攻撃を主体にここぞという時に特殊スキルを使います。<br>
-				旗艦の回復スキルで挑発させるのがポイントなのですが誤ってレイザークレストに使用しています。辛くも勝てましたが、これは録り直そうと思っています。(いつも忘れてしまう)
+        特殊スキルを使うと混乱を付与されてしまうので、通常攻撃を主体にここぞという時に特殊スキルを使います。</p>
+				<p>
+					旗艦の回復スキルで挑発させるのがポイントなのですが誤ってレイザークレストに使用しています。<br>
+					辛くも勝てましたが、これは録り直そうと思っています。(いつも忘れてしまう)
 				</p>
 				<ul>
 					<li>先発：<br>
-					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、強制出撃のゴースト
+						ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、強制出撃のゴースト
 					</li>
 					<li>
 						増援：<br>
@@ -168,12 +212,12 @@
 
 				<hr>
 
-				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライトサイド（ロザル）</p></h4>
+				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：ロザル</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
 				</div>
 				<p>
-				ネゴシエーター（マローダー無し）でクリアしている動画です。<br>
+				ネゴシエーター (ケノービ将軍:R8、マローダー無し) でクリアしている動画です。<br>
 				マローダーが育っている方は、マローダー先発の方が圧倒的に余裕があります。(私のマローダーはクルーが全員G12ですが、余裕をもって勝利できます。)
 				</p>
 				<ul>
@@ -186,6 +230,26 @@
 						レックスのARC170 (レックス:R5)、クローン・サージェントのARC170（クローン・サージェント:R5）
 					</li>
 				</ul>
+
+				<hr>
+
+				<h4><img src="images/mix_icon.png" width="22px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
+				</div>
+				<p>
+					エグゼクター (ピエット:R8) でクリアしている動画です。
+				</p>
+				<ul>
+					<li>先発：<br>
+						ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、
+						強制出撃のガントレット・スターファイター (ガー、ISCともにG12)
+					</li>
+					<li>
+						増援：<br>
+						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
+					</li>
+				</ul>
 			</div>
 
 			<div id="p5-div" class="targetDiv" style="display: none;">
@@ -194,7 +258,7 @@
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="Td1olMwVKzM" src="https://www.youtube.com/embed/Td1olMwVKzM"></iframe>
 				</div>
-				<p>エグゼクター (ピエットR8) 旗艦でクリアしている動画です。<br>
+				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。<br>
 				最初の増援にエボンホークを呼び、先にアルティメットを撃とうという作戦でしたが、そこまでいかず勝利しています。</p>
 				<ul>
 					<li>先発：<br>
