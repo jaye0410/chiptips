@@ -4,6 +4,7 @@ import datetime
 files = [
   "index.php",
   "conquest.php",
+  "territory_battle.php",
   "discord_bot.php",
   "official_news.php",
   "status_effects.php",

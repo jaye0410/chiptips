@@ -10,43 +10,44 @@
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/custom_table.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/custom_tab.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <style>
-	section.content {
-		margin-bottom: 40px;
+.targetDiv h4 {
+	display: flex;
+}
+.targetDiv ul {
+		list-style-type: disc;
+		margin-left: 30px;
+		margin-bottom: 10px;
 	}
-	h3.heading {
-		margin-bottom: 0 !important;
+.youtube iframe{
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+	height: 350px;
+  border: none;
+}
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+	.youtube iframe{
+		width: 100%;
+		height: 100%;
+		border: none;
 	}
-	h3.heading p.readmore {
-		cursor: pointer;
-		text-decoration: underline;
-		font-size: 14px;
+}
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+	.youtube iframe{
+		width: 100%;
+		height: 100%;
+		border: none;
 	}
-	dl {
-		background: rgba(255, 255, 255, 0.5) !important;
-		padding: 5px;
-	}
-	dt {
-		font-weight: bold;
-		margin-bottom: 5px;
-	}
-	dt:before {
-		white-space: pre-wrap;
-		content: "■ "
-	}
-	dd {
-		padding: 5px;
-		margin-left: 10px;
-		margin-bottom: 5px;
-	}
-	dd::before {
-		white-space: pre-wrap;
-		content: "\02022\0020"
-	}
+}
 </style>
 </head>
 <body>
@@ -58,7 +59,7 @@
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_rote_tb.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_rote_tb.webp" width="940" height="300" alt="RotE TBマップイメージ">
     <div class="slogan">
 			<h2>RotE TB</h2>
 			<h3>
@@ -75,45 +76,142 @@
 	<!-- <section id="main"> -->
 		
 		<section class="content">
-			<h3 class="heading">
-				GC 410 <span class="planet">ジオノーシス</span>：
-				<span class="enemy">分離主義者</span><br>
-				<span class="bonus-alignment">ジャワ</span>のボーナス
-				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
-			</h3>
-			<article class="gc">
-				<dl>
-					<dt>偉業</dt>
-					<dd>フルチーム：ジャワ<br>
-					ジャワのフルチームでバトルをクリアする
-					</dd>
-					<dd>しびれる戦術<br>
-					30回スタンさせてバトルをクリアする
-					</dd>
-					<dd>サーマル・デトネーターを持ってるぞ！<br>
-					サーマル・デトネーターを40回発生させてバトルをクリアする
-					</dd>
-				</dl>
-				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+			<p>SWGoHテリトリーバトル「帝国の台頭」各フェーズのクリア動画を掲載します。<br>
+			獲得ポイントの高いシップ戦、通貨やレアユニットのかけらを取得できるスペシャルミッションを優先に作成しています。</p>
+			<nav class="swgoh-tab-nav">
+				<ul class="swgoh-tab-nav">
+					<li id="p1-tab">p1</li>
+					<li id="p2-tab">p2</li>
+					<li id="p3-tab">p3</li>
+					<li id="p4-tab">p4</li>
+					<li id="p5-tab">p5</li>
+					<li id="p6-tab">p6</li>
+				</ul>
+			</nav>
+
+			<div id="p1-div" class="targetDiv">
+				<h3 class="heading">フェーズ 1</h3>
+				<h4><img src="images/dark_icon.png" width="22px" alt=""><p>ダークサイド（ムスタファー）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="5l1cl1djn_8" src="https://www.youtube.com/embed/5l1cl1djn_8"></iframe>
+				</div>
+				<p>エグゼキュートリクス (ターキンR3、ゼータなし) 旗艦の帝国軍艦隊で（間一髪）クリアしている動画です。</p>
+				<ul>
+					<li>先発：<br>
+						TIEアドバンスト(ベイダー:R7)、サイス (大尋問官、フィフスともにR7)、TIEファイター (TIEパイロット:R5)
+					</li>
+					<li>
+						増援：<br>
+						TIEディフェンダー (アイデン:R5)、皇帝のシャトル (パルパティーン:R7、ロイヤルガード:R3)、
+						ガントレット・スターファイター (ガー、ISCともにG12)、TIEボマー (クルーなし)
+					</li>
+				</ul>
+			</div>
+
+			<div id="p2-div" class="targetDiv" style="display: none;">
+				<h3 class="heading">フェーズ 2</h3>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（フェルーシア）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="l8aP1iqr-ik" src="https://www.youtube.com/embed/l8aP1iqr-ik"></iframe>
+				</div>
+				<p>マレヴォランス (グリーヴァス将軍R7) 旗艦で、この回はかなり苦戦していますが、クリアしている動画です。</p>
+				<ul>
+					<li>先発：<br>
+					サンファクのスターファイター (サンファク:R2)、ジオスパイのスターファイター (スパイ:R5)、ジオ兵士のスターファイター (ジオ兵士:G12)
+					</li>
+					<li>
+						増援：<br>
+						ハイエナ・ボマー (クルーなし)、バルチャー・ドロイド (クルーなし)
+					</li>
+				</ul>
+			</div>
+
+			<div id="p3-div" class="targetDiv" style="display: none;">
+				<h3 class="heading">フェーズ 3</h3>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（タトゥイーン）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
+				</div>
+				<p>エグゼクター (ピエットR8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
+				<ul>
+					<li>先発：<br>
+					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、ザナドゥ・ブラッド (C.ベイン:R5)
+					</li>
+					<li>
+						増援：<br>
+						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
+					</li>
+				</ul>
+			</div>
+
+			<div id="p4-div" class="targetDiv" style="display: none;">
+				<h3 class="heading">フェーズ 4</h3>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（ケッセル）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
+				</div>
+				<p>
+				エグゼクター (ピエットR8) 旗艦でクリアしている動画です。
+				強制的にゴーストが先発に設定されます。<br>
+        特殊スキルを使うと混乱を付与されてしまうので、通常攻撃を主体にここぞという時に特殊スキルを使います。<br>
+				旗艦の回復スキルで挑発させるのがポイントなのですが誤ってレイザークレストに使用しています。辛くも勝てましたが、これは録り直そうと思っています。(いつも忘れてしまう)
+				</p>
+				<ul>
+					<li>先発：<br>
+					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、強制出撃のゴースト
+					</li>
+					<li>
+						増援：<br>
+						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
+					</li>
+				</ul>
+
 				<hr>
-				<dl>
-					<dt>クリア編成</dt>
-					<dd>フルチーム：ジャワ<br>
-					クリアレベルVIでした。<br>
-					このメンツ ↓ では到底Xは無理というものです。
-					<img src="images/jawas.webp" width="100%" alt="">
-					</dd>
-					<dd>しびれる戦術<br>
-					レベルX：JML (R7)、JKL (R7)、アイラ (R3)、白レヴァン (R7)、隠者 (R5)
-					</dd>
-					<dd>サーマル・デトネーターを持ってるぞ！<br>
-					レベルIX：JML (R7)、ワット (R7)、隠者 (R5)、ジャワ・エンジニア (G12)、ジャワ・スカベンジャー (G12)
-					</dd>
-					<dd>最終結果：金箱
-						<img src="images/gc20240907.webp" width="100%" alt="GC結果20240907">
-					</dd>
-				</dl>
-			</article>
+
+				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライトサイド（ロザル）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
+				</div>
+				<p>
+				ネゴシエーター（マローダー無し）でクリアしている動画です。<br>
+				マローダーが育っている方は、マローダー先発の方が圧倒的に余裕があります。(私のマローダーはクルーが全員G12ですが、余裕をもって勝利できます。)
+				</p>
+				<ul>
+					<li>先発：<br>
+					アナキンのEta-2 (アナキン:R7)、アンバラン (ファイブス:R6)、BTL-B Yウイング (クルー無し)
+					</li>
+					<li>
+						増援：<br>
+						プロ・クーンのスターファイター (プロ・クーン:R5)、アソーカのスターファイター (アソーカ:R6)、
+						レックスのARC170 (レックス:R5)、クローン・サージェントのARC170（クローン・サージェント:R5）
+					</li>
+				</ul>
+			</div>
+
+			<div id="p5-div" class="targetDiv" style="display: none;">
+				<h3 class="heading">フェーズ 5</h3>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（ヴァンドア）</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="Td1olMwVKzM" src="https://www.youtube.com/embed/Td1olMwVKzM"></iframe>
+				</div>
+				<p>エグゼクター (ピエットR8) 旗艦でクリアしている動画です。<br>
+				最初の増援にエボンホークを呼び、先にアルティメットを撃とうという作戦でしたが、そこまでいかず勝利しています。</p>
+				<ul>
+					<li>先発：<br>
+					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、ザナドゥ・ブラッド (C.ベイン:R5)
+					</li>
+					<li>
+						増援：<br>
+						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、エボンホーク (カース:G11、T3-M4:R3)
+					</li>
+				</ul>
+			</div>
+
+			<div id="p6-div" class="targetDiv" style="display: none;">
+				<h3 class="heading">フェーズ 6</h3>
+				<p>残念ながら、ギルドはRotE TBのフェーズ6に到達していません。</p>
+				<p>独自の情報を配信できるようになるまでは、Youtubeなどでクリア動画を見つけ、掲載する予定です。</p>
+			</div>
 		</section>
 
 	</section>
@@ -131,6 +229,51 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
+</script>
+<script>
+	const divsObj = {
+		"p1-tab": "p1-div",
+		"p2-tab": "p2-div",
+		"p3-tab": "p3-div",
+		"p4-tab": "p4-div",
+		"p5-tab": "p5-div",
+		"p6-tab": "p6-div",
+	}
+	const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
+	tabs.forEach(function(tab) {
+		tab.addEventListener("click", function() {
+			toggleDisplay(tab.id);
+		})
+	});
+	
+	function toggleDisplay(tabId) {
+		const tabs = document.querySelectorAll("ul.swgoh-tab-nav li");
+		tabs.forEach(function(tab) {
+			if (tab.id == tabId) {
+				document.querySelector("#" + tab.id).style.fontWeight = "bolder";
+				document.querySelector("#" + tab.id).style.backgroundColor = "#98c457";
+				document.querySelector("#" + tab.id).style.color = "black";
+			} else {
+				document.querySelector("#" + tab.id).style.fontWeight = "normal";
+				document.querySelector("#" + tab.id).style.backgroundColor = "#2b5f2a";
+				document.querySelector("#" + tab.id).style.color = "white";
+			}
+		});
+		
+		const divs = document.querySelectorAll(".targetDiv");
+		for (let key in divsObj) {
+			const divId = divsObj[tabId];
+			
+			divs.forEach(function(div) {
+				if (div.id == divId) {
+					div.style.display = "block";
+				} else {
+					div.style.display = "none";
+				}
+			});
+			
+		}
+	}
 </script>
 </body>
 </html>
