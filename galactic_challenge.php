@@ -75,14 +75,12 @@
     
 <!-- コンテンツ -->
 	<section>
-	<!-- <section id="main"> -->
 		
 		<section class="content">
 			<h3 class="heading">
 				GC 410 <span class="planet">ジオノーシス</span>：
 				<span class="enemy">分離主義者</span><br>
 				<span class="bonus-alignment">ジャワ</span>のボーナス
-				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
 			</h3>
 			<article class="gc">
 				<dl>
@@ -242,8 +240,6 @@
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
-
-		<!-- <?php //include "history_gc/gc_2024.html" ?> -->
     
 	</section>
 	<!-- / コンテンツ -->
@@ -260,17 +256,6 @@
 <script>
 	const page = window.location.pathname.split("/").pop();
 	changeActivePage(page);
-
-	const readmoreList = document.querySelectorAll("p.readmore");
-
-	readmoreList.forEach((readmore) => {
-		readmore.addEventListener("click", (e) => {
-			console.log(e.target.closest("section"));
-			e.target.closest("section")
-				.querySelector("article.gc")
-				.classList.remove("closed");
-		});
-	});
 </script>
 </body>
 </html>
