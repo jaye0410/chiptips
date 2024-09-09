@@ -222,7 +222,7 @@
 			</h3>
 			<article>
 				<p>結論から言って、↓ の育成状況では歯が立ちません。</p>
-				<img src="images/my_gungans.png" width="100%" alt="私のグンガン育成状況">
+				<img src="images/my_gungans.webp" width="100%" alt="私のグンガン育成状況">
 				<p>ナブーの戦いよりも新しいレイドがリリースされるまでに、グンガンチームで戦う日は果たしてくるのか？</p>
 
 				<div class="team-info">
