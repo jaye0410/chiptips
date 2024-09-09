@@ -48,9 +48,6 @@
 		font-size: 16px;
 		margin: 5px 0;
 	}
-	.content p {
-		display: flex;
-	}
 	div.team-info {
 		display: flex;
 	}
@@ -89,8 +86,10 @@
 			<p>報酬は3種類のレイドトークン<img src="images/mk_I_raid_tokens.png" width="22px" height="22px" alt="MKIレイドトークン">
 				<img src="images/mk_II_raid_tokens.png" width="22px" height="22px" alt="MKIIレイドトークン">
 				<img src="images/mk_III_raid_tokens.png" width="22px" height="22px" alt="MKIIIレイドトークン">を獲得できます。
+				<br>
+				左からそれぞれMKI、MKII、MKIIIレイドトークンです。
 			</p>
-			<p>左からそれぞれMKI、MKII、MKIIIレイドトークンです。</p>
+			<!-- <p>左からそれぞれMKI、MKII、MKIIIレイドトークンです。</p> -->
 			<p>これらの通貨はレアな装備品や各種レリック資材を購入でき、大変貴重です。<br>
 				しかし残念ながら、MKIIIレイドトークンは最新のレイド (現在は「ナブーの戦い」)のみでしか獲得できません。<br>
 				そのためギルドイベントの中でも、レイドはTBとともに最重要コンテンツとして力を入れているギルドも多いようです。
@@ -101,7 +100,7 @@
 				私が使用している各難易度レベルでの編成とスコアを公開します。<br>
 				皆さまの編成分けの参考になれば幸いです。
 			</p>
-			<p>今回の総スコアは、3,432,000 で、前回の 3,180,500 から🆙しました。</p>
+			<p>今回の総スコアは、3,460,000 で、前回の 3,432,000 から🆙しました。</p>
 		</section>
 
 		<section class="content">
@@ -197,7 +196,7 @@
 		<section class="content" id="swgoh-menu3">
 			<h3 class="heading">
 			分離主義者<br>
-			&nbsp;スコア <strong>225,000@レベル1</strong>
+			&nbsp;スコア <strong>253,000@レベル1</strong>
 			</h3>
 			<article>
 				<p>このチームが全体で最大のボトルネックです。<br>
