@@ -103,7 +103,7 @@
 <div id="wrapper">
     
 <!-- コンテンツ -->
-	<section id="main">
+	<section>
 
 		<section class="content">
 			<h3 class="heading">基本情報について</h3>

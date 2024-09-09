@@ -30,26 +30,29 @@
 	h3.heading {
 		margin-bottom: 0 !important;
 	}
-	dl {
-		background: rgba(255, 255, 255, 0.5) !important;
-		padding: 5px;
+	.content ul {
+		list-style-type: disc;
+		margin-left: 30px;
+		margin-bottom: 10px;
 	}
-	dt {
+	.swgoh-nav {
+		margin-top: 10px;
+	}
+	.swgoh-nav ul {
+		list-style-type: none;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	.content h4 {
 		font-weight: bold;
-		margin-bottom: 5px;
+		font-size: 16px;
+		margin: 5px 0;
 	}
-	dt:before {
-		white-space: pre-wrap;
-		content: "■ "
+	.content p {
+		display: flex;
 	}
-	dd {
-		padding: 5px;
-		margin-left: 10px;
-		margin-bottom: 5px;
-	}
-	dd::before {
-		white-space: pre-wrap;
-		content: "\02022\0020"
+	div.team-info {
+		display: flex;
 	}
 </style>
 </head>
@@ -62,11 +65,11 @@
 <!-- メイン画像 -->
 <div id="mainBanner" class="subImg">
 	<div class="inner">
-		<img src="images/sub_image_official_news.webp" width="940" height="300" alt="Sub image">
+		<img src="images/sub_image_raid.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH ニュース</h2>
+			<h2>レイド ナブーの戦い</h2>
 			<h3>
-				公式フォーラムのニュース和訳および当サイトの更新情報</h3>
+				Battle of Naboo Raid</h3>
 		</div>
 	</div>
 </div>
@@ -76,48 +79,163 @@
     
 <!-- コンテンツ -->
 	<section>
-
-	<section class="content">
+		<section class="content">
 			<h3 class="heading">
-				レイド「ナブーの戦い」 2024/MM/DD
-				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
+			レイド「ナブーの戦い」
 			</h3>
-			<article class="gc">
-				<dl>
-					<dt>偉業</dt>
-					<dd>フルチーム：ジャワ<br>
-					ジャワのフルチームでバトルをクリアする
-					</dd>
-					<dd>しびれる戦術<br>
-					30回スタンさせてバトルをクリアする
-					</dd>
-					<dd>サーマル・デトネーターを持ってるぞ！<br>
-					サーマル・デトネーターを40回発生させてバトルをクリアする
-					</dd>
-				</dl>
-				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+
+			<h4 id="team1-1">■ レイドについて</h4>
+			<p>SWGoHのレイドコンテンツは、ギルドメンバー全員で獲得報酬をランクアップさせていくギルドイベントです。</p>
+			<p>報酬は
+				<img src="images/mk_I_raid_tokens.png" width="22px" alt="MKIレイドトークン">MKIレイドトークン、
+				<img src="images/mk_II_raid_tokens.png" width="22px" alt="MKIIレイドトークン">MKIIレイドトークン、
+				<img src="images/mk_III_raid_tokens.png" width="22px" alt="MKIIIレイドトークン">MKIIIレイドトークン
+				です。
+			</p>
+			<p>これらの通貨はレアな装備品や各種レリック資材を購入でき、大変貴重です。<br>
+				しかし残念ながら、MKIIIレイドトークンは最新のレイド (現在は「ナブーの戦い」)のみでしか獲得できません。<br>
+				そのためギルドイベントの中でも、レイドはTBとともに最重要コンテンツとして力を入れているギルドも多いようです。
+			</p>
+			<hr>
+			<p>
+				さて、それでは2024年9月9日現在の最新レイド「ナブーの戦い」で、
+				私が使用している各難易度レベルでの編成とスコアを公開します。<br>
+				皆さまの編成分けの参考になれば幸いです。
+			</p>
+			<p>今回の総スコアは、3,432,000 で、前回の 3,180,500 から🆙しました。</p>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+				目次
+			</h3>
+			<nav class="swgoh-nav">
+				<ul>
+					<li><a href="#swgoh-menu1">&raquo; 銀河共和国</a>
+						<ul>
+							<li><a href="#team1-1">&raquo; チーム1</a></li>
+							<li><a href="#team1-2">&raquo; チーム2</a></li>
+							<li><a href="#team1-3">&raquo; チーム3</a></li>
+						</ul>
+					</li>
+					<li><a href="#swgoh-menu2">&raquo; シス・分離主義者 混合</a></li>
+					<li><a href="#swgoh-menu3">&raquo; 分離主義者</a></li>
+					<li><a href="#swgoh-menu4">&raquo; グンガン</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section class="content" id="swgoh-menu1">
+			<h3 class="heading">
+				銀河共和国
+			</h3>
+			<article>
+				<p>私の場合は、銀河共和国ユニットを3つの編成に分けて使用しています。</p>
+				<p>課題として、チーム2のメイスとチーム3の女王のレリックレベルが3で、ボトルネックとなっています。
+				</p>
+				<h4 id="team1-1">■ チーム1：<br>
+				&nbsp;スコア <strong>1,200,000@レベル4クリア</strong></h4>
+
+				<div class="team-info">
+					<ul>
+						<li>リーダー：ルミナーラ（ゼータ）- R5</li>
+						<li>キット・フィストー - R5</li>
+						<li>クワイ=ガン・ジン - R5</li>
+						<li>キ＝アディ・ムンディ - R5</li>
+						<li>イース・コス - R5</li>
+					</ul>
+				</div>
+				
 				<hr>
-				<dl>
-					<dt>クリア編成</dt>
-					<dd>フルチーム：ジャワ<br>
-					クリアレベルVIでした。<br>
-					このメンツ ↓ では到底Xは無理というものです。
-					<img src="images/jawas.webp" width="100%" alt="">
-					</dd>
-					<dd>しびれる戦術<br>
-					レベルX：JML (R7)、JKL (R7)、アイラ (R3)、白レヴァン (R7)、隠者 (R5)
-					</dd>
-					<dd>サーマル・デトネーターを持ってるぞ！<br>
-					レベルIX：JML (R7)、ワット (R7)、隠者 (R5)、ジャワ・エンジニア (G12)、ジャワ・スカベンジャー (G12)
-					</dd>
-					<dd>最終結果：金箱
-						<img src="images/gc20240907.webp" width="100%" alt="GC結果20240907">
-					</dd>
-				</dl>
+
+				<h4 id="team1-2">■ チーム2：<br>
+				&nbsp;スコア <strong>507,000@レベル3</strong></h4>
+				<div class="team-info">
+					<ul>
+						<li>リーダー：カレラン・ベク - R7</li>
+						<li>グランド・マスター・ヨーダ - R8</li>
+						<li>シャアク・ティー - R7</li>
+						<li>プロ・クーン - R5</li>
+						<li>メイス・ウィンドゥ - R3</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<h4 id="team1-3">■ チーム3：<br>
+				&nbsp;スコア <strong>900,000@レベル3クリア</strong></h4>
+				<div class="team-info">
+					<ul>
+						<li>リーダー：アミダラ女王 - R3</li>
+						<li>マスター・クワイ=ガン - R7</li>
+						<li>オビ＝ワン（パダワン） - R8</li>
+						<li>R2-D2 - R7</li>
+					</ul>
+				</div>
 			</article>
 		</section>
 
-		<!-- <?php /*include "history_news/news_2024.html"*/ ?> -->
+		<section class="content" id="swgoh-menu2">
+			<h3 class="heading">
+			シス・分離主義者 混合<br>
+			&nbsp;スコア <strong>600,000@レベル2クリア</strong>
+			</h3>
+			<article>
+				<p>このチームの課題は、ヌートのレリックレベルが3でボトルネックとなっています。<br>
+					レベル3を戦えるレリックではあるのですが、早々にヌートが倒されてしまうためレベル2に下げています。
+				</p>
+
+				<div class="team-info">
+					<ul>
+						<li>リーダー：ダース・モール（ゼータ）- R5</li>
+						<li>ダース・シディアス - R7</li>
+						<li>ヌート・ガンレイ - R3</li>
+					</ul>
+				</div>
+			</article>
+		</section>
+
+		<section class="content" id="swgoh-menu3">
+			<h3 class="heading">
+			分離主義者<br>
+			&nbsp;スコア <strong>225,000@レベル1</strong>
+			</h3>
+			<article>
+				<p>このチームが全体で最大のボトルネックです。<br>
+					グンガンを使うのが理想なのですが、いかんせん育成がまったく間に合いません。
+				</p>
+
+				<div class="team-info">
+					<ul>
+						<li>リーダー：B2スーパー・バトル・ドロイド - R3</li>
+						<li>B1バトル・ドロイド - R3</li>
+						<li>IG-100マグナガード - R5</li>
+						<li>ドロイデカ - R1</li>
+					</ul>
+				</div>
+			</article>
+		</section>
+
+		<section class="content" id="swgoh-menu4">
+			<h3 class="heading">
+			グンガン
+			</h3>
+			<article>
+				<p>結論から言って、↓ の育成状況では歯が立ちません。</p>
+				<img src="images/my_gungans.png" width="100%" alt="私のグンガン育成状況">
+				<p>ナブーの戦いよりも新しいレイドがリリースされるまでに、グンガンチームで戦う日は果たしてくるのか？</p>
+
+				<div class="team-info">
+					<ul>
+						<li>ボス・ナス - G8</li>
+						<li>グンガン・ファランクス - G8</li>
+						<li>キャプテン・ターパルス - G9</li>
+						<li>グンガン・ブーマディア - G9</li>
+						<li>ジャー・ジャー・ビンクス - 未解除</li>
+					</ul>
+				</div>
+			</article>
+		</section>
     
 	</section>
 	<!-- / コンテンツ -->
