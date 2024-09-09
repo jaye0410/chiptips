@@ -96,9 +96,9 @@
       <h3>レイド - ナブーの戦い</h3>
 			<p>最新レイドでは、次のような報酬が獲得できます。</p>
 			<ul>
-				<li><img src="images/mk_I_raid_tokens.png" width="22px" alt="MKIレイドトークン">MKIレイドトークン</li>
-				<li><img src="images/mk_II_raid_tokens.png" width="22px" alt="MKIIレイドトークン">MKIIレイドトークン</li>
-				<li><img src="images/mk_III_raid_tokens.png" width="22px" alt="MKIIIレイドトークン">MKIIIレイドトークン</li>
+				<li>MKIレイドトークン</li>
+				<li>MKIIレイドトークン</li>
+				<li>MKIIIレイドトークン</li>
 			</ul>
 			<!-- <p>最新レイド「ナブーの戦い」で獲得できる報酬、戦闘で使用するチーム編成およびスコアを紹介するページです。</p> -->
 			<p class="readmore"><a href="raid.php">&raquo; 詳細を確認する</a></p>

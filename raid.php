@@ -86,12 +86,11 @@
 
 			<h4 id="team1-1">■ レイドについて</h4>
 			<p>SWGoHのレイドコンテンツは、ギルドメンバー全員で獲得報酬をランクアップさせていくギルドイベントです。</p>
-			<p>報酬は
-				<img src="images/mk_I_raid_tokens.png" width="22px" alt="MKIレイドトークン">MKIレイドトークン、
-				<img src="images/mk_II_raid_tokens.png" width="22px" alt="MKIIレイドトークン">MKIIレイドトークン、
-				<img src="images/mk_III_raid_tokens.png" width="22px" alt="MKIIIレイドトークン">MKIIIレイドトークン
-				です。
+			<p>報酬は3種類のレイドトークン<img src="images/mk_I_raid_tokens.png" width="22px" height="22px" alt="MKIレイドトークン">
+				<img src="images/mk_II_raid_tokens.png" width="22px" height="22px" alt="MKIIレイドトークン">
+				<img src="images/mk_III_raid_tokens.png" width="22px" height="22px" alt="MKIIIレイドトークン">を獲得できます。
 			</p>
+			<p>左からそれぞれMKI、MKII、MKIIIレイドトークンです。</p>
 			<p>これらの通貨はレアな装備品や各種レリック資材を購入でき、大変貴重です。<br>
 				しかし残念ながら、MKIIIレイドトークンは最新のレイド (現在は「ナブーの戦い」)のみでしか獲得できません。<br>
 				そのためギルドイベントの中でも、レイドはTBとともに最重要コンテンツとして力を入れているギルドも多いようです。
