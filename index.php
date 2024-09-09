@@ -93,19 +93,25 @@
 		</article>
 
 		<article class="grid colDark">
+      <h3>レイド - ナブーの戦い</h3>
+			<p>最新レイドでは、次のような報酬が獲得できます。</p>
+			<ul>
+				<li><img src="images/mk_I_raid_tokens.png" width="22px" alt="MKIレイドトークン">MKIレイドトークン</li>
+				<li><img src="images/mk_II_raid_tokens.png" width="22px" alt="MKIIレイドトークン">MKIIレイドトークン</li>
+				<li><img src="images/mk_III_raid_tokens.png" width="22px" alt="MKIIIレイドトークン">MKIIIレイドトークン</li>
+			</ul>
+			<!-- <p>最新レイド「ナブーの戦い」で獲得できる報酬、戦闘で使用するチーム編成およびスコアを紹介するページです。</p> -->
+			<p class="readmore"><a href="raid.php">&raquo; 詳細を確認する</a></p>
+		</article>
+
+		<article class="grid colLight">
 			<h3>ユニット解除イベント</h3>
 			<p>Coming soon!<br>
 			各種イベントで取得できるユニット情報、クリア動画などを掲載するページです。</p>
 			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
 		
-		<article class="grid colDark">
-      <h3>レイド - ナブーの戦い</h3>
-			<p>Coming soon!<br>
-			レイド「ナブーの戦い」で使用する編成、スコアを紹介するページです。</p>
-			<!-- <p class="readmore"><a href="territory_battle.php">&raquo; 詳細を確認する</a></p> -->
-		</article>
-    <article class="grid colLight">
+    <article class="grid colDark">
 			<h3>スターウォーズ</h3>
 			<p>Coming soon!<br>
 			SWGoH以外のスターウォーズ関連情報を掲載するページです。</p>
