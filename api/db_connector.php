@@ -19,7 +19,6 @@ function getDb() {
   global $db;
   if ($db == null) {
     $db = new PDO($dsn, $user, $password);
-    // 本番環境用はGitに上げない
   }
   
   return $db;
