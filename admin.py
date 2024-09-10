@@ -23,15 +23,15 @@ files = [
 # </url>
 xml: str = ""
 
-url_prefix:str = "<url>"
-url_suffix:str = "</url>"
+url_prefix:str = "<url>\n"
+url_suffix:str = "</url>\n"
 
 for file in files:
   modified = os.path.getmtime(file)
   ymd = str(datetime.datetime.fromtimestamp(modified))
   file = "" if file == "index.php" else file
-  xml = xml + url_prefix + "<loc>https://swgoh-chiptips.jp/" + file + "</loc>"
-  xml = xml + "<lastmod>" + ymd[0:10] + "T" + ymd[11:19] + "+09:00</lastmod>"
+  xml = xml + url_prefix + "  <loc>https://swgoh-chiptips.jp/" + file + "</loc>\n"
+  xml = xml + "  <lastmod>" + ymd[0:10] + "T" + ymd[11:19] + "+09:00</lastmod>\n"
   xml = xml + url_suffix
 
 print(xml)
