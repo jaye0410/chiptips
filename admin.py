@@ -13,7 +13,8 @@ files = [
   "galactic_challenge.php",
   "basic_info.php",
   "contact.php",
-  "overview.php"
+  "overview.php",
+  "how_to_register_wookieebot.php"
 ]
 
 # <url>

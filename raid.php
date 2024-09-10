@@ -125,7 +125,7 @@
 			<p>「/raid max」というコマンドなのですが、同盟コードの入力を省いて実行するには同盟コードの事前登録が必要です。<br>
 			その方法が他の多くのBotとは少々異なるので、スクリーンショットとともに手順を示したページをご用意しています。</p>
 
-			<a href="how_to_register_wookieebot.php.php">&raquo; WookieeBotの同盟コード登録方法を確認</a>
+			&nbsp;<a href="how_to_register_wookieebot.php">&raquo; WookieeBotの同盟コード登録方法を確認</a>
 
 		</section>
 
