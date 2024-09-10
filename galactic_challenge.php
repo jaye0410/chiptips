@@ -21,7 +21,21 @@
 	h3.heading {
 		margin-bottom: 0 !important;
 	}
-	dl {
+	.content h4 {
+		font-weight: bold;
+		font-size: 16px;
+		margin: 5px 0;
+	}
+	.content h4:before {
+		white-space: pre-wrap;
+		content: "■ "
+	}
+	article.gc ul {
+		list-style-type: disc;
+		margin-left: 25px;
+		margin-bottom: 20px;
+	}
+	/* dl {
 		background: rgba(255, 255, 255, 0.5) !important;
 		padding: 5px;
 	}
@@ -41,6 +55,33 @@
 	dd::before {
 		white-space: pre-wrap;
 		content: "\02022\0020"
+	} */
+	div.youtube {
+		margin-bottom: 20px;
+	}
+	.youtube iframe{
+		/* position: absolute;
+		top: 0;
+		left: 0; */
+		width: 100%;
+		height: 350px;
+		border: none;
+	}
+	/* スマートフォン 横(ランドスケープ) */
+	@media only screen and (max-width:640px){
+		.youtube iframe{
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+	}
+	/* スマートフォン 縦(ポートレート) */
+	@media only screen and (max-width:480px){
+		.youtube iframe{
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
 	}
 </style>
 </head>
@@ -75,45 +116,45 @@
 				<span class="bonus-alignment">フェニックス</span>のボーナス
 			</h3>
 			<article class="gc">
-				<dl>
-					<dt>偉業</dt>
-					<dd>フルチーム：フェニックス<br>
-					フェニックスのフルチームでバトルをクリアする
-					</dd>
-					<dd>クリティカルストリーク<br>
+				<h4>偉業</h4>
+				<ul>
+					<li>フルチーム：フェニックス<br>
+					フェニックスのフルチームでバトルをクリアする</li>
+					<li>クリティカルストリーク<br>
 					味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする
-					<!-- しびれる戦術：30回スタンさせてバトルをクリアする -->
-					</dd>
-					<dd>自由<br>
+					<!-- しびれる戦術：30回スタンさせてバトルをクリアする --></li>
+					<li>自由<br>
 					リーダースロットにリーダーを使用せずに勝利する
-					<!-- サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする -->
-					</dd>
-				</dl>
+					<!-- サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする --></li>
+				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
+
 				<hr>
-				<dl>
-					<dt>攻略のポイント</dt>
-					<dd>「自由」以外は同一編成でクリアできました。<br>
+
+				<h4>攻略のポイント</h4>
+				<ul>
+					<li>「自由」以外は同一編成でクリアできました。<br>
 					グローバルボーナス「安全な避難場所」の効果により先にダメージを与えるとデスマークが付与されてしまうので、
-					C.レックスのスピードはほどほどが良いかもしれません。
-					</dd>
-				</dl>
-				<dl>
-					<dt>クリア編成</dt>
-					<dd>フルチーム：フェニックス<br>
-					ヘラ (R5)、キャプテン・レックス (R1)、ケイナン (G12)、チョッパー (G12)、サビーヌ (G12)
-					</dd>
-					<dd>クリティカルストリーク<br>
-					ヘラ (R5)、キャプテン・レックス (R1)、ケイナン (G12)、チョッパー (G12)、サビーヌ (G12)
-					</dd>
-					<dd>自由<br>
+					C.レックスのスピードはほどほどが良さそうです。</li>
+				</ul>
+				
+				<h4>クリア編成</h4>
+				<ul>
+					<li>フルチーム：フェニックス / クリティカルストリーク<br>
+					ヘラ (R5)、キャプテン・レックス (R1)、ケイナン (G12)、チョッパー (G12)、サビーヌ (G12)</li>
+					<li>自由<br>
 					シス・トルーパー (R5)をリーダーに設定<br>
-					SLKR (R8)、ハックス (R5)、マスクなし (R7)、FOオフィサー (R5)
-					</dd>
-					<dd>最終結果：赤箱
-						<img src="images/gc_result.webp" width="100%" alt="GC結果">
-					</dd>
-				</dl>
+					SLKR (R8)、ハックス (R5)、マスクなし (R7)、FOオフィサー (R5)</li>
+				</ul>
+
+				<h4>フルチームのクリア動画</h4>
+				<div class="youtube">
+					<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="0PcmwfkDiFM" src="https://www.youtube.com/embed/0PcmwfkDiFM"></iframe>
+				</div>
+				
+				<h4>最終結果：赤箱</h4>
+				<img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果">
+
 			</article>
 		</section>
 
