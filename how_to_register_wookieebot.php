@@ -99,20 +99,26 @@
 			<h4>■ WookieeBot</h4>
 
 			<p>WookieeBotというDiscordで使用するボットがあります。<br>
-			残念ながら私が開発したものではありませんが、レイドの編成をAIが作成し、提案してくれる優れものです。
+			残念ながら私が開発したものではありませんが、レイドの編成をAIが作成し、提案してくれる優れものです。<br>
+			この機会にぜひ使ってみてはいかがでしょうか。
 			</p>
-			<p>「/raid max」というコマンドなのですが、同盟コードの入力を省いて実行するには同盟コードの事前登録が必要です。<br>
+			<p>レイドの最適編成を表示するためには、「/raid max」というコマンドを使用します。<br>
+			ただし、同盟コードの入力を省いて実行するには同盟コードの事前登録が必要です。<br>
 			その方法が少々特殊なので、スクリーンショットとともに手順を示します。</p>
 
-			<hr>
+		</section>
 
-			<h4>■ 同盟コードの登録</h4>
+		<section class="content">
+			<h3 class="heading">
+			同盟コードの登録手順
+			</h3>
+
 			<dl>
 				<dt class="image-container">
 					<img src="images/wookieebot_1.webp" width="320px" class="frame" alt="">
 				</dt>
 				<dd>
-					<h5>【手順 1】</h5>
+					<h4>【手順 1】</h4>
 					<p>まずは、Discordのチャット欄で「/register」コマンドを実行します。</p>
 					<p>
 						画像のように「/reg」ぐらいまで入力すると、候補が表示されるはずです。<br>
@@ -125,7 +131,7 @@
 					<img src="images/wookieebot_2.webp" width="320px" class="frame" alt="">
 				</dt>
 				<dd>
-					<h5>【手順 2】</h5>
+					<h4>【手順 2】</h4>
 					<p>「allycode:」のオプションが表示されるので、コロンの後に同盟コードを入力します。<br>
 						入力ミスを防ぐため、コピー&amp;ペーストを強く推奨します。
 					</p>
@@ -140,7 +146,7 @@
 					<img src="images/wookieebot_3.webp" width="320px" class="frame" alt="">
 				</dt>
 				<dd>
-					<h5>【手順 3】</h5>
+					<h4>【手順 3】</h4>
 					<p>同盟コードを入力し実行すると埋め込みメッセージが表示されます。</p>
 					<p>
 					「ゲーム内の自身のポートレートを、下で指定したものに設定してください。」<br>
@@ -157,7 +163,7 @@
 					<img src="images/wookieebot_4.webp" width="320px" class="frame" alt="">
 				</dt>
 				<dd>
-					<h5>【手順 4】</h5>
+					<h4>【手順 4】</h4>
 					<p>
 					ゲームを開き、WookieeBotから指定されたてポートレートに変更します。
 					</p>
@@ -169,14 +175,13 @@
 					<img src="images/wookieebot_5.webp" width="320px" class="frame" alt="">
 				</dt>
 				<dd>
-					<h5>【手順 5】</h5>
+					<h4>【手順 5】</h4>
 					<p>
 					DiscordのWookieeBotに戻り、「Verify」をクリック (タップ) してください。
 					</p>
 					<p>以上で同盟コードの登録が完了します。</p>
 				</dd>
 			</dl>
-
 		</section>
     
 	</section>
