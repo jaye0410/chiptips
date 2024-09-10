@@ -12,7 +12,7 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - 公式フォーラム・ニュース | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - ニュース・更新情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
 <meta name="keywords" content="">
 <title>SWGoH ChipTips - ニュース・更新情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">

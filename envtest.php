@@ -11,7 +11,7 @@ try {
 
   $dsn = $_ENV["DSN"];
 
-  echo $dsn;
+  // echo $dsn;
 } catch (PDOException $e) {
   echo ($e->getMessage());
 }

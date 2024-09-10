@@ -35,6 +35,22 @@
 		margin-left: 30px;
 		margin-bottom: 10px;
 	}
+	.content dl {
+		display: flex;
+		flex-wrap: wrap;
+		border: 1px solid #f7f7f7;
+		border-radius: 5px;
+		padding: 10px;
+	}
+	.content dt {
+		width: 340px;
+	}
+	.content dt.image-container {
+		text-align: center;
+	}
+	.content dl dd {
+		padding: 10px;
+	}
 	.swgoh-nav {
 		margin-top: 10px;
 	}
@@ -94,19 +110,41 @@
 				しかし残念ながら、MKIIIレイドトークンは最新のレイド (現在は「ナブーの戦い」)のみでしか獲得できません。<br>
 				そのためギルドイベントの中でも、レイドはTBとともに最重要コンテンツとして力を入れているギルドも多いようです。
 			</p>
-			<hr>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+			レイドに役立つ便利Bot
+			</h3>
+
+			<h4>■ WookieeBot</h4>
+
+			<p>WookieeBotというDiscordで使用するボットがあります。<br>
+			残念ながら私が開発したものではありませんが、レイドの編成をAIが作成し、提案してくれる優れものです。
+			</p>
+			<p>「/raid max」というコマンドなのですが、同盟コードの入力を省いて実行するには同盟コードの事前登録が必要です。<br>
+			その方法が他の多くのBotとは少々異なるので、スクリーンショットとともに手順を示したページをご用意しています。</p>
+
+			<a href="how_to_register_wookieebot.php.php">&raquo; WookieeBotの同盟コード登録方法を確認</a>
+
+		</section>
+
+		<section class="content">
+			
+			<h3 class="heading">
+				管理人の各編成とスコア
+			</h3>
+
 			<p>
 				さて、それでは2024年9月9日現在の最新レイド「ナブーの戦い」で、
 				私が使用している各難易度レベルでの編成とスコアを公開します。<br>
 				皆さまの編成分けの参考になれば幸いです。
 			</p>
 			<p>今回の総スコアは、3,460,000 で、前回の 3,432,000 から🆙しました。</p>
-		</section>
 
-		<section class="content">
-			<h3 class="heading">
-				目次
-			</h3>
+			<hr>
+
+			<h4>■ 各編成へのリンクメニュー</h4>
 			<nav class="swgoh-nav">
 				<ul>
 					<li><a href="#swgoh-menu1">&raquo; 銀河共和国</a>
