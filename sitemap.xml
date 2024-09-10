@@ -26,7 +26,15 @@
 	</url>
 	<url>
 		<loc>
-			https://swgoh-chiptips.jp/raid.php</locphp
+			https://swgoh-chiptips.jp/raid.php
+		</loc>
+		<lastmod>
+			2024-09-10T11:52:12+09:00
+		</lastmod>
+	</url>
+	<url>
+		<loc>
+			https://swgoh-chiptips.jp/discord_bot.php
 		</loc>
 		<lastmod>
 			2024-09-08T21:26:37+09:00
