@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
-<meta name="keywords" content="">
+<!-- <meta name="keywords" content=""> -->
 <title>SWGoH ChipTips | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
@@ -103,18 +103,22 @@
 			<!-- <p>最新レイド「ナブーの戦い」で獲得できる報酬、戦闘で使用するチーム編成およびスコアを紹介するページです。</p> -->
 			<p class="readmore"><a href="raid.php">&raquo; 詳細を確認する</a></p>
 		</article>
+		
+    <article class="grid colLight">
+			<h3>ブローグー</h3>
+			<p>
+			スター・ウォーズ全体に関すること、サイトやBot開発に関するIT系Tips、<br>
+			もちろんSWGoHのことも書きます。
+			</p>
+			<p>一般的には &quot;ブログ&quot; と呼ばれるコンテンツですが、
+				当サイトでは &quot;ブローグー&quot; です。</p>
+			<p class="readmore"><a href="./blog">&raquo; 詳細を確認する</a></p>
+		</article>
 
-		<article class="grid colLight">
+		<article class="grid colDark">
 			<h3>ユニット解除イベント</h3>
 			<p>Coming soon!<br>
 			各種イベントで取得できるユニット情報、クリア動画などを掲載するページです。</p>
-			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
-		</article>
-		
-    <article class="grid colDark">
-			<h3>スターウォーズ</h3>
-			<p>Coming soon!<br>
-			SWGoH以外のスターウォーズ関連情報を掲載するページです。</p>
 			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
 		</article>
 	</section>

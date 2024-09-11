@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - WookieeBotの同盟コード登録方法 | Discord BotのWookieeBotで同盟コードを登録する方法を画像付きで説明しています。">
-<meta name="keywords" content="">
+<!-- <meta name="keywords" content=""> -->
 <title>SWGoH ChipTips - WookieeBotの同盟コード登録方法 | Discord BotのWookieeBotで同盟コードを登録する方法を画像付きで説明しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">

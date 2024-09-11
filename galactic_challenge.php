@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - 銀河チャレンジ | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
-<meta name="keywords" content="">
+<!-- <meta name="keywords" content=""> -->
 <title>SWGoH ChipTips - 銀河チャレンジ | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
@@ -35,27 +35,7 @@
 		margin-left: 25px;
 		margin-bottom: 20px;
 	}
-	/* dl {
-		background: rgba(255, 255, 255, 0.5) !important;
-		padding: 5px;
-	}
-	dt {
-		font-weight: bold;
-		margin-bottom: 5px;
-	}
-	dt:before {
-		white-space: pre-wrap;
-		content: "■ "
-	}
-	dd {
-		padding: 5px;
-		margin-left: 10px;
-		margin-bottom: 5px;
-	}
-	dd::before {
-		white-space: pre-wrap;
-		content: "\02022\0020"
-	} */
+
 	div.youtube {
 		margin-bottom: 20px;
 	}
