@@ -115,10 +115,12 @@
 		</article>
 
 		<article class="grid colDark">
-			<h3>ユニット解除イベント</h3>
+			<h3>スター・ウォーズ用語</h3>
 			<p>Coming soon!<br>
-			各種イベントで取得できるユニット情報、クリア動画などを掲載するページです。</p>
-			<!-- <p class="readmore"><a href="subpage.html">&raquo; 詳細を確認する</a></p> -->
+			スター・ウォーズには独自の専門用語やユニークなキャラクターが数多登場します。<br>
+			それらをひとつひとつ知り、深掘りしていくのも楽しみのひとつではないでしょうか。
+			</p>
+			<p class="readmore"><a href="star_wars_words.php">&raquo; 詳細を確認する</a></p>
 		</article>
 	</section>
 	<!-- / 4カラム -->

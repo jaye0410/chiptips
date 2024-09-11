@@ -14,16 +14,11 @@ files = [
   "basic_info.php",
   "contact.php",
   "overview.php",
+  "star_wars_words.php",
   "how_to_register_wookieebot.php",
   "useful_external_links.php"
 ]
 
-#<?xml version="1.0" encoding="UTF-8"?>
-#<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-# <url>
-#   <loc>https://swgoh-chiptips.jp/</loc>
-#   <lastmod>2024-09-06T19:02:44+09:00</lastmod>
-# </url>
 xml: str = '<?xml version="1.0" encoding="UTF-8"?>\n'
 xml = xml + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
