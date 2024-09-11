@@ -40,10 +40,12 @@
 		padding: 5px 10px;
 		min-width: 80px;
 		text-align: center;
+		border-bottom: 1px solid #f7f7f7;
 	}
 	.content dd {
 		min-width: 200px;
 		padding: 5px 10px;
+		border-bottom: 1px solid #f7f7f7;
 	}
 	.dict ul {
 		display: flex;
