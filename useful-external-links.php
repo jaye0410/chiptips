@@ -36,40 +36,6 @@
 		margin:0 auto 10px auto;
 		border:5px solid #f7f7f7;
 	}
-	.content ul {
-		list-style-type: disc;
-		margin-left: 30px;
-		margin-bottom: 10px;
-	}
-	.content dl {
-		display: flex;
-		flex-wrap: wrap;
-		border: 1px solid #f7f7f7;
-		border-radius: 5px;
-		padding: 10px;
-	}
-	.content dt {
-		width: 340px;
-	}
-	.content dt.image-container {
-		text-align: center;
-	}
-	.content dl dd {
-		padding: 10px;
-	}
-	.swgoh-nav {
-		margin-top: 10px;
-	}
-	.swgoh-nav ul {
-		list-style-type: none;
-		margin-left: 20px;
-		margin-bottom: 10px;
-	}
-	/* .content h4 {
-		font-weight: bold;
-		font-size: 16px;
-		margin: 5px 0;
-	} */
 </style>
 </head>
 <body>
@@ -144,6 +110,30 @@
 			<p>中でも特に GAC (グランド・リーナ・チャンピオンシップ) Counters
 				の機能は、すでに多くの方が使われているのではないでしょうか。<br>
 				もちろん私も愛用しております。
+			</p>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
+			SWGOH 4-Life
+			</h3>
+			<p>以下の画像からジャンプできます。↓</p>
+			<div class="gg">
+			<a href="https://swgoh4.life/" target="_blank">
+				<img src="https://swgoh4.life/images/layout/logo.png" width="100%" alt="SWGOH 4-Lifeのアイコン">
+			</a>
+			</div>
+			
+			<p>
+				こちらのサイトは征服の攻略に役立つサイトで、
+				各セクターの偉業ごとにオススメ編成の候補が表示される機能は秀逸です。
+			</p>
+			<p>
+				「英語は苦手で遠慮したい」という方は、
+				当サイトの
+				<a href="conquest.php" class="explicitly">征服攻略ページ</a>
+				や <a href="discord_bot.php" class="explicitly">Discord Bot JJ-8</a>
+				を利用いただければこの上ない喜びです。
 			</p>
 		</section>
     

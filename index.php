@@ -110,8 +110,7 @@
 			スター・ウォーズ全体に関すること、サイトやBot開発に関するIT系Tips、<br>
 			もちろんSWGoHのことも書きます。
 			</p>
-			<p>一般的には &quot;ブログ&quot; と呼ばれるコンテンツですが、
-				当サイトでは &quot;ブローグー&quot; です。</p>
+			<p>一般的に&quot;ブログ&quot;と呼ばれるコンテンツですが当サイトでは&quot;ブローグー&quot;です。</p>
 			<p class="readmore"><a href="./blog">&raquo; 詳細を確認する</a></p>
 		</article>
 
