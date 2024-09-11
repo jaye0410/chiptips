@@ -12,9 +12,9 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - ニュース・更新情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - ニュース・更新情報 | 公式フォーラムのニュース和訳および当サイトの更新情報です。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - ニュース・更新情報 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - ニュース・更新情報 | 公式フォーラムのニュース和訳および当サイトの更新情報です。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -121,6 +121,29 @@
 
 		<section class="content">
 			<h3 class="heading">
+			アップデート情報 2024年9月11日
+				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
+			</h3>
+			<article class="official-forum">
+				<p>今回のアップデート項目は1件のみです。</p>
+				<dl>
+					<dt>修正</dt>
+					<dd>オートバトルUIのボタンが重なって表示される問題を修正しました。</dd>
+				</dl>
+				<div>
+					<p>
+						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/update-911/4957528" target="_blank">こちら</a>
+					</p>
+				</div>
+				<div>
+					<dt>管理人より</dt>
+					<dd>設定メニューからオートの挙動を変更されている場合は、戻し忘れのないようご注意ください。</dd>
+				</div>
+			</article>
+		</section>
+
+		<section class="content">
+			<h3 class="heading">
 				調査中：オートバトルボタンの問題について 2024年9月4日
 				<!-- <p class="readmore">&raquo; 詳細を確認する</p> -->
 			</h3>
@@ -135,13 +158,6 @@
 					上記の方法に加え、 ホットキーを使用して「選択」オプションを使用 - 全てのアビリティには「C」、基本アビリティのみには「V」</li>
 				</ul>
 				<p>この問題は次回のアップデートで解決される予定です。</p>
-				<!-- <hr>
-				<dl>
-					<dt>修正</dt>
-					<dd>敵チームのソウ・ゲレラのスキル「起爆とラップ設置」は、説明の通りにユニットを戦闘不能にしないよう修正しました。</dd>
-					<dd>ボ＝カターン（マンダロア）の「増援が到着」の説明が修正され、アシストの増加がレベル7ではなくレベル8で発生することが明記されました。</dd>
-					<dd>ダース・ベイダーが「無慈悲な暴力」を使用した際に、ラダス提督に「めまい」効果が発生しないよう修正しました。</dd>
-				</dl> -->
 				<div>
 					<p>
 						👉 原文は<a class="explicitly" href="https://forums.ea.com/blog/swgoh-game-info-hub-en/investigating-auto-battle-button-issue/4960935" target="_blank">こちら</a>
