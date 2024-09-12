@@ -70,6 +70,9 @@
 	.dict ul li {
 		margin-right: 5px;
 	}
+	button.ws-word {
+		margin-bottom: 5px;
+	}
 	/* スマートフォン 横(ポートレート) */
 	@media only screen and (max-width:640px){
 		.content dt {
