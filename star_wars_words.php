@@ -47,12 +47,47 @@
 		padding: 5px 10px;
 		border-bottom: 1px solid #f7f7f7;
 	}
+	.content dl.image-area {
+		margin-top: 10px;
+	}
+	.image-area dt {
+		background-color: inherit;
+		color: #f7f7f7;
+		padding: 5px;
+		min-width: 200px;
+		text-align: center;
+		border-bottom: none;
+	}
+	.content dd {
+		min-width: 200px;
+		padding: 5px 10px;
+		border-bottom: none;
+	}
 	.dict ul {
 		display: flex;
 		flex-wrap: wrap;
 	}
 	.dict ul li {
 		margin-right: 5px;
+	}
+	/* スマートフォン 横(ポートレート) */
+	@media only screen and (max-width:640px){
+		.content dt {
+			width: 100%;
+		}
+		.content dd {
+			width: 350px;
+		}
+	}
+
+	/* スマートフォン 縦(ポートレート) */
+	@media only screen and (max-width:480px){
+		.content dt {
+			width: 100%;
+		}
+		.content dd {
+			width: 350px;
+		}
 	}
 </style>
 </head>
@@ -108,12 +143,12 @@
 				<dt>用語意味</dt>
 				<dd class="meanings"></dd>
 			</dl>
-
-			<p></p>
-
-			<div>
-				<!-- <img src="" width="90%" class="frame" alt=""> -->
-			</div>
+			<dl class="image-area">
+				<dt></dt>
+				<dd>
+					<!-- <img src="" width="90%" class="frame" alt=""> -->
+				</dd>
+			</dl>
 		</section>
 
 		<section class="content dict">
@@ -205,10 +240,36 @@
 	}
 
 	async function pickupWord(word) {
+		// 最初に画像エリアをクリア
+		const imageElement = document.querySelector(".image-area dt img");
+		const imageAreaDt = document.querySelector(".image-area dt");
+		if (imageElement != null && imageElement != "undefined") {
+			imageAreaDt.removeChild(imageElement);
+		}
+		
+		const imageAreaDd = document.querySelector(".image-area dd");
+		imageAreaDd.textContent = "";
+
 		document.querySelector(".pickup-word h3").textContent = word["wordJp"];
 		document.querySelector(".pickup-word .word-kana").textContent = word["wordKana"];
 		document.querySelector(".pickup-word .word-en").textContent = word["wordEn"];
 		document.querySelector(".pickup-word .meanings").textContent = word["meanings"];
+
+		const imagePath = word["imagePath"];
+		if (imagePath != null && imagePath != "") {
+			const img = document.createElement("img");
+			img.setAttribute("src", imagePath);
+			img.style.width = "320px";
+			imageAreaDt.appendChild(img);
+		}
+		const description = word["imageDescription"];
+		if (description != null && description != "") {
+			imageAreaDd.textContent = description;
+		}
+	}
+
+	async function imageArea() {
+
 	}
 </script>
 </body>
