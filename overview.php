@@ -12,9 +12,9 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - ゲームの概要と魅力 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - ゲームの概要 | スター・ウォーズ／銀河の英雄(SWGoH)の特徴、魅力をお伝えするページです。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - ゲームの概要と魅力 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - ゲームの概要 | スター・ウォーズ／銀河の英雄(SWGoH)の特徴、魅力をお伝えするページです。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -34,9 +34,8 @@
 	<div class="inner">
 		<img src="images/sub_image_1.webp" width="940" height="300" alt="Sub image">
     <div class="slogan">
-			<h2>SWGoH ChipTips</h2>
-			<h3>スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。
-				ゲームに役立つDiscord Bot <strong>&quot;JJ-8&quot;</strong> も開発しています。</h3>
+			<h2>SWGoHの概要</h2>
+			<h3>スター・ウォーズ／銀河の英雄(SWGoH)の特徴、魅力</h3>
 		</div>
 	</div>
 </div>
@@ -46,7 +45,7 @@
 <p id="last-modified"></p>
     
 <!-- コンテンツ -->
-	<section id="main">
+	<section>
 
 		<section class="content">
 			<h3 class="heading">SWGoHの概要</h3>
@@ -134,57 +133,6 @@
     
 	</section>
 	<!-- / コンテンツ -->
-
-	<aside id="sub">
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-        
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-    <section class="grid">
-			<h3>ホームページサンプル</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-		</section>
-    
-    <section class="grid">
-			<h3>革新的な技術</h3>
-			<ul>
-				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
-				<li><a href="subpage.html">ecoキャンペーン開催中です</a></li>
-				<li><a href="subpage.html">オフィスの移転に関して</a></li>
-				<li><a href="subpage.html">最新商品のご紹介</a></li>
-				<li><a href="subpage.html">新規サービスを開始しました</a></li>
-				<li><a href="subpage.html">環境賞受賞に関してはこちらをご確認ください</a></li>
-			</ul>
-    </section>
-    
-	</aside>
 
 </div>
 <!-- / WRAPPER -->
