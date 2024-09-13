@@ -33,9 +33,8 @@ function getWords($wordJp) {
         "wordJp" => $row["word_jp"],
         "wordKana" => $row["word_kana"],
         "wordEn" => $row["word_en"],
-        "meanings" => $row["meanings"],
-        "imageDescription" => $row["image_description"],
-        "imagePath" => $row["image_path"]
+        "category" => $row["category"],
+        "meanings" => $row["meanings"]
       ));
     }
 

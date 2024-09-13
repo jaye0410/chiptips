@@ -143,6 +143,10 @@
 				<dd class="word-en"></dd>
 			</dl>
 			<dl>
+				<dt>カテゴリ</dt>
+				<dd class="category"></dd>
+			</dl>
+			<dl>
 				<dt>用語意味</dt>
 				<dd class="meanings"></dd>
 			</dl>
@@ -197,8 +201,7 @@
 					"wordKana": row["wordKana"],
 					"wordEn": row["wordEn"],
 					"meanings": row["meanings"],
-					"imageDescription": row["imageDescription"],
-					"imagePath": row["imagePath"],
+					"category": row["category"],
 				};
 				words.push(obj);
 			}
@@ -243,36 +246,11 @@
 	}
 
 	async function pickupWord(word) {
-		// 最初に画像エリアをクリア
-		const imageElement = document.querySelector(".image-area dt img");
-		const imageAreaDt = document.querySelector(".image-area dt");
-		if (imageElement != null && imageElement != "undefined") {
-			imageAreaDt.removeChild(imageElement);
-		}
-		
-		const imageAreaDd = document.querySelector(".image-area dd");
-		imageAreaDd.textContent = "";
-
 		document.querySelector(".pickup-word h3").textContent = word["wordJp"];
 		document.querySelector(".pickup-word .word-kana").textContent = word["wordKana"];
 		document.querySelector(".pickup-word .word-en").textContent = word["wordEn"];
+		document.querySelector(".pickup-word .category").textContent = word["category"];
 		document.querySelector(".pickup-word .meanings").textContent = word["meanings"];
-
-		const imagePath = word["imagePath"];
-		if (imagePath != null && imagePath != "") {
-			const img = document.createElement("img");
-			img.setAttribute("src", imagePath);
-			img.style.width = "320px";
-			imageAreaDt.appendChild(img);
-		}
-		const description = word["imageDescription"];
-		if (description != null && description != "") {
-			imageAreaDd.textContent = description;
-		}
-	}
-
-	async function imageArea() {
-
 	}
 </script>
 </body>

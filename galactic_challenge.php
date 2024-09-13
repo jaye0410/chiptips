@@ -91,81 +91,59 @@
 		
 		<section class="content">
 			<h3 class="heading">
-				GC 410 <span class="planet">タコダナ</span>：
-				<span class="enemy">ナイトシスター</span><br>
-				<span class="bonus-alignment">フェニックス</span>のボーナス
+				GC 411 <span class="planet">キャッシーク</span>：
+					<span class="enemy">クローン</span><br>
+					<span class="bonus-alignment">帝国軍トルーパー</span>のボーナス
 			</h3>
 			<article class="gc">
+				<h4>敵情報</h4>
+				<ul>
+					<li>ARCトルーパー</li>
+					<li>キャプテン・レックス</li>
+					<li>CT-21-0408 エコー</li>
+					<li>CT-7567 レックス</li>
+					<li>CT-5555 ファイブス</li>
+				</ul>
+
 				<h4>偉業</h4>
 				<ul>
-					<li>フルチーム：フェニックス<br>
-					フェニックスのフルチームでバトルをクリアする</li>
-					<li>クリティカルストリーク<br>
-					味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする
-					<!-- しびれる戦術：30回スタンさせてバトルをクリアする --></li>
-					<li>自由<br>
-					リーダースロットにリーダーを使用せずに勝利する
-					<!-- サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする --></li>
+					<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
+					<li>危険予測：フルチームではない編成でバトルをクリアする</li>
+					<li>フルチーム：帝国軍トルーパーのフルチームでバトルをクリアする</li>
+					<!-- クリティカルストリーク：味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする -->
+					<!-- しびれる戦術：30回スタンさせてバトルをクリアする -->
+					<!-- 自由：リーダースロットにリーダーを使用せずに勝利する -->
+					<!-- サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする -->
 				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 
 				<hr>
 
-				<h4>攻略のポイント</h4>
+				<!-- <h4>攻略のポイント</h4>
 				<ul>
 					<li>「自由」以外は同一編成でクリアできました。<br>
 					グローバルボーナス「安全な避難場所」の効果により先にダメージを与えるとデスマークが付与されてしまうので、
 					C.レックスのスピードはほどほどが良さそうです。</li>
-				</ul>
+				</ul> -->
 				
 				<h4>クリア編成</h4>
 				<ul>
-					<li>フルチーム：フェニックス / クリティカルストリーク<br>
+					<li>未挑戦</li>
+					<!-- <li>フルチーム：フェニックス / クリティカルストリーク<br>
 					ヘラ (R5)、キャプテン・レックス (R1)、ケイナン (G12)、チョッパー (G12)、サビーヌ (G12)</li>
 					<li>自由<br>
 					シス・トルーパー (R5)をリーダーに設定<br>
-					SLKR (R8)、ハックス (R5)、マスクなし (R7)、FOオフィサー (R5)</li>
+					SLKR (R8)、ハックス (R5)、マスクなし (R7)、FOオフィサー (R5)</li> -->
 				</ul>
 
-				<h4>フルチームのクリア動画</h4>
+				<!-- <h4>フルチームのクリア動画</h4>
 				<div class="youtube">
 					<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="0PcmwfkDiFM" src="https://www.youtube.com/embed/0PcmwfkDiFM"></iframe>
-				</div>
+				</div> -->
 				
-				<h4>最終結果：赤箱</h4>
-				<img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果">
+				<h4>最終結果：？？？</h4>
+				<!-- <img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果"> -->
 
-			</article>
-		</section>
-
-		<section class="content">
-			<h3 class="heading">
-				次回の銀河チャレンジ【予告】
-			</h3>
-			<article class="gc">
-				<dl>
-					<dt>GC 411 <span class="planet">キャッシーク</span>：
-					<span class="enemy">クローン</span><br>
-					<span class="bonus-alignment">帝国軍トルーパー</span>のボーナス
-					</dt>
-					<dd>敵情報<br>
-					<ul>
-						<li>ARCトルーパー</li>
-						<li>キャプテン・レックス</li>
-						<li>CT-21-0408 エコー</li>
-						<li>CT-7567 レックス</li>
-						<li>CT-5555 ファイブス</li>
-					</ul>
-					</dd>
-					<dd>偉業<br>
-					<ul>
-						<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
-						<li>危険予測：フルチームではない編成でバトルをクリアする</li>
-						<li>フルチーム：帝国軍トルーパーのフルチームでバトルをクリアする</li>
-					</ul>
-					</dd>
-				</dl>
-				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
 
