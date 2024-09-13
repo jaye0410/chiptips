@@ -119,123 +119,113 @@
 
 				<hr>
 
-				<!-- <h4>攻略のポイント</h4>
+				<h4>攻略のポイント</h4>
 				<ul>
-					<li>「自由」以外は同一編成でクリアできました。<br>
-					グローバルボーナス「安全な避難場所」の効果により先にダメージを与えるとデスマークが付与されてしまうので、
-					C.レックスのスピードはほどほどが良さそうです。</li>
-				</ul> -->
+					<li>「フルチーム」「ラッキーショット」同一編成（帝国軍トルーパー）でクリアです。<br>
+					プレイヤーボーナス「帝国軍アーマー」の効果で、
+					ドロイド以外の帝国軍トルーパーは初めて戦闘不能になった際にHP 100%、プロテクション 75%で復活します。</li>
+					<li>敵のキャプテン・レックスが動き始めると、こちらに「めまい」が付与されて一気にやられてしまいます。<br>
+					先手を取れるようモフ・ギデオンのスピードを可能な限り上げることをお勧めします。（参考：管理人のモフ・ギデオンのスピードは370です）
+					</li>
+				</ul>
 				
 				<h4>クリア編成</h4>
 				<ul>
-					<li>未挑戦</li>
-					<!-- <li>フルチーム：フェニックス / クリティカルストリーク<br>
-					ヘラ (R5)、キャプテン・レックス (R1)、ケイナン (G12)、チョッパー (G12)、サビーヌ (G12)</li>
-					<li>自由<br>
-					シス・トルーパー (R5)をリーダーに設定<br>
-					SLKR (R8)、ハックス (R5)、マスクなし (R7)、FOオフィサー (R5)</li> -->
+					<!-- <li>未挑戦</li> -->
+					<li>フルチーム：帝国軍トルーパー / ラッキーショット<br>
+					ヴィアーズ将軍 L (R5)、モフ・ギデオン (R5)、スターク大佐 (R5)、レンジ・トルーパー (R5)、ピエット提督 (R8)</li>
+					<li>危険予測<br>
+					シス・エターナルの皇帝 L (R7)、ダース・ベイン (R8)</li>
 				</ul>
 
-				<!-- <h4>フルチームのクリア動画</h4>
+				<h4>フルチームのクリア動画</h4>
+				<!-- https://youtu.be/MwELxyJ7sxE -->
 				<div class="youtube">
-					<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="0PcmwfkDiFM" src="https://www.youtube.com/embed/0PcmwfkDiFM"></iframe>
-				</div> -->
+					<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="MwELxyJ7sxE" src="https://www.youtube.com/embed/MwELxyJ7sxE"></iframe>
+				</div>
 				
-				<h4>最終結果：？？？</h4>
-				<!-- <img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果"> -->
+				<h4>最終結果：赤箱</h4>
+				<img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果">
 
 			</article>
 		</section>
 
 		<section class="content">
 			<h3 class="heading">
-				次回の銀河チャレンジ【予告】
-			</h3>
-			<article class="gc">
-				<dl>
-					<dt>GC 412 <span class="planet">カミーノ</span>：
+				【予告】GC 412 <span class="planet">カミーノ</span>：
 					<span class="enemy">銀河共和国</span><br>
 					<span class="bonus-alignment">反乱軍ファイター</span>のボーナス
-					</dt>
-					<dd>敵情報<br>
-					<ul>
-						<li>パドメ・アミダラ</li>
-						<li>ケノービ将軍</li>
-						<li>R2-D2</li>
-						<li>ジェダイ・ナイト・アナキン</li>
-						<li>アソーカ・タノ（お調子者）</li>
-					</ul>
-					</dd>
-					<dd>偉業<br>
-					<ul>
-						<li>Lingering Death：時間経過ダメージを30回発生させてバトルをクリアする</li>
-						<li>Hindered Movement：ターンメーターを400%減少させてバトルに勝利する</li>
-						<li>フルチーム：反乱軍ファイターのフルチームでバトルをクリアする</li>
-					</ul>
-					</dd>
-				</dl>
+			</h3>
+			<article class="gc">
+				<h4>敵情報</h4>
+				<ul>
+					<li>パドメ・アミダラ</li>
+					<li>ケノービ将軍</li>
+					<li>R2-D2</li>
+					<li>ジェダイ・ナイト・アナキン</li>
+					<li>アソーカ・タノ（お調子者）</li>
+				</ul>
+
+				<h4>偉業</h4>
+				<ul>
+					<li>Lingering Death：時間経過ダメージを30回発生させてバトルをクリアする</li>
+					<li>Hindered Movement：ターンメーターを400%減少させてバトルに勝利する</li>
+					<li>フルチーム：反乱軍ファイターのフルチームでバトルをクリアする</li>
+				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
 
 		<section class="content">
 			<h3 class="heading">
-				次回の銀河チャレンジ【予告】
-			</h3>
-			<article class="gc">
-				<dl>
-					<dt>GC 413 <span class="planet">イラム</span>：
+				【予告】GC 413 <span class="planet">イラム</span>：
 					<span class="enemy">レジスタンス</span><br>
 					<span class="bonus-alignment">ファースト・オーダー</span>のボーナス
-					</dt>
-					<dd>敵情報<br>
-					<ul>
-						<li>フィン</li>
-						<li>ゾリ・ブリス</li>
-						<li>レジスタンスの英雄フィン</li>
-						<li>レジスタンスの英雄ポー</li>
-						<li>ポー・ダメロン</li>
-					</ul>
-					</dd>
-					<dd>偉業<br>
-					<ul>
-						<li>Shadowy Dealings：ステルスを10回得てバトルをクリアする</li>
-						<li>無防備：チームにタンクを使用せずにバトルに勝利する</li>
-						<li>フルチーム：ファースト・オーダーのフルチームでバトルをクリアする</li>
-					</ul>
-					</dd>
-				</dl>
+			</h3>
+			
+			<article class="gc">
+				<h4>敵情報</h4>
+				<ul>
+					<li>フィン</li>
+					<li>ゾリ・ブリス</li>
+					<li>レジスタンスの英雄フィン</li>
+					<li>レジスタンスの英雄ポー</li>
+					<li>ポー・ダメロン</li>
+				</ul>
+				
+				<h4>偉業</h4>
+				<ul>
+					<li>Shadowy Dealings：ステルスを10回得てバトルをクリアする</li>
+					<li>無防備：チームにタンクを使用せずにバトルに勝利する</li>
+					<li>フルチーム：ファースト・オーダーのフルチームでバトルをクリアする</li>
+				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
 
 		<section class="content">
 			<h3 class="heading">
-				次回の銀河チャレンジ【予告】
-			</h3>
-			<article class="gc">
-				<dl>
-					<dt>GC 414 <span class="planet">ダソミア</span>：
+				【予告】GC 414 <span class="planet">ダソミア</span>：
 					<span class="enemy">ドロイド</span><br>
 					<span class="bonus-alignment">シス</span>のボーナス
-					</dt>
-					<dd>敵情報<br>
-					<ul>
-						<li>グリーヴァス将軍</li>
-						<li>IG-100マグナガード</li>
-						<li>B2スーパー・バトル・ドロイド</li>
-						<li>STAP</li>
-						<li>B1バトル・ドロイド</li>
-					</ul>
-					</dd>
-					<dd>偉業<br>
-					<ul>
-						<li>シンプルトリック：特殊スキルの使用3回以内でバトルに勝利する</li>
-						<li>バランス戦略：チームにライトサイド、ダークサイドユニットを1体ずつ入れ、いずれも生存した状態でバトルに勝利する</li>
-						<li>フルチーム：シスのフルチームでバトルをクリアする</li>
-					</ul>
-					</dd>
-				</dl>
+			</h3>
+			
+			<article class="gc">
+				<h4>敵情報</h4>
+				<ul>
+					<li>グリーヴァス将軍</li>
+					<li>IG-100マグナガード</li>
+					<li>B2スーパー・バトル・ドロイド</li>
+					<li>STAP</li>
+					<li>B1バトル・ドロイド</li>
+				</ul>
+
+				<h4>偉業</h4>
+				<ul>
+					<li>シンプルトリック：特殊スキルの使用3回以内でバトルに勝利する</li>
+					<li>バランス戦略：チームにライトサイド、ダークサイドユニットを1体ずつ入れ、いずれも生存した状態でバトルに勝利する</li>
+					<li>フルチーム：シスのフルチームでバトルをクリアする</li>
+				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
 		</section>
