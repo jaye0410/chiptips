@@ -1,4 +1,5 @@
 function changeActivePage(page) {
+  if (page == "") { page = "./"; }
   const anchor = document.querySelector(`ul#topnav a[href="${page}"]`);
   if (anchor == null) { return; }
 
