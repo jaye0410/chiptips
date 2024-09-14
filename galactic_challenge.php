@@ -18,9 +18,9 @@
 	section.content {
 		margin-bottom: 40px;
 	}
-	h3.heading {
+	/* h3.heading {
 		margin-bottom: 0 !important;
-	}
+	} */
 	.content h4 {
 		font-weight: bold;
 		font-size: 16px;
@@ -34,6 +34,9 @@
 		list-style-type: disc;
 		margin-left: 25px;
 		margin-bottom: 20px;
+	}
+	.gc-nav li {
+		margin-bottom: 5px;
 	}
 
 	div.youtube {
@@ -88,8 +91,197 @@
     
 <!-- コンテンツ -->
 	<section>
-		
 		<section class="content">
+			<h3 class="heading">メニュー</h3>
+			<article class="gc">
+				<p>
+					このページでは、SWGoHのコンテンツ「銀河チャレンジ」(GC) について説明しています。
+				</p>
+				<p>
+					開催中のGCの攻略記事は
+					<a href="./blog/" class="explicitly">&nbsp;ブログ記事&nbsp;</a>
+					で投稿している場合がありますが、毎回ではありません。
+				</p>
+
+				<hr>
+
+				<h4>目次</h4>
+				<ul class="gc-nav">
+					<li><a href="#gc_basic" class="explicitly">銀河チャレンジのイベント画像</a></li>
+					<li><a href="#gc_level" class="explicitly">銀河チャレンジのレベル</a></li>
+					<li><a href="#gc_reward" class="explicitly">銀河チャレンジの報酬</a></li>
+					<li><a href="#gc_bonus" class="explicitly">銀河チャレンジのボーナス値</a></li>
+					<li><a href="#gc_bonus_list" class="explicitly">銀河チャレンジのボーナス一覧</a></li>
+					<li><a href="#gc_feats" class="explicitly">銀河チャレンジの偉業</a></li>
+					<li><a href="#gc_feat_list" class="explicitly">銀河チャレンジの偉業一覧</a></li>
+				</ul>
+			</article>
+		</section>
+
+		<section class="content" id="gc_basic">
+			<h3 class="heading">銀河チャレンジのイベント画像</h3>
+			<article>
+				<img src="images/gc_label.png" width="200" height="300" alt="" class="alignleft frame">
+				<p>
+					銀河チャレンジの予告期間から開催中にかけて「イベント」メニューを開くと、このようなイベント画像で銀河チャレンジの概要を把握できます。
+				</p>
+				<h4>惑星名:</h4>
+				<p>
+					惑星によってボーナス値が変わりますが、イベント内でも改めてボーナス値の確認画面が表示されるため、特に覚えたり意識する必要はありません。
+				</p>
+
+				<h4>敵勢力:</h4>
+				<p>今回のGCで対峙する敵勢力が分かります。</p>
+
+				<h4>ボーナス付与対象の味方勢力:</h4>
+				<p>対象の勢力には強力なボーナス値が付与されますが、
+					「フルチーム」の偉業をクリアするためにチームをこの勢力のみで編成する必要があります。
+				</p>
+				<p>
+				前述のとおり、このラベル画像は予告期間中から表示されるので、事前に対象の味方勢力を確認可能です。<br>
+				育成不足の場合は開催までの間に装備やモッドなどを整える猶予ができます。
+				</p>
+			</article>
+		</section>
+
+		<section class="content" id="gc_level">
+			<h3 class="heading">銀河チャレンジのレベル</h3>
+			<article>
+				<img src="images/gc_level.png" width="380" height="200" alt="" class="alignleft frame">
+				<p>
+					GCのバトルには、I～X (1～10) までのレベルが設定されており、どのレベルからでもバトルを開始できます。<br>
+					レベルX (10) をクリアすると、I～IXまでのバトル全てが自動的にクリアされます。<br>
+					後述の「偉業」についても同様の扱いになります。
+				</p>
+				<p>
+					レベルが高くなるにつれ敵のレベル、バトルの難易度が高くなりますが、
+					その分獲得できる報酬もグレードアップしていきます。
+				</p>
+				<p>
+					GCでは、バトルに負けても開催期間中は無制限に再挑戦できます。<br>
+					装備やレリックレベルを期間中に上げるのは難しいかもしれませんが、
+					モッドを見直すことで勝利できるケースも多々あります。
+					<br>
+					最大報酬を目指して、諦めず挑戦してみてください。
+				</p>
+			</article>
+		</section>
+
+		<section class="content" id="gc_reward">
+			<h3 class="heading">銀河チャレンジの報酬</h3>
+			<article>
+				<img src="images/gc_reward.png" width="320" height="290" alt="" class="alignleft frame">
+				<p>
+					GCをクリアすると、他のイベントに勝るとも劣らない豪華な報酬が獲得できます。
+				</p>
+				<p>
+					画像の報酬はレベルXクリア時の最大報酬 (赤箱) ですが、
+					最大報酬の1ランク下の金箱でもオミクロン資材2つ、カイロテックの回収品が5つ獲得できます。
+				</p>
+				<p>
+					装備ボックスの中にも貴重な装備が複数入っており、さらにモッドスライス資材も潤沢に獲得できます。
+					<br>
+					非常に時間と労力がかかるアサルトバトルと比べると、コスパの良いイベントではないかと思います。
+				</p>
+
+				<h4>モッド報酬:</h4>
+				<p>
+					有効性モッドが報酬として表示されていますが、獲得できるモッドの種類は惑星によって変わります。
+				</p>
+
+				<h4>ユニットのかけら報酬:</h4>
+				<p>
+					報酬として獲得できるかけらは、敵勢力のユニットが設定されます。
+				</p>
+			</article>
+		</section>
+
+		<section class="content" id="gc_bonus">
+			<h3 class="heading">銀河チャレンジのボーナス値</h3>
+			<article>
+				<img src="images/gc_bonus.png" width="380" height="200" alt="" class="alignleft frame">
+				<p>
+					惑星、ボーナス対象の味方勢力、敵勢力によって各ボーナス値が変わります。
+				</p>
+				<p>
+					私のやり方としては、このボーナス値は未確認のまま挑戦する場合が多いです。<br>
+					ある程度の種類が繰り返されているので、覚えているものが多いのもひとつの理由ですが、
+					一度やってみて勝てない場合は、すべてのボーナス値を確認して攻略のヒントを探します。
+				</p>
+				<p>
+					特に「フルチーム」の偉業クリアに苦労する場合は、「プレイヤー」のボーナス値の確認を強くお勧めします。
+				</p>
+			</article>
+		</section>
+
+		<section class="content" id="gc_bonus_list">
+			<h3 class="heading">銀河チャレンジのボーナス一覧</h3>
+			<article class="gc">
+				<h4>グローバル</h4>
+				<ul>
+					<li>キャッシーク：「正当な報復」<br>
+						ユニットがダメージを受けるたび、クリティカルヒットを決めるまでユニットのクリティカルダメージが20%上昇する (スタック可能)。<br>
+						ユニットが弱体効果を受けるたび、ユニットのプロテクションが10%回復する。<br>
+						ユニットが戦闘不能になるたび、ランダムな他の味方1体にボーナスターンが発生する。
+					</li>
+				</ul>
+
+				<h4>プレイヤー</h4>
+				<ul>
+					<li>帝国軍トルーパー：「帝国軍アーマー」<br>
+						帝国軍トルーパーの最大HPと最大プロテクションが15%上昇する。
+						リーダースロットにいないドロイド以外の帝国軍トルーパーは、初めて戦闘不能になると、HP100%、プロテクション75%の状態で復活する。
+						帝国軍トルーパーが復活するたび、1ターンの間、敵全体によろめきと無防備を発生させる(耐性発揮不可)。
+						ターンメーターが100%を下回る帝国軍トルーパーは、ボーナスターンメーターを得るたび、HPとプロテクションが5%回復し、1ターンの間、クリティカルダメージが10%上昇する(スタック可能)。
+						帝国軍トルーパーはターン外に攻撃するたび、1ターンの間、2%のボーナスプロテクションを得る(スタック可能)。
+					</li>
+				</ul>
+
+				<h4>敵</h4>
+				<ul>
+					<li>クローン・トルーパー：「勇猛」<br>
+						バトル終了まで、クローン・トルーパーは強化効果(解除可能)を受けるたび、「勇猛」のスタックを1得る(コピー、解除不可)。
+						<br>
+						勇猛：攻撃力、クリティカル率、クリティカルダメージが5%、ヘルススティールが1%上昇する。
+					</li>
+				</ul>
+			</article>
+		</section>
+
+		<section class="content" id="gc_feats">
+			<h3 class="heading">銀河チャレンジの偉業</h3>
+			<article>
+				<img src="images/gc_feats.png" width="380" height="200" alt="" class="alignleft frame">
+				<p>
+					各レベルのクリアと「フルチーム」の偉業は毎回固定です。<br>
+					他2種類の偉業は開催ごとに変わります。
+				</p>
+				<p>
+					最も重要な偉業は「フルチーム」で、赤箱に到達するためにはレベルXのクリアが必須です。<br>
+					フルチームのレベルXをクリアすれば、残りの偉業の内1つはレベルIXでも赤箱に到達できます。
+				</p>
+				<p>
+					どうしてもフルチームがクリアできない場合は金箱を目指すことになりますが、
+					その際フルチームはレベルVI、その他偉業をレベルXのクリアで到達できます。
+				</p>
+			</article>
+		</section>
+
+		<section class="content" id="gc_feat_list">
+			<h3 class="heading">銀河チャレンジの偉業一覧</h3>
+			<article class="gc">
+				<ul>
+					<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
+					<li>危険予測：フルチームではない編成でバトルをクリアする</li>
+					<li>クリティカルストリーク：味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする</li>
+					<li>しびれる戦術：30回スタンさせてバトルをクリアする</li>
+					<li>自由：リーダースロットにリーダーを使用せずに勝利する</li>
+					<li>サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- <section class="content">
 			<h3 class="heading">
 				GC 411 <span class="planet">キャッシーク</span>：
 					<span class="enemy">クローン</span><br>
@@ -110,10 +302,6 @@
 					<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
 					<li>危険予測：フルチームではない編成でバトルをクリアする</li>
 					<li>フルチーム：帝国軍トルーパーのフルチームでバトルをクリアする</li>
-					<!-- クリティカルストリーク：味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする -->
-					<!-- しびれる戦術：30回スタンさせてバトルをクリアする -->
-					<!-- 自由：リーダースロットにリーダーを使用せずに勝利する -->
-					<!-- サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする -->
 				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 
@@ -131,7 +319,6 @@
 				
 				<h4>クリア編成</h4>
 				<ul>
-					<!-- <li>未挑戦</li> -->
 					<li>フルチーム：帝国軍トルーパー / ラッキーショット<br>
 					ヴィアーズ将軍 L (R5)、モフ・ギデオン (R5)、スターク大佐 (R5)、レンジ・トルーパー (R5)、ピエット提督 (R8)</li>
 					<li>危険予測<br>
@@ -141,7 +328,6 @@
 				</ul>
 
 				<h4>フルチームのクリア動画</h4>
-				<!-- https://youtu.be/MwELxyJ7sxE -->
 				<div class="youtube">
 					<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="MwELxyJ7sxE" src="https://www.youtube.com/embed/MwELxyJ7sxE"></iframe>
 				</div>
@@ -150,9 +336,9 @@
 				<img src="images/gc_result.webp" class="frame" width="90%" alt="GC結果">
 
 			</article>
-		</section>
+		</section> -->
 
-		<section class="content">
+		<!-- <section class="content">
 			<h3 class="heading">
 				【予告】GC 412 <span class="planet">カミーノ</span>：
 					<span class="enemy">銀河共和国</span><br>
@@ -230,7 +416,7 @@
 				</ul>
 				<p>※ レベルクリアの偉業は記載対象から除外しています。</p>
 			</article>
-		</section>
+		</section> -->
     
 	</section>
 	<!-- / コンテンツ -->
