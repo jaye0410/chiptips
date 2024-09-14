@@ -76,6 +76,11 @@
 	.pickup-word .more-info a {
 		font-weight: bold;
 	}
+	fieldset {
+		border: 1px solid #f7f7f7;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
 	/* スマートフォン 横(ポートレート) */
 	@media only screen and (max-width:640px){
 		.content dt {
@@ -164,19 +169,19 @@
 				登録されている用語
 			</h3>
 			<fieldset class="term">
-				<legend>用語</legend>
+				<legend>&nbsp;用語&nbsp;</legend>
 				<ul></ul>
 			</fieldset>
 			<fieldset class="race">
-				<legend>種族</legend>
+				<legend>&nbsp;種族&nbsp;</legend>
 				<ul></ul>
 			</fieldset>
 			<fieldset class="creature">
-				<legend>生物</legend>
+				<legend>&nbsp;生物&nbsp;</legend>
 				<ul></ul>
 			</fieldset>
 			<fieldset class="vehicle">
-				<legend>乗り物</legend>
+				<legend>&nbsp;乗り物&nbsp;</legend>
 				<ul></ul>
 			</fieldset>
 		</section>
