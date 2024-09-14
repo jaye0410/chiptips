@@ -153,12 +153,6 @@
 				<dt>用語意味</dt>
 				<dd class="meanings"></dd>
 			</dl>
-			<dl class="image-area">
-				<dt></dt>
-				<dd>
-					<!-- <img src="" width="90%" class="frame" alt=""> -->
-				</dd>
-			</dl>
 			<p class="more-info">
 				<a href="" target="_blank">&raquo; Wookieepediaでさらに詳しく</a>
 				<span class="caution"> (※扱われていない場合もあります。)</span>
