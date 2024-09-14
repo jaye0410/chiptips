@@ -35,17 +35,23 @@
 		margin-left: 25px;
 		margin-bottom: 20px;
 	}
-	.gc-nav li {
+	.gc-nav li, .feat-list li {
 		margin-bottom: 5px;
+	}
+	.feat-list h4 {
+		margin-bottom: 0px;
+	}
+	.feat-list h4:before {
+		content: "【"
+	}
+	.feat-list h4:after {
+		content: "】"
 	}
 
 	div.youtube {
 		margin-bottom: 20px;
 	}
 	.youtube iframe{
-		/* position: absolute;
-		top: 0;
-		left: 0; */
 		width: 100%;
 		height: 350px;
 		border: none;
@@ -121,7 +127,7 @@
 		<section class="content" id="gc_basic">
 			<h3 class="heading">銀河チャレンジのイベント画像</h3>
 			<article>
-				<img src="images/gc_label.png" width="200" height="300" alt="" class="alignleft frame">
+				<img src="images/gc_label.webp" width="200" height="300" alt="" class="alignleft frame">
 				<p>
 					銀河チャレンジの予告期間から開催中にかけて「イベント」メニューを開くと、このようなイベント画像で銀河チャレンジの概要を把握できます。
 				</p>
@@ -147,7 +153,7 @@
 		<section class="content" id="gc_level">
 			<h3 class="heading">銀河チャレンジのレベル</h3>
 			<article>
-				<img src="images/gc_level.png" width="380" height="200" alt="" class="alignleft frame">
+				<img src="images/gc_level.webp" width="380" height="200" alt="" class="alignleft frame">
 				<p>
 					GCのバトルには、I～X (1～10) までのレベルが設定されており、どのレベルからでもバトルを開始できます。<br>
 					レベルX (10) をクリアすると、I～IXまでのバトル全てが自動的にクリアされます。<br>
@@ -170,7 +176,7 @@
 		<section class="content" id="gc_reward">
 			<h3 class="heading">銀河チャレンジの報酬</h3>
 			<article>
-				<img src="images/gc_reward.png" width="320" height="290" alt="" class="alignleft frame">
+				<img src="images/gc_reward.webp" width="320" height="290" alt="" class="alignleft frame">
 				<p>
 					GCをクリアすると、他のイベントに勝るとも劣らない豪華な報酬が獲得できます。
 				</p>
@@ -199,7 +205,7 @@
 		<section class="content" id="gc_bonus">
 			<h3 class="heading">銀河チャレンジのボーナス値</h3>
 			<article>
-				<img src="images/gc_bonus.png" width="380" height="200" alt="" class="alignleft frame">
+				<img src="images/gc_bonus.webp" width="380" height="200" alt="" class="alignleft frame">
 				<p>
 					惑星、ボーナス対象の味方勢力、敵勢力によって各ボーナス値が変わります。
 				</p>
@@ -251,7 +257,7 @@
 		<section class="content" id="gc_feats">
 			<h3 class="heading">銀河チャレンジの偉業</h3>
 			<article>
-				<img src="images/gc_feats.png" width="380" height="200" alt="" class="alignleft frame">
+				<img src="images/gc_feats.webp" width="380" height="200" alt="" class="alignleft frame">
 				<p>
 					各レベルのクリアと「フルチーム」の偉業は毎回固定です。<br>
 					他2種類の偉業は開催ごとに変わります。
@@ -270,13 +276,34 @@
 		<section class="content" id="gc_feat_list">
 			<h3 class="heading">銀河チャレンジの偉業一覧</h3>
 			<article class="gc">
-				<ul>
-					<li>ラッキーショット：クリティカルヒットを30回決めてバトルをクリアする</li>
-					<li>危険予測：フルチームではない編成でバトルをクリアする</li>
-					<li>クリティカルストリーク：味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする</li>
-					<li>しびれる戦術：30回スタンさせてバトルをクリアする</li>
-					<li>自由：リーダースロットにリーダーを使用せずに勝利する</li>
-					<li>サーマル・デトネーターを持ってるぞ！：サーマル・デトネーターを40回発生させてバトルをクリアする</li>
+				<p>※五十音順</p>
+				<ul class="feat-list">
+					<li><h4>危険予測</h4>
+						フルチームではない編成でバトルをクリアする</li>
+					<li><h4>クリティカルストリーク</h4>
+						味方のターン中にクリティカルヒットを3連続決めてバトルをクリアする</li>
+					<li><h4>サーマル・デトネーターを持ってるぞ！：</h4>
+						サーマル・デトネーターを40回発生させてバトルをクリアする</li>
+					<li><h4>しびれる戦術</h4>
+						30回スタンさせてバトルをクリアする</li>
+					<li><h4>自由</h4>
+						リーダースロットにリーダーを使用せずに勝利する</li>
+					<li><h4>シンプルトリック</h4>
+						特殊スキルの使用3回以内でバトルに勝利する</li>
+					<li><h4>チェインアタック</h4>
+						8ターン連続で取ってから勝利する</li>
+					<li><h4>長引く死</h4>
+						時間経過ダメージを30回発生させてバトルをクリアする</li>
+					<li><h4>バランス戦略</h4>
+						チームにライトサイド、ダークサイドユニットを1体ずつ入れ、いずれも生存した状態でバトルに勝利する</li>
+					<li><h4>妨害</h4>
+						ターンメーターを400%減少させてバトルに勝利する</li>
+					<li><h4>無防備</h4>
+						チームにタンクを使用せずにバトルに勝利する</li>
+					<li><h4>闇討ち</h4>
+						ステルスを10回得てバトルをクリアする</li>
+					<li><h4>ラッキーショット</h4>
+						クリティカルヒットを30回決めてバトルをクリアする</li>
 				</ul>
 			</article>
 		</section>
