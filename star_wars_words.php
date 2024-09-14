@@ -163,9 +163,22 @@
 			<h3 class="heading">
 				登録されている用語
 			</h3>
-			<ul>
-
-			</ul>
+			<fieldset class="term">
+				<legend>用語</legend>
+				<ul></ul>
+			</fieldset>
+			<fieldset class="race">
+				<legend>種族</legend>
+				<ul></ul>
+			</fieldset>
+			<fieldset class="creature">
+				<legend>生物</legend>
+				<ul></ul>
+			</fieldset>
+			<fieldset class="vehicle">
+				<legend>乗り物</legend>
+				<ul></ul>
+			</fieldset>
 		</section>
     
 	</section>
@@ -219,9 +232,8 @@
 		pickupWord(words[random]);
 		
 		// 辞書索引
-		const ul = document.querySelector("section.dict ul");
+		// const ul = document.querySelector("section.dict ul");
 		for (let i = 0; i < words.length; i ++) {
-			const li = document.createElement("li");
 			const button = document.createElement("button");
 			button.className = "ws-word";
 			button.style.minWidth = "80px";
@@ -241,6 +253,25 @@
 					console.error("Error: ", error);
 				});
 			});
+			let ul = null;
+			switch (words[i]["category"]) {
+				case "用語":
+					ul = document.querySelector("fieldset.term ul");
+					break;
+				case "種族":
+					ul = document.querySelector("fieldset.race ul");
+					break;
+				case "生物":
+					ul = document.querySelector("fieldset.creature ul");
+					break;
+				case "乗り物":
+					ul = document.querySelector("fieldset.vehicle ul");
+					break;
+			}
+			// if (words[i]["wordJp"] == "用語") {
+			// 	li = document.querySelector("fieldset.term li");
+			// }
+			const li = document.createElement("li");
 			li.appendChild(button);
 			ul.appendChild(li);
 		}
