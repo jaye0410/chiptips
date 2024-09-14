@@ -12,9 +12,9 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - 征服 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。">
+<meta name="description" content="SWGoH ChipTips - 征服 | スター・ウォーズ／銀河の英雄(SWGoH)のコンテンツ「征服」の攻略ページです。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - 征服 | スター・ウォーズ／銀河の英雄(SWGoH)の情報サイトです。ゲームに役立つDiscord Bot「JJ-8」も開発しています。</title>
+<title>SWGoH ChipTips - 征服</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">

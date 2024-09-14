@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - ゲームの概要 | スター・ウォーズ／銀河の英雄(SWGoH)の特徴、魅力をお伝えするページです。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - ゲームの概要 | スター・ウォーズ／銀河の英雄(SWGoH)の特徴、魅力をお伝えするページです。</title>
+<title>SWGoH ChipTips - ゲームの概要</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">

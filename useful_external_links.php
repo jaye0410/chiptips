@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - 外部リンク集 | 当サイトがお世話になっているサイトへのリンクをまとめています。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - 外部リンク集 | 当サイトがお世話になっているサイトへのリンクをまとめています。</title>
+<title>SWGoH ChipTips - 外部リンク集</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
