@@ -73,6 +73,9 @@
 	button.ws-word {
 		margin-bottom: 5px;
 	}
+	.pickup-word .more-info a {
+		font-weight: bold;
+	}
 	/* スマートフォン 横(ポートレート) */
 	@media only screen and (max-width:640px){
 		.content dt {
@@ -156,6 +159,10 @@
 					<!-- <img src="" width="90%" class="frame" alt=""> -->
 				</dd>
 			</dl>
+			<p class="more-info">
+				<a href="" target="_blank">&raquo; Wookieepediaでさらに詳しく</a>
+				<span class="caution"> (※扱われていない場合もあります。)</span>
+			</p>
 		</section>
 
 		<section class="content dict">
@@ -251,6 +258,16 @@
 		document.querySelector(".pickup-word .word-en").textContent = word["wordEn"];
 		document.querySelector(".pickup-word .category").textContent = word["category"];
 		document.querySelector(".pickup-word .meanings").textContent = word["meanings"];
+
+		const wordForURL = encodeURIComponent(word["wordJp"]);
+		const wikiURL = `https://starwars.fandom.com/ja/wiki/${wordForURL}`;
+		// const anchor = document.createElement("a");
+		const anchor = document.querySelector(".more-info a");
+		anchor.href = wikiURL;
+		anchor.classList.add("explicitly");
+		// anchor.setAttribute("target", "_blank");
+		// anchor.textContent = ` \u00bb Wookieepediaでさらに詳しく `;	// &raquo; をコードでセットする \u00bb
+		// document.querySelector(".pickup-word .more-info").appendChild(anchor);
 	}
 </script>
 </body>

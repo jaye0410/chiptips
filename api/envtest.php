@@ -1,13 +1,17 @@
 <?php
 // $url = 'https://swgoh.gg/api/units/';
-$url = 'https://starwars.fandom.com/ja/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8';
+// $url = 'https://starwars.fandom.com/ja/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8';
 
+
+//encodeURIComponent("アキ＝アキ");
+$url = 'https://starwars.fandom.com/ja/wiki/' . $_GET['searchItem'];
+// $url = 'https://docs.google.com/spreadsheets/d/1c7zwQHamuoixe60zqIcy8gaoNUfBdYWpN-SflVamY00/edit?gid=918100025#gid=918100025';
 // ストリームコンテキストのオプションを作成
 $options = array(
   // HTTPコンテキストオプションをセット
   'http' => array(
     'method'=> 'GET',
-    'header'=> 'Content-type: application/json; charset=UTF-8'
+    // 'header'=> 'Content-type: application/json; charset=UTF-8'
   )
 );
 
