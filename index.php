@@ -67,10 +67,16 @@
 
 		<article class="grid">
 			<h3>最新ニュース</h3>
-			<div id="official-news-lede">
-
-			</div>
-			<p class="readmore"><a href="official_news.php">&raquo; 詳細を確認する</a></p>
+			<p>このページで扱う項目は次のとおりです。</p>
+			<ul>
+				<li>SWGoH公式フォーラムの和訳</li>
+				<li>当サイトの更新情報</li>
+				<li>その他のお知らせ</li>
+			</ul>
+			<p id="forTop">ぜひ ↓ のリンクから詳細を確認してみてください。</p>
+			<p class="readmore">
+				<a href="blog/category/公式フォーラム/" target="_blank">&raquo; 詳細を確認する</a>
+			</p>
 		</article>
 		
 		<article class="grid">
@@ -140,7 +146,7 @@
 	if (page == "index.php") { page = "" }
 	changeActivePage(page);
 
-	loadLede("official_news.php", "#official-news-lede");
+	// loadLede("official_news.php", "#official-news-lede");
 	loadLede("basic_info.php", "#basic-info-lede");
 
 	function loadLede(url, targetId) {

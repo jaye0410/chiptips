@@ -7,7 +7,6 @@ files = [
   "territory_battle.php",
   "raid.php",
   "discord_bot.php",
-  "official_news.php",
   "status_effects.php",
   "policy.php",
   "galactic_challenge.php",
