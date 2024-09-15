@@ -164,7 +164,7 @@
 				<dd>
 					<h4>【手順 4】</h4>
 					<p>
-					ゲームを開き、WookieeBotから指定されたてポートレートに変更します。
+					ゲームを開き、WookieeBotに指定されたポートレートに変更します。
 					</p>
 				</dd>
 			</dl>
@@ -179,6 +179,9 @@
 					DiscordのWookieeBotに戻り、「Verify」をクリック (タップ) してください。
 					</p>
 					<p>以上で同盟コードの登録が完了します。</p>
+					<p>
+						<a href="raid.php">&raquo; レイドページへ戻る</a>
+					</p>
 				</dd>
 			</dl>
 		</section>
