@@ -37,6 +37,10 @@
 	font-weight: bold;
 	color: #ff7f50;
 }
+.targetDiv hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .youtube iframe{
   /* position: absolute;
   top: 0;
@@ -119,6 +123,45 @@
 						ガントレット・スターファイター (ガー、ISCともにG12)、TIEボマー (クルーなし)
 					</li>
 				</ul>
+
+				<hr>
+
+				<h4><img src="images/mix_icon.png" width="44px" alt=""><p>ミックス：コレリア</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="65HzERqSdzQ" src="https://www.youtube.com/embed/65HzERqSdzQ"></iframe>
+				</div>
+				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。</p>
+				<ul>
+					<li>先発：<br>
+					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、ランドのミレニアム・ファルコン（強制出撃）
+					</li>
+					<li>
+						増援：<br>
+						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
+					</li>
+				</ul>
+
+				<hr>
+
+				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：コルサント</p></h4>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jmn2iEJec3s" src="https://www.youtube.com/embed/jmn2iEJec3s"></iframe>
+				</div>
+				<p>
+				ホーム・ワン (アクバー:R2) の反乱軍艦隊でクリアしている動画です。<br>
+				なぜホーム・ワンなのか。それはプロファンディティがまだ星4だからです。
+				</p>
+				<ul>
+					<li>先発：<br>
+					ハンのミレニアム・ファルコン (ハン:R8、チューイ:R7)、アウトライダー (ダッシュ・レンダー:R7)、反乱軍Yウイング (クルー無し)
+					</li>
+					<li>
+						増援：<br>
+						キャシアンのUウイング (キャシアン:R5、K2-SO:R3)、ゴースト (ヘラ:R5、ケイナン:G12、ゼブ:G12)、
+						ファントムII (サビーヌラ:G12、エズラ:G12、チョッパー:G12)、ビッグズのXウイング (ビッグズ:R4)<br>
+						※ゴースト、ファントム、ビッグズは未使用でした。
+					</li>
+				</ul>
 			</div>
 
 			<div id="p2-div" class="targetDiv" style="display: none;">
@@ -158,7 +201,7 @@
 
 				<hr>
 
-				<h4><img src="images/mix_icon.png" width="22px" height="22px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
+				<h4><img src="images/mix_icon.png" width="22px" height="44px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jCkTlILk1Vc" src="https://www.youtube.com/embed/jCkTlILk1Vc"></iframe>
 				</div>
