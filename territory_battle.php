@@ -285,7 +285,7 @@
 
 				<hr>
 
-				<h4><img src="images/mix_icon.png" width="22px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
 				</div>
