@@ -201,7 +201,7 @@
 
 				<hr>
 
-				<h4><img src="images/mix_icon.png" width="22px" height="44px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jCkTlILk1Vc" src="https://www.youtube.com/embed/jCkTlILk1Vc"></iframe>
 				</div>
