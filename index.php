@@ -117,7 +117,7 @@
 			もちろんSWGoHのことも書きます。
 			</p>
 			<p>一般的に&quot;ブログ&quot;と呼ばれるコンテンツですが当サイトでは&quot;ブローグー&quot;です。</p>
-			<p class="readmore"><a href="./blog">&raquo; 詳細を確認する</a></p>
+			<p class="readmore"><a href="./blog" target="_blank" 詳細を確認する</a></p>
 		</article>
 
 		<article class="grid colDark">
