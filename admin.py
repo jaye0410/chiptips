@@ -1,5 +1,6 @@
 import os
 import datetime
+import shutil
 
 files = [
   "index.php",
@@ -34,4 +35,11 @@ for file in files:
 
 xml = xml + "</urlset>"
 
-print(xml)
+# print(xml)
+file_name = "sitemap.xml"
+# バックアップファイルの保存
+back_name = file_name + ".bak"
+shutil.copy(file_name, back_name)
+
+with open(file_name, mode="w", encoding="utf8") as f:
+    f.write(xml)
