@@ -26,6 +26,10 @@
 <style>
 	section.content {
 		margin-bottom: 40px;
+		background: rgba(255, 255, 255, 0.5);
+	}
+	section.content p {
+		padding: 0 5px;
 	}
 	span.strong {
 		font-weight: bold;
@@ -45,6 +49,7 @@
 	}
 	article.gc ul {
 		list-style-type: disc;
+		padding-right: 5px;
 		margin-left: 25px;
 		margin-bottom: 20px;
 	}
