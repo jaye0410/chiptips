@@ -153,7 +153,7 @@
   .then(result => {
     const data = JSON.parse(result);
     const STATUS_EFFECTS = {"DEBUFF": [], "BUFF": [], "OTHERS": []};
-    for (i in data) {
+    for (let i in data) {
       const type = data[i]["type"];
       STATUS_EFFECTS[STATUS_TYPES[type]].push(data[i]);
     }

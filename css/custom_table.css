@@ -3,7 +3,7 @@
 モスグリーン: #2b5f2a
 */
 table.my-custom {
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
   width: 100%;
 }
 table.my-custom tr th {

@@ -236,6 +236,11 @@
 						※ この条件でモッドを調整以降、私の勝率は100%です。
 					</li>
 				</ul>
+
+				<p>■ サード・シスター入りの編成で楽々クリアな動画はこちら</p>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="lPKYl2WEKAY" src="https://www.youtube.com/embed/lPKYl2WEKAY"></iframe>
+				</div>
 			</div>
 
 			<div id="p4-div" class="targetDiv" style="display: none;">
