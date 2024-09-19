@@ -238,6 +238,7 @@
 				</ul>
 
 				<p>■ サード・シスター入りの編成で楽々クリアな動画はこちら</p>
+				<p>大尋問官がスタンされていますが、まったく負ける気がしません。</p>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="lPKYl2WEKAY" src="https://www.youtube.com/embed/lPKYl2WEKAY"></iframe>
 				</div>
