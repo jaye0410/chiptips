@@ -100,8 +100,22 @@
     
 	<!-- コンテンツ -->
 	<section class="timeline">
-		
+			
 		<ul class="timeline-list">
+			<li class="timeline-list-item">
+				<div class="year">36,453 BBY</div>
+				<div class="content"><h3>ジェダイの夜明け</h3>
+				https://starwars.fandom.com/wiki/Order_of_Dai_Bendu
+				https://starwars.fandom.com/wiki/Dawn_of_the_Jedi:_Force_Storm_1
+				https://starwars.fandom.com/wiki/Tho_Yor#cite_note-DotJ1-4
+				https://starwars.fandom.com/wiki/Tython/Legends
+				ピラミッド型の巨大な宇宙船「ソー・ヨール」(Tho Yor)8隻が、12を超える種族の巡礼者を乗せてディープコア領域の惑星タイソンへとやってきた。<br>
+				彼らはヒューマノイド(人間)、 ウーキー、トワイレック、セルカス、イクトッチ、キャサー、ザブラク、ミラルカ、デヴァロニアン、ノグリ、クーリヴァー、クレヴァーキ、サラスタン
+				など種族は多種多様だったが、誰もがフォース・センシティヴであるという共通点を持っていた。<br>
+				巡礼者たちはフォースの制御を学ぶとジェダイ・オーダーを設立し、タイソンの2つの衛星であるアシュラとボガンに基づいてバランスの哲学を築いた。<br>
+				アシュラはライトサイドを、ボガンはダークサイドを暗示した。
+				</div>
+			</li>
 			<li class="timeline-list-item">
 				<div class="year">25,783 BBY</div>
 				<div class="content"><h3>ジェダイ・オーダーの設立</h3>
