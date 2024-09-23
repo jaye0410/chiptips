@@ -18,6 +18,7 @@ $name = htmlspecialchars($username, ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
 $inquiry = htmlspecialchars($inquiry, ENT_QUOTES, 'UTF-8');
 
+$mailInfo = "";
 try {
   // $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../config");
   // $dotenv->load();
@@ -42,6 +43,21 @@ try {
 
   $stmt->execute();
 
+  // ここからメール送信処理
+  mb_language("Japanese");
+  mb_internal_encoding("UTF-8");
+
+  $to = "jaye412@gmail.com";
+  $subject = "ChipTips問い合わせ";
+  $message = $inquiry;
+  $headers = "From: info@swgoh-chiptips.jp";
+  
+  if (mb_send_mail($to, $subject, $message, $headers)) {
+    $mailInfo = "Send mail successful.";
+  } else {
+    $mailInfo = "Send mail failed.";
+  }
+
 } catch (PDOException $e){
   $hasError = true;
 } finally {
@@ -49,7 +65,8 @@ try {
     "username" => $username,
     "email" => $email,
     "inquiry" => $inquiry,
-    "hasError" => $hasError
+    "hasError" => $hasError,
+    "mailInfo" => $mailInfo
   );
   
   $jsonstr =  json_encode($response);

@@ -108,10 +108,8 @@
 
 			<div id="p1-div" class="targetDiv">
 				<h3 class="heading">フェーズ 1</h3>
+				
 				<h4><img src="images/dark_icon.png" width="22px" alt=""><p>ダーク：ムスタファー</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="5l1cl1djn_8" src="https://www.youtube.com/embed/5l1cl1djn_8"></iframe>
-				</div>
 				<p>エグゼキュートリクス (ターキン:R3、ゼータなし) 旗艦の帝国軍艦隊で（間一髪）クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -123,13 +121,13 @@
 						ガントレット・スターファイター (ガー、ISCともにG12)、TIEボマー (クルーなし)
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="5l1cl1djn_8" src="https://www.youtube.com/embed/5l1cl1djn_8"></iframe>
+				</div>
 
 				<hr>
 
 				<h4><img src="images/mix_icon.png" width="44px" alt=""><p>ミックス：コレリア</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="65HzERqSdzQ" src="https://www.youtube.com/embed/65HzERqSdzQ"></iframe>
-				</div>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -140,13 +138,13 @@
 						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="65HzERqSdzQ" src="https://www.youtube.com/embed/65HzERqSdzQ"></iframe>
+				</div>
 
 				<hr>
 
 				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：コルサント</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jmn2iEJec3s" src="https://www.youtube.com/embed/jmn2iEJec3s"></iframe>
-				</div>
 				<p>
 				ホーム・ワン (アクバー:R2) の反乱軍艦隊でクリアしている動画です。<br>
 				なぜホーム・ワンなのか。それはプロファンディティがまだ星4だからです。
@@ -162,14 +160,14 @@
 						※ゴースト、ファントム、ビッグズは未使用でした。
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jmn2iEJec3s" src="https://www.youtube.com/embed/jmn2iEJec3s"></iframe>
+				</div>
 			</div>
 
 			<div id="p2-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 2</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：フェルーシア</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="l8aP1iqr-ik" src="https://www.youtube.com/embed/l8aP1iqr-ik"></iframe>
-				</div>
 				<p>マレヴォランス (グリーヴァス将軍:R7) 旗艦で、この回はかなり苦戦していますが、クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -180,14 +178,14 @@
 						ハイエナ・ボマー (クルーなし)、バルチャー・ドロイド (クルーなし)
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="l8aP1iqr-ik" src="https://www.youtube.com/embed/l8aP1iqr-ik"></iframe>
+				</div>
 			</div>
 
 			<div id="p3-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 3</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
-				</div>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
 				<ul>
 					<li>先発：<br>
@@ -198,13 +196,13 @@
 						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
+				</div>
 
 				<hr>
 
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jCkTlILk1Vc" src="https://www.youtube.com/embed/jCkTlILk1Vc"></iframe>
-				</div>
 				<p>
 					サード・シスターのかけらを取得できるスペシャルミッション。<br>
 					編成はサード・シスター抜きの尋問官チームです。
@@ -236,7 +234,10 @@
 						※ この条件でモッドを調整以降、私の勝率は100%です。
 					</li>
 				</ul>
-
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="jCkTlILk1Vc" src="https://www.youtube.com/embed/jCkTlILk1Vc"></iframe>
+				</div>
+				
 				<p>■ サード・シスター入りの編成で楽々クリアな動画はこちら👇</p>
 				<p>大尋問官がスタンされていますが、まったく負ける気がしません。</p>
 				<div class="youtube">
@@ -247,9 +248,6 @@
 			<div id="p4-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 4</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：ケッセル</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
-				</div>
 				<p>
 				エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。
 				強制的にゴーストが先発に設定されます。<br>
@@ -267,16 +265,23 @@
 						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
+				</div>
+
+				<p>戦闘ミッションを、寄せ集めのR8ダークサイドでクリアしている動画です。<br>
+				ライトサイドは取り忘れたので次回アップします。
+				</p>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="sO24PJXXTA0" src="https://www.youtube.com/embed/sO24PJXXTA0"></iframe>
+				</div>
 
 				<hr>
 
 				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：ロザル</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
-				</div>
 				<p>
 				ネゴシエーター (ケノービ将軍:R8、マローダー無し) でクリアしている動画です。<br>
-				マローダーが育っている方は、マローダー先発の方が圧倒的に余裕があります。(私のマローダーはクルーが全員G12ですが、余裕をもって勝利できます。)
+				マローダーが育っている方は、マローダー先発の方が圧倒的に楽です。(私のマローダーはクルーが全員G12ですが、余裕をもって勝利できます。)
 				</p>
 				<ul>
 					<li>先発：<br>
@@ -288,17 +293,25 @@
 						レックスのARC170 (レックス:R5)、クローン・サージェントのARC170（クローン・サージェント:R5）
 					</li>
 				</ul>
-
-				<p>マローダー入りでのクリア動画はこちら👇</p>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="oLBdWwh02nw" src="https://www.youtube.com/embed/oLBdWwh02nw"></iframe>
-				</div>
-				<hr>
-
-				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
 				</div>
+
+				<p>※ マローダー入りでのクリア動画はこちら👇</p>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="oLBdWwh02nw" src="https://www.youtube.com/embed/oLBdWwh02nw"></iframe>
+				</div>
+
+				<p>戦闘ミッションを、寄せ集めのR8ライトサイドでクリアしている動画です。<br>
+				GLレイ、GAS、ベスカーマンドーが主力となっています。
+				</p>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="JLXfOz_r5-4" src="https://www.youtube.com/embed/JLXfOz_r5-4"></iframe>
+				</div>
+
+				<hr>
+
+				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
 				<p>
 					エグゼクター (ピエット:R8) でクリアしている動画です。
 				</p>
@@ -312,14 +325,14 @@
 						ザナドゥ・ブラッド (C.ベイン:R5)、IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="046PTNwBSI4" src="https://www.youtube.com/embed/046PTNwBSI4"></iframe>
+				</div>
 			</div>
 
 			<div id="p5-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 5</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（ヴァンドア）</p></h4>
-				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="Td1olMwVKzM" src="https://www.youtube.com/embed/Td1olMwVKzM"></iframe>
-				</div>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。<br>
 				最初の増援にエボンホークを呼び、先にアルティメットを撃とうという作戦でしたが、そこまでいかず勝利しています。</p>
 				<ul>
@@ -331,6 +344,9 @@
 						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、エボンホーク (カース:G11、T3-M4:R3)
 					</li>
 				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="Td1olMwVKzM" src="https://www.youtube.com/embed/Td1olMwVKzM"></iframe>
+				</div>
 			</div>
 
 			<div id="p6-div" class="targetDiv" style="display: none;">

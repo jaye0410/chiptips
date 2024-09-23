@@ -104,7 +104,7 @@
 		<ul class="timeline-list">
 			<li class="timeline-list-item">
 				<div class="year">36,453 BBY</div>
-				<div class="content"><h3>ジェダイの夜明け</h3>
+				<div class="content"><h3>ジェダイの黎明期</h3>
 				https://starwars.fandom.com/wiki/Order_of_Dai_Bendu
 				https://starwars.fandom.com/wiki/Dawn_of_the_Jedi:_Force_Storm_1
 				https://starwars.fandom.com/wiki/Tho_Yor#cite_note-DotJ1-4

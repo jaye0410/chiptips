@@ -175,6 +175,7 @@ button[type="submit"]:hover {
 		.then(response =>  response.text())
 		.then(result => {
 			const data = JSON.parse(result);
+			console.log(data.mailInfo);
 			if (data.hasError) {
 				document.querySelector("#insert-error").textContent = "問い合わせ処理でエラーが発生しました。";
 				return;
