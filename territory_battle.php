@@ -28,6 +28,14 @@
 .targetDiv h4 {
 	display: flex;
 }
+.targetDiv h5 {
+	padding: 10px;
+	margin: 10px;
+	border-top: 1px solid #ff7f50;
+	border-bottom: 1px solid #ff7f50;
+	font-weight: bold;
+	color: #ff7f50;
+}
 .targetDiv ul {
 	list-style-type: disc;
 	margin-left: 30px;
@@ -110,6 +118,7 @@
 				<h3 class="heading">フェーズ 1</h3>
 				
 				<h4><img src="images/dark_icon.png" width="22px" alt=""><p>ダーク：ムスタファー</p></h4>
+				<h5>シップバトル</h5>
 				<p>エグゼキュートリクス (ターキン:R3、ゼータなし) 旗艦の帝国軍艦隊で（間一髪）クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -128,6 +137,7 @@
 				<hr>
 
 				<h4><img src="images/mix_icon.png" width="44px" alt=""><p>ミックス：コレリア</p></h4>
+				<h5>シップバトル</h5>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -145,6 +155,7 @@
 				<hr>
 
 				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：コルサント</p></h4>
+				<h5>シップバトル</h5>
 				<p>
 				ホーム・ワン (アクバー:R2) の反乱軍艦隊でクリアしている動画です。<br>
 				なぜホーム・ワンなのか。それはプロファンディティがまだ星4だからです。
@@ -168,6 +179,7 @@
 			<div id="p2-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 2</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：フェルーシア</p></h4>
+				<h5>シップバトル</h5>
 				<p>マレヴォランス (グリーヴァス将軍:R7) 旗艦で、この回はかなり苦戦していますが、クリアしている動画です。</p>
 				<ul>
 					<li>先発：<br>
@@ -186,6 +198,7 @@
 			<div id="p3-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 3</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン</p></h4>
+				<h5>シップバトル</h5>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
 				<ul>
 					<li>先発：<br>
@@ -202,7 +215,7 @@
 
 				<hr>
 
-				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン (スペシャルミッション)</p></h4>
+				<h5>スペシャルミッション</h5>
 				<p>
 					サード・シスターのかけらを取得できるスペシャルミッション。<br>
 					編成はサード・シスター抜きの尋問官チームです。
@@ -248,6 +261,7 @@
 			<div id="p4-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 4</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：ケッセル</p></h4>
+				<h5>シップバトル</h5>
 				<p>
 				エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。
 				強制的にゴーストが先発に設定されます。<br>
@@ -269,8 +283,9 @@
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
 				</div>
 
-				<p>戦闘ミッションを、寄せ集めのR8ダークサイドでクリアしている動画です。<br>
-				ライトサイドは取り忘れたので次回アップします。
+				<h5>戦闘ミッション</h5>
+				<p>寄せ集めのR8ダークサイドでクリアしている動画です。<br>
+				※ ライトサイドは録り忘れたので次回アップします。
 				</p>
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="sO24PJXXTA0" src="https://www.youtube.com/embed/sO24PJXXTA0"></iframe>
@@ -279,6 +294,7 @@
 				<hr>
 
 				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：ロザル</p></h4>
+				<h5>シップバトル</h5>
 				<p>
 				ネゴシエーター (ケノービ将軍:R8、マローダー無し) でクリアしている動画です。<br>
 				マローダーが育っている方は、マローダー先発の方が圧倒的に楽です。(私のマローダーはクルーが全員G12ですが、余裕をもって勝利できます。)
@@ -302,7 +318,8 @@
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="oLBdWwh02nw" src="https://www.youtube.com/embed/oLBdWwh02nw"></iframe>
 				</div>
 
-				<p>戦闘ミッションを、寄せ集めのR8ライトサイドでクリアしている動画です。<br>
+				<h5>戦闘ミッション</h5>
+				<p>寄せ集めのR8ライトサイドでクリアしている動画です。<br>
 				GLレイ、GAS、ベスカーマンドーが主力となっています。
 				</p>
 				<div class="youtube">
@@ -312,6 +329,7 @@
 				<hr>
 
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：マンダロア (ボーナスエリア)</p></h4>
+				<h5>シップバトル</h5>
 				<p>
 					エグゼクター (ピエット:R8) でクリアしている動画です。
 				</p>
@@ -333,6 +351,7 @@
 			<div id="p5-div" class="targetDiv" style="display: none;">
 				<h3 class="heading">フェーズ 5</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックスエリア（ヴァンドア）</p></h4>
+				<h5>シップバトル</h5>
 				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。<br>
 				最初の増援にエボンホークを呼び、先にアルティメットを撃とうという作戦でしたが、そこまでいかず勝利しています。</p>
 				<ul>
