@@ -62,7 +62,10 @@
 	.content h4 {
 		font-weight: bold;
 		font-size: 16px;
-		margin: 5px 0;
+		margin: 10px 0;
+		padding: 5px;
+		border-top: 1px solid #f7f7f7;
+		border-bottom: 1px solid #f7f7f7;
 	}
 	div.team-info {
 		display: flex;
@@ -136,13 +139,11 @@
 			</h3>
 
 			<p style="margin-top:10px;">
-				さて、それでは2024年9月9日現在の最新レイド「ナブーの戦い」で、
+				さて、最新レイド「ナブーの戦い」で、
 				私が使用している各難易度レベルでの編成とスコアを公開します。<br>
 				皆さまの編成分けの参考になれば幸いです。
 			</p>
-			<p>今回の総スコアは、3,460,000 で、前回の 3,432,000 から🆙しました。</p>
-
-			<hr>
+			<p>今回の総スコアは、3,460,000 で、前回の 3,432,000 から🆙しました。</p>	
 
 			<h4>■ 各編成へのリンクメニュー</h4>
 			<nav class="swgoh-nav">
@@ -181,8 +182,6 @@
 						<li>イース・コス - R5</li>
 					</ul>
 				</div>
-				
-				<hr>
 
 				<h4 id="team1-2">■ チーム2：<br>
 				&nbsp;スコア <strong>507,000@レベル3</strong></h4>
@@ -195,8 +194,6 @@
 						<li>メイス・ウィンドゥ - R3</li>
 					</ul>
 				</div>
-
-				<hr>
 
 				<h4 id="team1-3">■ チーム3：<br>
 				&nbsp;スコア <strong>900,000@レベル3クリア</strong></h4>

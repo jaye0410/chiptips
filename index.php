@@ -91,7 +91,7 @@
 
 	<!-- 4カラム -->
   <section class="gridWrapper">
-	<article class="grid colLight">
+		<article class="grid colLight">
 			<h3>テリトリー・バトル</h3>
 			<p>テリトリーバトル「帝国の台頭」各フェーズでのバトル動画を紹介するページです。</p>
 			<p>獲得ポイントの高いシップ戦、通貨やレアユニットのかけらがもらえるミッションを優先しています。</p>
@@ -128,6 +128,35 @@
 			</p>
 			<p class="readmore"><a href="star_wars_words.php">&raquo; 詳細を確認する</a></p>
 		</article>
+	</section>
+	<!-- / 4カラム -->
+
+	<!-- 4カラム -->
+  <section class="gridWrapper">
+		<article class="grid colLight">
+			<h3>スターウォーズの歴史</h3>
+			<p>このページはスター・ウォーズの歴史について、様々な文献を元に正史と非正史を統合し、
+			SWGoHとの関連も考慮した独自の観点で再構築し、スター・ウォーズの歴史シリーズのコンテンツをまとめるトップページです。
+			</p>
+			<p class="readmore"><a href="sw_history_top.php">&raquo; 詳細を確認する</a></p>
+		</article>
+
+		<!-- <article class="grid colDark">
+      <h3>レイド - ナブーの戦い</h3>
+			<p>最新レイドでは、次のような報酬が獲得できます。</p>
+			<p class="readmore"><a href="raid.php">&raquo; 詳細を確認する</a></p>
+		</article>
+		
+    <article class="grid colLight">
+			<h3>ブローグー</h3>
+			<p>一般的に&quot;ブログ&quot;と呼ばれるコンテンツですが当サイトでは&quot;ブローグー&quot;です。</p>
+			<p class="readmore"><a href="./blog" target="_blank">&raquo; 詳細を確認する</a></p>
+		</article>
+
+		<article class="grid colDark">
+			<h3>スター・ウォーズ用語</h3>
+			<p class="readmore"><a href="star_wars_words.php">&raquo; 詳細を確認する</a></p>
+		</article> -->
 	</section>
 	<!-- / 4カラム -->
 
