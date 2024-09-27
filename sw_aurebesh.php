@@ -82,7 +82,8 @@
 		<p>私たちの銀河（地球）と同様に、スター・ウォーズ銀河にも様々な言語と文字が存在します。</p>
 		<p>オーラベッシュ (Aurabesh) とは、銀河標準言語 (Galactic Basic Standard) で使用される文字のことです。</p>
 		<p>他にも多種多様な言語と文字がありますが、このページでは銀河標準言語の文字であるオーラベッシュとアルファベットの対応を表形式で紹介しています。</p>
-		<p>ちなみに、表示しているオーラベッシュは、フォントをダウンロードして使用しています。<br>
+		<p>ちなみに、このページに使用しているオーラベッシュは、ダウンロードしたフォントをローカルで表示させ、
+			1文字1文字を画像としてキャプチャーを撮りアップロードしています。<br>
 		オーラベッシュのフォントを自分でも使ってみたい！という方は
 		<a href="https://fontmeme.com/jfont/aurebesh-font/#google_vignette" target="_blank" class="explicitly">こちらのサイト</a>
 		からダウンロード可能です。</p>
@@ -163,7 +164,11 @@
 		
 		let td = document.createElement("td");
 		td.setAttribute("class", "aurebesh");
-		td.textContent = item.letter;
+		let img = document.createElement("img");
+		img.setAttribute("src", `./images/aurebesh/${item.letter}.png`);
+		img.setAttribute("width", "22px");
+		td.appendChild(img);
+		//td.textContent = item.letter;
 		tr.appendChild(td);
 
 		td = document.createElement("td");
