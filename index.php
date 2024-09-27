@@ -141,12 +141,13 @@
 			<p class="readmore"><a href="sw_history_top.php">&raquo; 詳細を確認する</a></p>
 		</article>
 
-		<!-- <article class="grid colDark">
-      <h3>レイド - ナブーの戦い</h3>
-			<p>最新レイドでは、次のような報酬が獲得できます。</p>
-			<p class="readmore"><a href="raid.php">&raquo; 詳細を確認する</a></p>
+		<article class="grid colDark">
+      <h3>オーラベッシュ対応表</h3>
+			<p>私たちの銀河（地球）と同様に、スター・ウォーズ銀河にも様々な言語と文字が存在します。</p>
+			<p>オーラベッシュ (Aurabesh) とは、銀河標準言語 (Galactic Basic Standard) で使用される文字のことです。</p>
+			<p class="readmore"><a href="sw_aurebesh.php">&raquo; 詳細を確認する</a></p>
 		</article>
-		
+		<!--
     <article class="grid colLight">
 			<h3>ブローグー</h3>
 			<p>一般的に&quot;ブログ&quot;と呼ばれるコンテンツですが当サイトでは&quot;ブローグー&quot;です。</p>

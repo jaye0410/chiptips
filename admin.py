@@ -17,7 +17,8 @@ files = [
   "star_wars_words.php",
   "how_to_register_wookieebot.php",
   "useful_external_links.php",
-  "sw_history_top.php"
+  "sw_history_top.php",
+  "sw_aurebesh.php"
 ]
 
 xml: str = '<?xml version="1.0" encoding="UTF-8"?>\n'

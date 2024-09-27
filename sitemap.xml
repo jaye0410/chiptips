@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://swgoh-chiptips.jp/</loc>
-  <lastmod>2024-09-26T17:11:43+09:00</lastmod>
+  <lastmod>2024-09-27T14:29:03+09:00</lastmod>
 </url>
 <url>
   <loc>https://swgoh-chiptips.jp/conquest.php</loc>
@@ -58,6 +58,10 @@
 </url>
 <url>
   <loc>https://swgoh-chiptips.jp/sw_history_top.php</loc>
-  <lastmod>2024-09-26T17:14:10+09:00</lastmod>
+  <lastmod>2024-09-27T14:10:36+09:00</lastmod>
+</url>
+<url>
+  <loc>https://swgoh-chiptips.jp/sw_aurebesh.php</loc>
+  <lastmod>2024-09-27T14:30:31+09:00</lastmod>
 </url>
 </urlset>

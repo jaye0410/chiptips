@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/custom_table.css">
+  <style>
+    .my-custom td {
+      text-align: center;
+    }
+    @font-face {
+      font-family: "aurebesh"; /*任意のフォントファミリー名でOK*/
+      src: url("./fonts/Aurebesh Bold.ttf") format("truetype"); /*fontがあるパスを書いて、formatを指定*/
+      font-display: swap;
+    }
+    .aurebesh {
+      font-family: "aurebesh";
+    }
+  </style>
+</head>
+<body>
+  <table class="my-custom">
+    <thead>
+      <tr>
+        <th>Aurebesh</th><th>Alphabet</th><th>Spelling</th><th>Reading</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+  <script>
+    const AUREBESH = [
+      {letter: "a", spelling: "Aurek", read: "オーレック"},
+      {letter: "b", spelling: "Besh", read: "ベッシュ"},
+      {letter: "c", spelling: "Cresh", read: "クレシュ"},
+      {letter: "d", spelling: "Dorn", read: "ドーン"},
+      {letter: "e", spelling: "Esk", read: "エスク"},
+      {letter: "f", spelling: "Forn", read: "フォーン"},
+      {letter: "g", spelling: "Grek", read: "グレク"},
+      {letter: "h", spelling: "Herf", read: "ハーフ(ヘルフ)"},
+      {letter: "i", spelling: "Isk", read: "イスク"},
+      {letter: "j", spelling: "Jenth", read: "ジェンス"},
+      {letter: "k", spelling: "Krill", read: "クリル"},
+      {letter: "l", spelling: "Leth", read: "レス"},
+      {letter: "m", spelling: "Mern", read: "マーン(メルン)"},
+      {letter: "n", spelling: "Nern", read: "ナーン(ネルン)"},
+      {letter: "o", spelling: "Osk", read: "オスク"},
+      {letter: "p", spelling: "Peth", read: "ぺス"},
+      {letter: "q", spelling: "Qek", read: "ケク"},
+      {letter: "r", spelling: "Resh", read: "レッシュ"},
+      {letter: "s", spelling: "Senth", read: "センス"},
+      {letter: "t", spelling: "Trill", read: "トゥリル"},
+      {letter: "u", spelling: "Usk", read: "ウスク"},
+      {letter: "v", spelling: "Vev", read: "ヴェヴ"},
+      {letter: "w", spelling: "Wesk", read: "ウェスク"},
+      {letter: "x", spelling: "Xesh", read: "ゼシュ"},
+      {letter: "y", spelling: "Yirt", read: "ヤート"},
+      {letter: "z", spelling: "Zerek", read: "ゼレク"},
+      {letter: "ch", spelling: "Cherek", read: "チェレク"},
+      {letter: "ae", spelling: "Enth", read: "エンス"},
+      {letter: "eo", spelling: "Onith", read: "オニス"},
+      {letter: "kh", spelling: "Krenth", read: "クレンス"},
+      {letter: "ng", spelling: "Nen", read: "ネン"},
+      {letter: "oo", spelling: "Orenth", read: "オレンス"},
+      {letter: "sh", spelling: "Shen", read: "シェン"},
+      {letter: "th", spelling: "Tresh", read: "トゥレシュ"},
+    ];
+
+    const tbody = document.querySelector("table.my-custom tbody");
+    for (item of AUREBESH) {
+      const tr = document.createElement("tr");
+      tbody.appendChild(tr);
+      
+      let td = document.createElement("td");
+      td.setAttribute("class", "aurebesh");
+      td.textContent = item.letter;
+      tr.appendChild(td);
+
+      td = document.createElement("td");
+      td.textContent = item.letter;
+      tr.appendChild(td);
+
+      td = document.createElement("td");
+      td.textContent = item.spelling;
+      tr.appendChild(td);
+
+      td = document.createElement("td");
+      td.textContent = item.read;
+      tr.appendChild(td);
+    }
+  </script>
+  
+</body>
+</html>

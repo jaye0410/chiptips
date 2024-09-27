@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="SWGoH ChipTips - スター・ウォーズの歴史 TOP | スター・ウォーズの歴史 (カノンとレジェンズ) をまとめています。">
 <!-- <meta name="keywords" content=""> -->
-<title>SWGoH ChipTips - レイド攻略スター・ウォーズの歴史 TOP | スター・ウォーズの歴史 (カノンとレジェンズ) をまとめています。</title>
+<title>SWGoH ChipTips - スター・ウォーズの歴史 TOP | スター・ウォーズの歴史 (カノンとレジェンズ) をまとめています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
