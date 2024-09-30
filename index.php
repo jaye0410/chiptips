@@ -80,7 +80,7 @@
 		</article>
 		
 		<article class="grid">
-			<h3>基本情報</h3>
+			<h3>基本情報と序盤の進め方</h3>
 			<div id="basic-info-lede">
 
 			</div>

@@ -12,9 +12,9 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="SWGoH ChipTips - 基本情報 | スター・ウォーズ／銀河の英雄(SWGoH)の基本情報を掲載しているページです。">
+<meta name="description" content="SWGoH ChipTips - 基本情報と序盤の進め方 | SWGoHの基本情報の説明と新規プレイヤーの進め方を提案しています。">
 <meta name="keywords" content="">
-<title>SWGoH ChipTips - 基本情報</title>
+<title>SWGoH ChipTips - 基本情報と序盤の進め方 | SWGoHの基本情報の説明と新規プレイヤーの進め方を提案しています。</title>
 <link rel="icon" href="images/favicon.ico" id="favicon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -25,8 +25,12 @@
 <![endif]-->
 <style>
 	.content h4 {
-		font-size: 16px !important;
 		font-weight: bold;
+		font-size: 16px;
+		margin: 10px 0;
+		padding: 5px;
+		border-top: 1px solid #f7f7f7;
+		border-bottom: 1px solid #f7f7f7;
 	}
 	.basic-info ol {
 		list-style-type: decimal;
@@ -36,7 +40,7 @@
 	}
 	.basic-info ul {
 		/* list-style-type: disc; */
-		margin-left: 15px;
+		margin-left: 25px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
@@ -47,6 +51,19 @@
 		display: block;
 		list-style-type: disc;
 		margin-left: 20px;
+	}
+	#my-menu4 ol {
+		list-style: decimal;
+	}
+	#my-menu4 ol li, #my-menu4 ul li {
+		margin-bottom: 5px;
+	}
+	#my-menu4 ul {
+		list-style: disc;
+		margin-left: 35px;
+	}
+	#my-menu4 ol, #my-menu4 ul {
+		margin-bottom: 25px;
 	}
 	section#resources ul {
 		background-color: #222222;
@@ -106,7 +123,7 @@
 	<section>
 
 		<section class="content">
-			<h3 class="heading">基本情報について</h3>
+			<h3 class="heading">基本情報と序盤の進め方について</h3>
 			<article class="basic-info lede">
 				<p>SWGoHは、無限に広がり続けるスター・ウォーズ・ユニバースを舞台にしています。</p>
 				<p>その広がりに応じるかのようにコンテンツも今なお進化と増加を続けており、ゲーム固有の用語も比例していきます。</p>
@@ -115,7 +132,39 @@
 			</article>
 		</section>
 
-		<section class="content">
+		<section class="content basic-info">
+			<h3 class="heading">目次</h3>
+			<ul>
+				<li><a href="#my-menu1">&raquo; ゲーム画面</a></li>
+				<li><a href="#my-menu2">&raquo; ホロテーブルのコンテンツ</a>
+					<ul>
+						<li><a href="#my-menu2-1" class="explicitly">中央のコンテンツ</a></li>
+						<li><a href="#my-menu2-2" class="explicitly">左サイドのコンテンツ</a></li>
+						<li><a href="#my-menu2-3" class="explicitly">右サイドのコンテンツ</a></li>
+						<li><a href="#my-menu2-4" class="explicitly">表示位置固定のコンテンツ</a></li>
+					</ul>
+				</li>
+				<li><a href="#my-menu3">&raquo; ゲーム内リソース（資材）</a>
+					<ul>
+						<li><a href="#my-menu3-1" class="explicitly">エネルギー</a></li>
+						<li><a href="#my-menu3-2" class="explicitly">ゲーム内通貨</a></li>
+						<li><a href="#my-menu3-3" class="explicitly">チケットとキーカード</a></li>
+					</ul>
+				</li>
+				<li><a href="#my-menu4">&raquo; 新規プレイヤーの進め方</a>
+					<ul>
+						<li><a href="#my-menu4-0" class="explicitly">新規プレイヤーに役立つ５箇条</a></li>
+						<li><a href="#my-menu4-1" class="explicitly">配布エネルギーの回収</a></li>
+						<li><a href="#my-menu4-2" class="explicitly">序盤のチーム選択</a></li>
+						<li><a href="#my-menu4-3" class="explicitly">更新までもう少しお待ちください</a></li>
+					</ul>
+				</li>
+			</ul>
+			<article class="basic-info lede">
+			</article>
+		</section>
+
+		<section class="content" id="my-menu1">
 			<h3 class="heading">ゲーム画面</h3>
 			<article class="basic-info">
 				<p>SWGoHは、「ホロテーブル」と呼ばれる仮想の銀河で進行していきます。</p>
@@ -136,15 +185,14 @@
 			</article>
 		</section>
 
-		<section class="content" id="holotable">
+		<section class="content" id="my-menu2">
 			<h3 class="heading">ホロテーブルのコンテンツ</h3>
 			<article class="basic-info">
 				<p>ご覧のとおり、SWGoHのホロテーブルには数多くのコンテンツがあります。</p>
 				<p>このセクションではそれぞれのコンテンツを紹介し、利用可能になるレベルおよび条件を記載しています。</p>
 				<p>なお、画面に見えている各コンテンツの中には、さらにコンテンツが内包されているものもあります。</p>
 
-				<hr>
-				<h4>【ホロテーブル中央のコンテンツ】</h4>
+				<h4 id="my-menu2-1">【ホロテーブル中央のコンテンツ】</h4>
 				<ol>
 					<li>ガチャ<br>
 						ゲーム開始直後でアンロック</li>
@@ -160,8 +208,7 @@
 						プレイヤーレベル28でアンロック</li>
 				</ol>
 
-				<hr>
-				<h4">【ホロテーブル左サイドのコンテンツ】</h4>
+				<h4 id="my-menu2-2">【ホロテーブル左サイドのコンテンツ】</h4>
 				<ol>
 					<li>曜日クエスト<br>
 						プレイヤーレベル15でアンロック</li>
@@ -173,8 +220,7 @@
 						プレイヤーレベル85でアンロック</li>
 				</ol>
 
-				<hr>
-				<h4">【ホロテーブル右サイドのコンテンツ】</h4>
+				<h4 id="my-menu2-3">【ホロテーブル右サイドのコンテンツ】</h4>
 				<ol>
 					<li>銀河バトル<br>
 						プレイヤーレベル40でアンロック</li>
@@ -198,8 +244,7 @@
 						1キャラクターの装備レベル13到達でアンロック</li>
 				</ol>
 
-				<hr>
-				<h4>【表示位置固定のコンテンツ】</h4>
+				<h4 id="my-menu2-4">【表示位置固定のコンテンツ】</h4>
 				<p>ホロテーブルをスワイプしても常に同じ位置に表示されるメニューがあります。</p>
 				<div class="aligncenter">
 					<img src="images/holotable_position_fixed_menu.webp" width="90%" alt="ホロテーブル右サイド" class="frame">
@@ -223,20 +268,20 @@
 			</article>
 		</section>
 
-		<section class="content" id="resources">
+		<section class="content" id="my-menu3">
 			<h3 class="heading">ゲーム内リソース（資材）</h3>
 			<article class="basic-info">
 				<p>SWGoHでは、コンテンツやショップによって使用できるリソースが異なります。</p>
 				<p>SWGoHのリソースは次の4種類に分けられます。</p>
 				<ol>
 					<li>エネルギー</li>
-					<li>通貨</li>
+					<li>ゲーム内通貨</li>
 					<li>チケット</li>
 					<li>キーカード</li>
 				</ol>
 				<p>この項では、ゲーム開始直後から使用する 1. エネルギーと 2. 通貨 について記述します。</p>
 				
-				<h4>【エネルギー】</h4>
+				<h4 id="my-menu3-1">【エネルギー】</h4>
 				<p>エネルギーは時間経過で回復していきます。<br>
 					カンティーナエネルギーのみ12分で1ポイント回復、その他のエネルギーは6分で1ポイント回復します。
 				</p>
@@ -255,7 +300,7 @@
 					モッドバトルおよびモッドチャレンジのコンテンツで使用する</li>
 				</ul>
 
-				<h4>【通貨】</h4>
+				<h4 id="my-menu3-2">【通貨】</h4>
 				<p>
 					SWGoHの通貨の種類は大変多く、入手方法、使用できるコンテンツともに多岐にわたります。
 				</p>
@@ -307,7 +352,7 @@
 					征服ショップで使用する他、征服の開催中にコンテンツ内に現れるスカベンジャー商人からアイテムを購入できる。
 				</ul>
 
-				<h4>【チケットとキーカード】</h4>
+				<h4 id="my-menu3-3">【チケットとキーカード】</h4>
 				<p>
 					チケットはレイド用、銀河の伝説キャラクターの解除用、一部コンテンツのスキップ用の3種類があります。
 				</p>
@@ -315,6 +360,49 @@
 					キーカードは銀河チャレンジ用と征服用の2種類です。
 				</p>
 				
+			</article>
+		</section>
+
+		<section class="content" id="my-menu4">
+			<h3 class="heading">新規プレイヤーの進め方</h3>
+			<article class="basic-info">
+				<h4 id="my-menu4-0">新規プレイヤーに役立つ7箇条</h4>
+				<ol style="list-style:decimal;">
+					<li>配布エネルギーの回収： 1日3回エネルギーが配布されます。序盤は特に取り忘れに注意しましょう。</li>
+					<li>チームの選択： 序盤はまず1つのチームに集中することをお勧めします。</li>
+					<li>リソースの管理： クリスタル、クレジットなどのリソースを節約し、重要なユニットや装備に投資することが大切です。</li>
+					<li>デイリーミッション： 「デイリーミッション」を完了することで、ゲーム内のリソースを効率的に集めることができます。</li>
+					<li>情報収集とコミュニティー参加の準備： SWGoHは頻繁にアップデートされるため、情報に対するアンテナを張っておくことも重要です。</li>
+					<li>ギルドへの参加： プレイヤーレベル22でギルドコンテンツがアンロックされます。
+						できるだけ早く自分に合った良いギルドを見つけて参加することで、ゲームの進行を助ける多くのリソースやアドバイスを得ることができます。</li>
+					<li>モッドの収集： プレイヤーレベル50でモッドバトルがアンロックされます。キャラクターの性能を最大限に引き出すために、モッドを適切に管理しましょう。</li>
+				</ol>
+
+				<h4 id="my-menu4-1">1. 配布エネルギーの回収</h4>
+				<ul>
+					<li>回収時刻： 1日に3回 (初期設定では12:00、18:00、21:00。設定で変更可能(注釈1))、各種エネルギーが無料で配布され、受信箱に届きます。
+						これらを回収し忘れてしまうと、ショックでモチベーションも下がりますし、育成のスケジュールが遅れます。
+					</li>
+				</ul>
+				<fieldset>
+				<legend>&nbsp;注釈&nbsp;</legend>
+				<p id="notes1">
+				※1：
+				エネルギー配布時間は1年に3回まで、設定画面で変更が可能です。
+				この設定はアリーナの締め時間とも連動しているため、慎重に実施してください。
+				</p>
+			</fieldset>
+
+				<h4 id="my-menu4-2">2. 序盤のチーム選択</h4>
+				<ul>
+					<li>フェニックス： 初心者におすすめのチームで、序盤の進行に役立ちます。</li>
+					<li>賞金稼ぎ： 数々のイベントやミッションで有用です。
+						特に序盤に不足しがちなクリスタルを大量に取得できる「クレジット強盗」イベントで活躍できます。</li>
+					<li>シナジー： チーム内のキャラクター間のシナジー（ユニット同士の相互作用）を考慮して選択しましょう。</li>
+					<li>長期的な計画： 将来的に強力なチーム（銀河の伝説）取得に必要なキャラを意識してキャラクターを育成することが重要です。</li>
+				</ul>
+
+				<h4 id="my-menu4-3">続く</h4>
 			</article>
 		</section>
     

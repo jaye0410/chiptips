@@ -51,11 +51,6 @@
 		border-top: 1px solid #f7f7f7;
 		border-bottom: 1px solid #f7f7f7;
 	}
-	fieldset {
-		border: 1px solid #f7f7f7;
-		padding: 5px;
-		margin-bottom: 5px;
-	}
 </style>
 </head>
 <body>
@@ -100,11 +95,20 @@
 	<section>
 		<section class="content">
 			<h3 class="heading">
-			カノンとレジェンズ
+			基本用語の説明
 			</h3>
 
-			<h4>■ はじめに</h4>
-			<p>まず、スター・ウォーズの歴史を語る上で、正史と非正史の説明は省略できません。<br>
+			<h4>■ 年号「BBY」と「ABY」</h4>
+			<p>まず、スター・ウォーズの歴史を語る上で、年号の説明は欠かせません。</p>
+			<p>スター・ウォーズの世界では、「BBY」と「ABY」という用語を使って年代を表します。</p>
+			<p>「BBY」とは「<strong>B</strong>efore the <strong>B</strong>attle of <strong>Y</strong>avin」の頭文字をとった略で、
+			「ヤヴィンの戦い」を起点として、そこから何年前かを表しています。</p>
+			<p>「ヤヴィンの戦い」というのは、『エピソードIV 新たなる希望』のクライマックスで起きた戦いを指しています。</p>
+			<p>「ABY」とは「<strong>A</strong>fter the <strong>B</strong>attle of <strong>Y</strong>avin」の頭文字をとった略で、
+			「ヤヴィンの戦い」を起点として、そこから何年後かを表しています。</p>
+
+			<h4>■ 「カノン」と「レジェンズ」</h4>
+			<p>もう1つ、正史と非正史の説明も省略できないでしょう。<br>
 			スター・ウォーズ・ユニバースは、2つの時間軸に分かれており、それぞれ正史は「カノン」、非正史は「レジェンズ」と呼ばれます。</p>
 			<ul>
 				<li>カノン：ディズニーが定めた正統な作品世界で、映画やアニメ、小説などが含まれる</li>
