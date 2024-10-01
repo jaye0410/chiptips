@@ -22,6 +22,16 @@
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
+<style>
+	.content h4 {
+		font-weight: bold;
+		font-size: 16px;
+		margin: 10px 0;
+		padding: 5px;
+		border-top: 1px solid #f7f7f7;
+		border-bottom: 1px solid #f7f7f7;
+	}
+</style>
 </head>
 <body>
 <!-- ヘッダー -->
@@ -117,19 +127,26 @@
 			</article>
 		</section>
 
-		<!--
-		<section class="content" id="gallery">
-			<h3 class="heading">写真ギャラリー</h3>
-				<article class="gridWrapper">
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery1.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery2.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery3.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery4.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery5.jpg" width="210" height="210" alt=""></a></figure>
-					<figure class="grid"><a href="subpage.html"><img src="images/gallery6.jpg" width="210" height="210" alt=""></a></figure>
-				</article>
+		<section class="content">
+			<h3 class="heading">SWGoHをはじめよう</h3>
+			<article>
+				<img src="images/tatooine.webp" width="320" height="200" alt="タトゥイーンイメージ" class="alignleft frame">
+				<h4>■広大な銀河への旅立ち:</h4>
+				<p>
+					若き日のルーク・スカイウォーカーも、悩み、迷っていました。<br>
+					2つの太陽を持つ砂漠の惑星で過ごしていたルークが、銀河へ旅立つ決意をしたことが、壮大なスター・ウォーズの出発点となりました。
+	
+				</p>
+				<p>
+					新しく何かをはじめるには勇気と好奇心が必要ですが、
+					アナタがスター・ウォーズを好きならば、SWGoHから得られるものは期待以上だと思います。
+				</p>
+				<p>
+					さあ、広大な銀河へと旅立とうではありませんか。
+				</p>
+				<p>ゲームのダウンロードは <a href="https://www.ea.com/ja-jp/games/starwars/galaxy-of-heroes" target="_blank">&raquo; こちら </a>から</p>
+			</article>
 		</section>
-		-->
     
 	</section>
 	<!-- / コンテンツ -->

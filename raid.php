@@ -182,6 +182,9 @@
 						<li>イース・コス - R5</li>
 					</ul>
 				</div>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="NsWCC6RIzNs" src="https://www.youtube.com/embed/NsWCC6RIzNs"></iframe>
+				</div>
 
 				<h4 id="team1-2">■ チーム2：<br>
 				&nbsp;スコア <strong>507,000@レベル3</strong></h4>

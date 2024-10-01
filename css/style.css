@@ -37,6 +37,27 @@ fieldset {
 	margin-bottom: 30px;
 }
 
+.youtube iframe{
+  width: 100%;
+	height: 350px;
+  border: none;
+}
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+	.youtube iframe{
+		width: 100% !important;
+		height: 100%;
+		border: none;
+	}
+}
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+	.youtube iframe{
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+}
 
 /* リンク設定
 ------------------------------------------------------------*/
