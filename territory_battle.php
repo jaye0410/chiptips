@@ -190,6 +190,25 @@
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="l8aP1iqr-ik" src="https://www.youtube.com/embed/l8aP1iqr-ik"></iframe>
 				</div>
+
+				<hr>
+
+				<h5>スペシャルミッション</h5>
+				<p>
+					ボーナスエリア「ゼフォ」をアンロックするためのミッションです。<br>
+					シア・ジュンダとジェダイ・ナイト・カル・ケスティスの2ユニットのみで戦います。
+				</p>
+				<p>クリア動画を載せておきますが、動画だけでは行動の意図がわかりづらいので、
+					重要ポイントやモッド、手順の詳細を記述した記事を
+					<a href="https://swgoh-chiptips.jp/blog/2024/10/02/rote-p2-cere-cal-sp-clear/" target="_blank">ブログ</a>
+					にアップしています。<br>
+					クリアに苦労されている方、これから挑戦される方などはぜひ
+					<a href="https://swgoh-chiptips.jp/blog/2024/10/02/rote-p2-cere-cal-sp-clear/" target="_blank">ブログ記事</a>
+					も併せてチェック頂ければと思います。
+				</p>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="sgPRLNxEIC4" src="https://www.youtube.com/embed/sgPRLNxEIC4"></iframe>
+				</div>
 			</div>
 
 			<div id="p3-div" class="targetDiv" style="display: none;">
