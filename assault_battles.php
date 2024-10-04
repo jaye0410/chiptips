@@ -75,6 +75,7 @@
 			</h3>
 			<p>このページでは、SWGoHのアサルトバトル (Challenge Level 3) の
 				クリア動画および攻略Tipsをまとめています。</p>
+			<p>特殊なアサルトバトル「宿命の対決」のみ、レベル</p>
 			
 			<ul>
 				<li><a href="#my-menu1">&raquo; 力の宿る場所</a></li>
@@ -128,14 +129,48 @@
 			</div>
 		</section>
 
+		<section class="content" id="my-menu2">
+			<h3 class="heading">
+				狂信的献身 (Fanatical Devosion)
+			</h3>
+			<p>アサルトバトル「狂信的献身」は、尋問官とタスケンが参戦可能です。
+				チャレンジレベル3は、サード・シスターを編成に入れることで難易度が大幅に下がりますが、
+				サード・シスター取得前に星3クリアしました。
+			</p>
+			
+			<h4>クリア編成</h4>
+			<ul>
+				<li>大尋問官 L：R7</li>
+				<li>セブンス・シスター：R7</li>
+				<li>フィフス・ブラザー：R7</li>
+				<li>ナインス・シスター：R7</li>
+				<li>セカンド・シスター：R5</li>
+			</ul>
+
+			<h4>攻略のポイント</h4>
+			<p>モッドは攻撃力を重視します。</p>
+			<p>イベントスキル「獲物が近い」をタイミングよく使い、攻撃力を蓄積していくのが重要です。<br>
+			イベントスキルを使用したターン内での攻撃がトドメの一撃になると、
+			そのユニットの攻撃力が20%上昇し、スタックされていきます。
+			</p>
+
+			<h4>クリア動画</h4>
+			<p>私がクリアした時に参考にした Bitdynasty氏の動画です。<br>
+			このアサルトバトルは非常に時間がかかりますが、早送りで流しつつ、要所要所で止めて解説が入ります。
+			</p>
+			<div class="youtube">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/pUEEYo3IvzI?si=Q6RQMtouLCRJFq62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</section>
+
 		<section class="content" id="my-menuX">
 			<h3 class="heading">
 				宿命の対決 (Duel of th Fates)
 			</h3>
-			<p>アサルトバトル「力の宿る場所」は、
+			<p>アサルトバトル「宿命の対決」は、
 				オビ=ワン（パダワン）とマスター・クワイ=ガン（あるいはクワイ=ガン・ジン）が参戦可能です。
-				チャレンジレベル9は、高位のレリック資材（ドロイド脳）が報酬に含まれますが、
-				他のアサルトバトルに比べると極端に難易度が高いようには感じません。
+				レリック9が条件となるチャレンジレベルXは、最上位のレリック資材（ドロイド脳）が報酬に含まれますが、
+				他のアサルトバトルに比べて極端に難易度が高いようには感じられません。
 			</p>
 			
 			<h4>クリア編成</h4>
@@ -145,19 +180,12 @@
 			</ul>
 
 			<h4>攻略のポイント</h4>
-			<p>運の要素もありますが、重要なカギとなるのはナイアリスの特殊スキル「殲滅」の使いどころです。</p>
-			<p>クールダウンはもちろんのこと、
-				ターンメーターの調整を心がけることで成功率をかなり高くできます。<br>
-				ウェーブ4（ターゲットはアナキン）、そして最終ウェーブ8（ターゲットはヨーダ）の戦闘開始直後に
-				殲滅を使える状態が理想です。
-			</p>
-			<p>また、ダース・マラックは大変優秀なタンクですが、全体攻撃を連発されると戦局は厳しくなります。<br>
-				攻撃の要となる皇帝やナイアリスをより安全に守るため、全体攻撃を使ってくる敵を優先的に倒すことも重要なポイントです。</p>
+			<p></p>
 
 			<h4>クリア動画</h4>
-			<div class="youtube">
+			<!-- <div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="4qmXF_hXTZA" src="https://www.youtube.com/embed/4qmXF_hXTZA"></iframe>
-			</div>
+			</div> -->
 		</section>
     
 	</section>

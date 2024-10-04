@@ -198,7 +198,7 @@
 					ボーナスエリア「ゼフォ」をアンロックするためのミッションです。<br>
 					シア・ジュンダとジェダイ・ナイト・カル・ケスティスの2ユニットのみで戦います。
 				</p>
-				<p>クリア動画を載せておきますが、動画だけでは行動の意図がわかりづらいので、
+				<p>クリア動画を載せておきますが、動画だけでは行動の意図がわかりづらいと思います。<br>
 					重要ポイントやモッド、手順の詳細を記述した記事を
 					<a href="https://swgoh-chiptips.jp/blog/2024/10/02/rote-p2-cere-cal-sp-clear/" target="_blank">ブログ</a>
 					にアップしています。<br>
@@ -215,18 +215,19 @@
 				<h3 class="heading">フェーズ 3</h3>
 				<h4><img src="images/mix_icon.png" width="44px" height="22px" alt=""><p>ミックス：タトゥイーン</p></h4>
 				<h5>シップバトル</h5>
-				<p>エグゼクター (ピエット:R8) 旗艦でクリアしている動画です。ここでの戦闘は余裕があります。</p>
+				<p>エグゼクター (ピエット:R8) 旗艦、<strong>レイザークレスト抜き</strong>でクリアしている動画です。<br>
+					レイザークレストは小隊に要求されるので、使わず勝利できるのであればそれに越したことはありません。</p>
 				<ul>
 					<li>先発：<br>
-					ハウンズトゥース (ボスク:R7)、レイザークレスト (ベスカーマンドー:R8)、ザナドゥ・ブラッド (C.ベイン:R5)
+					ハウンズトゥース (ボスク:R7)、IG2000 (IG-88:R5)、ザナドゥ・ブラッド (C.ベイン:R5)
 					</li>
 					<li>
 						増援：<br>
-						IG2000 (IG-88:R5)、スレーヴI (ボバ:R8)、（エボンホークは未使用）
+						スレーヴI (ボバ:R8)、（エボンホーク、TIEボマーは未使用）
 					</li>
 				</ul>
 				<div class="youtube">
-				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qsDl79lcRA" src="https://www.youtube.com/embed/_qsDl79lcRA"></iframe>
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="uW2yuLeZfP4" src="https://www.youtube.com/embed/uW2yuLeZfP4"></iframe>
 				</div>
 
 				<hr>

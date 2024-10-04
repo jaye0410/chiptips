@@ -215,21 +215,21 @@
 			</div>
 				
 			<div id="sec4-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">抵抗力上昇</h3>
+				<h3 class="heading">忍耐</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p><button type="button" class="status-detail-button">抵抗力上昇</button>
 				を50回得る</p>
 
-				<h3 class="heading">カレラン・ベク</h3>
+				<h3 class="heading">評議会に与えられた権利により</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p>チームにカレラン・ベクを入れて15回勝利する</p>
 
-				<h3 class="heading">衰退</h3>
+				<h3 class="heading">脅威の気配</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p><button type="button" class="status-detail-button">衰退</button>
 				を50回発生させる</p>
 
-				<h3 class="heading">ナイトシスター</h3>
+				<h3 class="heading">マザーの怒り</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x10<br></span></div>
 				<p>ナイトシスターのユニットで敵を30体倒す</p>
 
@@ -249,21 +249,21 @@
 			</div>
 				
 			<div id="sec5-feats" class="targetDiv" style="display: none;">
-				<h3 class="heading">精度上昇</h3>
+				<h3 class="heading">絶対的精度</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
 				<p><button type="button" class="status-detail-button">精度上昇</button>
 				を50回得る</p>
 
-				<h3 class="heading">感染</h3>
+				<h3 class="heading">発熱による夢</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
 				<p><button type="button" class="status-detail-button">感染</button>
 				を100回発生させる</p>
 
-				<h3 class="heading">デス・トルーパー（ペリディア）</h3>
+				<h3 class="heading">射撃開始</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
 				<p>デス・トルーパー（ペリディア）で敵を25体倒す</p>
 
-				<h3 class="heading">ジオスパイ</h3>
+				<h3 class="heading">亡霊の仕業</h3>
 				<div><img src="images/keycard.png" alt="征服キーカード"><span>x15<br></span></div>
 				<p>ジオノージアン・スパイが生存した状態で15回勝利する</p>
 
