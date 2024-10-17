@@ -79,13 +79,13 @@
 			
 			<ul>
 				<li><a href="#my-menu1">&raquo; 力の宿る場所</a></li>
-				<li>&raquo; 狂信的献身</li>
-				<li>&raquo; 森の月</li>
-				<li>&raquo; </li>
-				<li>&raquo; </li>
-				<li>&raquo; </li>
-				<li>&raquo; </li>
-				<li>&raquo; 宿命の対決</li>
+				<li><a href="#my-menu2">&raquo; 森の月</a></li>
+				<li><a href="#my-menu3">&raquo; 狂信的献身</a></li>
+				<li>&raquo; 準備中！</li>
+				<li>&raquo; 準備中！</li>
+				<li>&raquo; 準備中！</li>
+				<li>&raquo; 準備中！</li>
+				<!-- <li>&raquo; 宿命の対決</li> -->
 			</ul>
 		</section>
 
@@ -131,6 +131,38 @@
 
 		<section class="content" id="my-menu2">
 			<h3 class="heading">
+				森の月 (Forest Moon)
+			</h3>
+			<p>アサルトバトル「森の月」は、帝国軍とドロイドが参戦可能です。
+				当サイトの動画では、ダーク・トルーパー入り帝国軍トルーパーでクリアしていますが、
+				ダーク・トルーパーはレリック化しておらず、装備レベルは12です。
+			</p>
+			<p></p>
+			
+			<h4>クリア編成</h4>
+			<ul>
+				<li>ヴィアーズ将軍 L：R5</li>
+				<li>ピエット提督：R8</li>
+				<li>スターク大佐：R5</li>
+				<li>レンジ・トルーパー：R5</li>
+				<li>ダーク・トルーパー：G12</li>
+			</ul>
+
+			<h4>攻略のポイント</h4>
+			<p>ウェーブ1で誰か1ユニットでも倒されてしまうとクリアは無理なので、
+				誰も戦闘不能にならず1ターン目を凌ぐまではやり直しが発生します。</p>
+			<p>その条件を達成した後は通常攻撃を中心に、ダーク・トルーパー部隊のスタックを3維持しながら戦います。</p>
+			<p>イウォークたちのターンメーターに注意して、
+				スターク大佐の特殊2「ブリザード4集中砲火」でよろめき効果を付与するのもポイントです。</p>
+
+			<h4>クリア動画</h4>
+			<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="atoGecNLovg" src="https://www.youtube.com/embed/atoGecNLovg"></iframe>
+			</div>
+		</section>
+
+		<section class="content" id="my-menu3">
+			<h3 class="heading">
 				狂信的献身 (Fanatical Devosion)
 			</h3>
 			<p>アサルトバトル「狂信的献身」は、尋問官とタスケンが参戦可能です。
@@ -163,7 +195,7 @@
 			</div>
 		</section>
 
-		<section class="content" id="my-menuX">
+		<!-- <section class="content" id="my-menuX">
 			<h3 class="heading">
 				宿命の対決 (Duel of th Fates)
 			</h3>
@@ -183,10 +215,10 @@
 			<p></p>
 
 			<h4>クリア動画</h4>
-			<!-- <div class="youtube">
+			<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="4qmXF_hXTZA" src="https://www.youtube.com/embed/4qmXF_hXTZA"></iframe>
-			</div> -->
-		</section>
+			</div>
+		</section> -->
     
 	</section>
 	<!-- / コンテンツ -->

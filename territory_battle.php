@@ -273,6 +273,26 @@
 				<div class="youtube">
 				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="lPKYl2WEKAY" src="https://www.youtube.com/embed/lPKYl2WEKAY"></iframe>
 				</div>
+
+				<h4><img src="images/light_icon.png" width="22px" height="22px" alt=""><p>ライト：ゼフォ (ボーナスエリア)</p></h4>
+				<h5>シップバトル</h5>
+				<p>
+					ネゴシエーター (ケノービ将軍:R8) でクリアしている動画です。
+				</p>
+				<ul>
+					<li>先発：<br>
+						アナキンのEta-2 (ナイト・アナキン:R7)、マローダー (ハンター：G12、レッカー：G12、エコー：G12)、
+						BTL-B Yウイング
+					</li>
+					<li>
+						増援：<br>
+						プロ・クーンのスターファイター (プロ・クーン:R5)、アソーカ・タノのスターファイター (アソーカ:R7)、
+						アンバラン (ファイブス:R6)、レックスのARC-170（レックス：R5）
+					</li>
+				</ul>
+				<div class="youtube">
+				<iframe class="BLOG_video_class" allowfullscreen="" youtube-src-id="_qy4pi9DjGU" src="https://www.youtube.com/embed/_qy4pi9DjGU"></iframe>
+				</div>
 			</div>
 
 			<div id="p4-div" class="targetDiv" style="display: none;">

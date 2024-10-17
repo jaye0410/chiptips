@@ -14,7 +14,6 @@ files = [
   "basic_info.php",
   "contact.php",
   "overview.php",
-  "star_wars_words.php",
   "how_to_register_wookieebot.php",
   "useful_external_links.php",
   "sw_history_top.php",

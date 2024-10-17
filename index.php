@@ -121,19 +121,6 @@
 		</article>
 
 		<article class="grid colDark">
-			<h3>スター・ウォーズ用語</h3>
-			<p>
-			スター・ウォーズには独自の専門用語やユニークなキャラクターが数多登場します。<br>
-			それらをひとつひとつ知り、深掘りしていくのも楽しみのひとつではないでしょうか。
-			</p>
-			<p class="readmore"><a href="star_wars_words.php">&raquo; 詳細を確認する</a></p>
-		</article>
-	</section>
-	<!-- / 4カラム -->
-
-	<!-- 4カラム -->
-  <section class="gridWrapper">
-		<article class="grid colLight">
 			<h3>スターウォーズの歴史</h3>
 			<p>このページはスター・ウォーズの歴史について、様々な文献を元に正史と非正史を統合し、
 			SWGoHとの関連も考慮した独自の観点で再構築、スター・ウォーズの歴史シリーズのコンテンツをまとめるトップページです。
@@ -141,7 +128,21 @@
 			<p class="readmore"><a href="sw_history_top.php">&raquo; 詳細を確認する</a></p>
 		</article>
 
-		<article class="grid colDark">
+		<!-- <article class="grid colDark">
+			<h3>スター・ウォーズ用語</h3>
+			<p>
+			スター・ウォーズには独自の専門用語やユニークなキャラクターが数多登場します。<br>
+			それらをひとつひとつ知り、深掘りしていくのも楽しみのひとつではないでしょうか。
+			</p>
+			<p class="readmore"><a href="star_wars_words.php">&raquo; 詳細を確認する</a></p>
+		</article> -->
+	</section>
+	<!-- / 4カラム -->
+
+	<!-- 4カラム -->
+  <section class="gridWrapper">
+
+		<article class="grid colLight">
       <h3>オーラベッシュ対応表</h3>
 			<p>私たちの銀河（地球）と同様に、スター・ウォーズ銀河にも様々な言語と文字が存在します。</p>
 			<p>オーラベッシュ (Aurabesh) とは、銀河標準言語 (Galactic Basic Standard) で使用される文字のことです。</p>
